@@ -1,0 +1,10 @@
+2017-Dec-13 19:57:33.689151 INFO [main] PaymentService  v1.1.1.1()
+2017-Dec-13 19:57:33.689363 INFO [run] Starting Payment Gate with remote node
+2017-Dec-13 19:57:33.700256 INFO [WalletService] Loading wallet
+2017-Dec-13 19:57:33.732890 INFO [WalletService] Wallet loading is finished.
+2017-Dec-13 19:57:58.512014 INFO [stop] Stop signal caught
+2017-Dec-13 19:57:58.550813 INFO [WalletService] Wallet is saved
+2017-Dec-13 19:58:02.329930 INFO [main] PaymentService  v1.1.1.1()
+2017-Dec-13 19:58:02.329995 INFO [run] Starting Payment Gate with remote node
+2017-Dec-13 19:58:02.330244 INFO [WalletService] Loading wallet
+2017-Dec-13 19:58:02.382928 INFO [WalletService] Wallet loading is finished.
