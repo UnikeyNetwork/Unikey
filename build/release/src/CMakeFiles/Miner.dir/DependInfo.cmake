@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/Miner/BlockchainMonitor.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o"
-  "/coin/eletacoin/src/Miner/Miner.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o"
-  "/coin/eletacoin/src/Miner/MinerManager.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o"
-  "/coin/eletacoin/src/Miner/MiningConfig.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o"
-  "/coin/eletacoin/src/Miner/main.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Miner.dir/Miner/main.cpp.o"
+  "/coin/eleta/src/Miner/BlockchainMonitor.cpp" "/coin/eleta/build/release/src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o"
+  "/coin/eleta/src/Miner/Miner.cpp" "/coin/eleta/build/release/src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o"
+  "/coin/eleta/src/Miner/MinerManager.cpp" "/coin/eleta/build/release/src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o"
+  "/coin/eleta/src/Miner/MiningConfig.cpp" "/coin/eleta/build/release/src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o"
+  "/coin/eleta/src/Miner/main.cpp" "/coin/eleta/build/release/src/CMakeFiles/Miner.dir/Miner/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,14 +28,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/coin/eletacoin/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Http.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

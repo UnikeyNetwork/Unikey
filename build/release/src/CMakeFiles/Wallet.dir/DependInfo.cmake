@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/Wallet/LegacyKeysImporter.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o"
-  "/coin/eletacoin/src/Wallet/WalletAsyncContextCounter.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o"
-  "/coin/eletacoin/src/Wallet/WalletErrors.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o"
-  "/coin/eletacoin/src/Wallet/WalletGreen.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o"
-  "/coin/eletacoin/src/Wallet/WalletRpcServer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o"
-  "/coin/eletacoin/src/Wallet/WalletSerialization.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.o"
-  "/coin/eletacoin/src/Wallet/WalletUtils.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/KeysStorage.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletHelper.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletLegacy.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletLegacySerialization.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletLegacySerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletTransactionSender.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletUnconfirmedTransactions.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o"
-  "/coin/eletacoin/src/WalletLegacy/WalletUserTransactionsCache.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o"
+  "/coin/eleta/src/Wallet/LegacyKeysImporter.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o"
+  "/coin/eleta/src/Wallet/WalletAsyncContextCounter.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o"
+  "/coin/eleta/src/Wallet/WalletErrors.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o"
+  "/coin/eleta/src/Wallet/WalletGreen.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o"
+  "/coin/eleta/src/Wallet/WalletRpcServer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o"
+  "/coin/eleta/src/Wallet/WalletSerialization.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletSerialization.cpp.o"
+  "/coin/eleta/src/Wallet/WalletUtils.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o"
+  "/coin/eleta/src/WalletLegacy/KeysStorage.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletHelper.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletLegacy.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletLegacySerialization.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletLegacySerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletTransactionSender.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletUnconfirmedTransactions.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o"
+  "/coin/eleta/src/WalletLegacy/WalletUserTransactionsCache.cpp" "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

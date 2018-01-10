@@ -22,5 +22,5 @@ src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o
  ../../src/System/Event.h
  ../../src/System/Ipv4Address.h
  ../../src/System/TcpStream.h
- /coin/eletacoin/src/JsonRpcServer/JsonRpcServer.cpp
- /coin/eletacoin/src/JsonRpcServer/JsonRpcServer.h
+ /coin/eleta/src/JsonRpcServer/JsonRpcServer.cpp
+ /coin/eleta/src/JsonRpcServer/JsonRpcServer.h

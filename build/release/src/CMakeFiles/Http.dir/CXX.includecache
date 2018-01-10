@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/coin/eletacoin/src/HTTP/HttpParser.cpp
+/coin/eleta/src/HTTP/HttpParser.cpp
 HttpParser.h
-/coin/eletacoin/src/HTTP/HttpParser.h
+/coin/eleta/src/HTTP/HttpParser.h
 algorithm
 -
 HttpParserErrorCodes.h
-/coin/eletacoin/src/HTTP/HttpParserErrorCodes.h
+/coin/eleta/src/HTTP/HttpParserErrorCodes.h
 
-/coin/eletacoin/src/HTTP/HttpParser.h
+/coin/eleta/src/HTTP/HttpParser.h
 iostream
 -
 map
@@ -22,25 +22,25 @@ map
 string
 -
 HttpRequest.h
-/coin/eletacoin/src/HTTP/HttpRequest.h
+/coin/eleta/src/HTTP/HttpRequest.h
 HttpResponse.h
-/coin/eletacoin/src/HTTP/HttpResponse.h
+/coin/eleta/src/HTTP/HttpResponse.h
 
-/coin/eletacoin/src/HTTP/HttpParserErrorCodes.cpp
+/coin/eleta/src/HTTP/HttpParserErrorCodes.cpp
 HttpParserErrorCodes.h
-/coin/eletacoin/src/HTTP/HttpParserErrorCodes.h
+/coin/eleta/src/HTTP/HttpParserErrorCodes.h
 
-/coin/eletacoin/src/HTTP/HttpParserErrorCodes.h
+/coin/eleta/src/HTTP/HttpParserErrorCodes.h
 string
 -
 system_error
 -
 
-/coin/eletacoin/src/HTTP/HttpRequest.cpp
+/coin/eleta/src/HTTP/HttpRequest.cpp
 HttpRequest.h
-/coin/eletacoin/src/HTTP/HttpRequest.h
+/coin/eleta/src/HTTP/HttpRequest.h
 
-/coin/eletacoin/src/HTTP/HttpRequest.h
+/coin/eleta/src/HTTP/HttpRequest.h
 iostream
 -
 map
@@ -48,13 +48,13 @@ map
 string
 -
 
-/coin/eletacoin/src/HTTP/HttpResponse.cpp
+/coin/eleta/src/HTTP/HttpResponse.cpp
 HttpResponse.h
-/coin/eletacoin/src/HTTP/HttpResponse.h
+/coin/eleta/src/HTTP/HttpResponse.h
 stdexcept
 -
 
-/coin/eletacoin/src/HTTP/HttpResponse.h
+/coin/eleta/src/HTTP/HttpResponse.h
 ostream
 -
 string

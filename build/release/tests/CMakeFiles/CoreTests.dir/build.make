@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/CoreTests.dir/depend.make
@@ -57,66 +57,18 @@ include tests/CMakeFiles/CoreTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/CoreTests.dir/flags.make
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o: ../../tests/CoreTests/Chaingen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o -c /coin/eletacoin/tests/CoreTests/Chaingen.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/Chaingen.cpp > CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/Chaingen.cpp -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
-
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o: ../../tests/CoreTests/BlockReward.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o -c /coin/eletacoin/tests/CoreTests/BlockReward.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/BlockReward.cpp > CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/BlockReward.cpp -o CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
-
-
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o: ../../tests/CoreTests/RingSignature.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o -c /coin/eletacoin/tests/CoreTests/RingSignature.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o -c /coin/eleta/tests/CoreTests/RingSignature.cpp
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/RingSignature.cpp > CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.i
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/RingSignature.cpp > CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.i
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/RingSignature.cpp -o CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.s
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/RingSignature.cpp -o CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.s
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o.requires:
 
@@ -129,18 +81,42 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o.provides: tests/CMa
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o
 
 
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o: ../../tests/CoreTests/BlockReward.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o -c /coin/eleta/tests/CoreTests/BlockReward.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/BlockReward.cpp > CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/BlockReward.cpp -o CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
+
+
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o: ../../tests/CoreTests/RandomOuts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o -c /coin/eletacoin/tests/CoreTests/RandomOuts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o -c /coin/eleta/tests/CoreTests/RandomOuts.cpp
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/RandomOuts.cpp > CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.i
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/RandomOuts.cpp > CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.i
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/RandomOuts.cpp -o CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.s
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/RandomOuts.cpp -o CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.s
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o.requires:
 
@@ -153,138 +129,18 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o.provides: tests/CMakeF
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o
 
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o: ../../tests/CoreTests/TransactionBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o -c /coin/eletacoin/tests/CoreTests/TransactionBuilder.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/TransactionBuilder.cpp > CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/TransactionBuilder.cpp -o CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
-
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o: ../../tests/CoreTests/ChainSplit1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o -c /coin/eletacoin/tests/CoreTests/ChainSplit1.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/ChainSplit1.cpp > CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/ChainSplit1.cpp -o CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
-
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o: ../../tests/CoreTests/ChainSwitch1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o -c /coin/eletacoin/tests/CoreTests/ChainSwitch1.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/ChainSwitch1.cpp > CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/ChainSwitch1.cpp -o CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
-
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o: ../../tests/CoreTests/Chaingen001.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o -c /coin/eletacoin/tests/CoreTests/Chaingen001.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/Chaingen001.cpp > CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/Chaingen001.cpp -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
-
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o: ../../tests/CoreTests/BlockValidation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o -c /coin/eletacoin/tests/CoreTests/BlockValidation.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/BlockValidation.cpp > CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/BlockValidation.cpp -o CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
-
-
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o: ../../tests/CoreTests/TransactionTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o -c /coin/eletacoin/tests/CoreTests/TransactionTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o -c /coin/eleta/tests/CoreTests/TransactionTests.cpp
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/TransactionTests.cpp > CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.i
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/TransactionTests.cpp > CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.i
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/TransactionTests.cpp -o CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.s
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/TransactionTests.cpp -o CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.s
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o.requires:
 
@@ -297,90 +153,66 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o.provides: tests/
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o
 
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o: ../../tests/CoreTests/TransactionValidation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o -c /coin/eletacoin/tests/CoreTests/TransactionValidation.cpp
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o: ../../tests/CoreTests/ChainSwitch1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o -c /coin/eleta/tests/CoreTests/ChainSwitch1.cpp
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/TransactionValidation.cpp > CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/ChainSwitch1.cpp > CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/TransactionValidation.cpp -o CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/ChainSwitch1.cpp -o CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires:
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires:
 
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
-
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o: ../../tests/CoreTests/DoubleSpend.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o -c /coin/eletacoin/tests/CoreTests/DoubleSpend.cpp
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/DoubleSpend.cpp > CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/DoubleSpend.cpp -o CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides
-
-tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
 
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o: ../../tests/CoreTests/ChaingenMain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o -c /coin/eletacoin/tests/CoreTests/ChaingenMain.cpp
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o: ../../tests/CoreTests/TransactionBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o -c /coin/eleta/tests/CoreTests/TransactionBuilder.cpp
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/ChaingenMain.cpp > CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/TransactionBuilder.cpp > CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/ChaingenMain.cpp -o CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/TransactionBuilder.cpp -o CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires:
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires:
 
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides
 
-tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
 
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o: ../../tests/CoreTests/IntegerOverflow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o -c /coin/eletacoin/tests/CoreTests/IntegerOverflow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o -c /coin/eleta/tests/CoreTests/IntegerOverflow.cpp
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/CoreTests/IntegerOverflow.cpp > CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.i
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/IntegerOverflow.cpp > CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.i
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/CoreTests/IntegerOverflow.cpp -o CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.s
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/IntegerOverflow.cpp -o CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.s
 
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o.requires:
 
@@ -393,40 +225,208 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o.provides: tests/C
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o
 
 
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o: ../../tests/CoreTests/DoubleSpend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o -c /coin/eleta/tests/CoreTests/DoubleSpend.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/DoubleSpend.cpp > CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/DoubleSpend.cpp -o CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
+
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o: ../../tests/CoreTests/Chaingen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o -c /coin/eleta/tests/CoreTests/Chaingen.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/Chaingen.cpp > CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/Chaingen.cpp -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
+
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o: ../../tests/CoreTests/Chaingen001.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o -c /coin/eleta/tests/CoreTests/Chaingen001.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/Chaingen001.cpp > CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/Chaingen001.cpp -o CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
+
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o: ../../tests/CoreTests/ChaingenMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o -c /coin/eleta/tests/CoreTests/ChaingenMain.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/ChaingenMain.cpp > CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/ChaingenMain.cpp -o CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
+
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o: ../../tests/CoreTests/TransactionValidation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o -c /coin/eleta/tests/CoreTests/TransactionValidation.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/TransactionValidation.cpp > CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/TransactionValidation.cpp -o CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
+
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o: ../../tests/CoreTests/ChainSplit1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o -c /coin/eleta/tests/CoreTests/ChainSplit1.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/ChainSplit1.cpp > CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/ChainSplit1.cpp -o CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
+
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o: tests/CMakeFiles/CoreTests.dir/flags.make
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o: ../../tests/CoreTests/BlockValidation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o -c /coin/eleta/tests/CoreTests/BlockValidation.cpp
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/CoreTests/BlockValidation.cpp > CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/CoreTests/BlockValidation.cpp -o CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides
+
+tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.provides.build: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
+
+
 # Object files for target CoreTests
 CoreTests_OBJECTS = \
-"CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o" \
 "CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o" \
 "CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o" \
 "CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o" \
 "CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o" \
 "CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o" \
-"CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o"
+"CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o" \
+"CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o"
 
 # External object files for target CoreTests
 CoreTests_EXTERNAL_OBJECTS =
 
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
 tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
 tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
 tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
-tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
 tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
+tests/core_tests: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
 tests/core_tests: tests/CMakeFiles/CoreTests.dir/build.make
 tests/core_tests: tests/libTestGenerator.a
 tests/core_tests: src/libCryptoNoteCore.a
@@ -447,36 +447,36 @@ tests/core_tests: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
 tests/core_tests: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 tests/core_tests: /usr/lib/x86_64-linux-gnu/libpthread.so
 tests/core_tests: tests/CMakeFiles/CoreTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable core_tests"
-	cd /coin/eletacoin/build/release/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CoreTests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable core_tests"
+	cd /coin/eleta/build/release/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CoreTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/CoreTests.dir/build: tests/core_tests
 
 .PHONY : tests/CMakeFiles/CoreTests.dir/build
 
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires
 tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o.requires
 tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires
 tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires
-tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o.requires
 tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o.requires
+tests/CMakeFiles/CoreTests.dir/requires: tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o.requires
 
 .PHONY : tests/CMakeFiles/CoreTests.dir/requires
 
 tests/CMakeFiles/CoreTests.dir/clean:
-	cd /coin/eletacoin/build/release/tests && $(CMAKE_COMMAND) -P CMakeFiles/CoreTests.dir/cmake_clean.cmake
+	cd /coin/eleta/build/release/tests && $(CMAKE_COMMAND) -P CMakeFiles/CoreTests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/CoreTests.dir/clean
 
 tests/CMakeFiles/CoreTests.dir/depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eletacoin /coin/eletacoin/tests /coin/eletacoin/build/release /coin/eletacoin/build/release/tests /coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eleta /coin/eleta/tests /coin/eleta/build/release /coin/eleta/build/release/tests /coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/CoreTests.dir/depend
 

@@ -518,11 +518,11 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/src/Miner/BlockchainMonitor.cpp
+/coin/eleta/src/Miner/BlockchainMonitor.cpp
 BlockchainMonitor.h
-/coin/eletacoin/src/Miner/BlockchainMonitor.h
+/coin/eleta/src/Miner/BlockchainMonitor.h
 Common/StringTools.h
-/coin/eletacoin/src/Miner/Common/StringTools.h
+/coin/eleta/src/Miner/Common/StringTools.h
 System/EventLock.h
 -
 System/Timer.h
@@ -530,15 +530,15 @@ System/Timer.h
 System/InterruptedException.h
 -
 Rpc/CoreRpcServerCommandsDefinitions.h
-/coin/eletacoin/src/Miner/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/Miner/Rpc/CoreRpcServerCommandsDefinitions.h
 Rpc/JsonRpc.h
-/coin/eletacoin/src/Miner/Rpc/JsonRpc.h
+/coin/eleta/src/Miner/Rpc/JsonRpc.h
 Rpc/HttpClient.h
-/coin/eletacoin/src/Miner/Rpc/HttpClient.h
+/coin/eleta/src/Miner/Rpc/HttpClient.h
 
-/coin/eletacoin/src/Miner/BlockchainMonitor.h
+/coin/eleta/src/Miner/BlockchainMonitor.h
 CryptoTypes.h
-/coin/eletacoin/src/Miner/CryptoTypes.h
+/coin/eleta/src/Miner/CryptoTypes.h
 System/ContextGroup.h
 -
 System/Dispatcher.h
@@ -546,21 +546,21 @@ System/Dispatcher.h
 System/Event.h
 -
 Logging/LoggerRef.h
-/coin/eletacoin/src/Miner/Logging/LoggerRef.h
+/coin/eleta/src/Miner/Logging/LoggerRef.h
 
-/coin/eletacoin/src/Miner/Miner.cpp
+/coin/eleta/src/Miner/Miner.cpp
 Miner.h
-/coin/eletacoin/src/Miner/Miner.h
+/coin/eleta/src/Miner/Miner.h
 functional
 -
 crypto/crypto.h
-/coin/eletacoin/src/Miner/crypto/crypto.h
+/coin/eleta/src/Miner/crypto/crypto.h
 CryptoNoteCore/CryptoNoteFormatUtils.h
-/coin/eletacoin/src/Miner/CryptoNoteCore/CryptoNoteFormatUtils.h
+/coin/eleta/src/Miner/CryptoNoteCore/CryptoNoteFormatUtils.h
 System/InterruptedException.h
 -
 
-/coin/eletacoin/src/Miner/Miner.h
+/coin/eleta/src/Miner/Miner.h
 atomic
 -
 thread
@@ -572,17 +572,17 @@ System/Event.h
 System/RemoteContext.h
 -
 CryptoNote.h
-/coin/eletacoin/src/Miner/CryptoNote.h
+/coin/eleta/src/Miner/CryptoNote.h
 CryptoNoteCore/Difficulty.h
-/coin/eletacoin/src/Miner/CryptoNoteCore/Difficulty.h
+/coin/eleta/src/Miner/CryptoNoteCore/Difficulty.h
 Logging/LoggerRef.h
-/coin/eletacoin/src/Miner/Logging/LoggerRef.h
+/coin/eleta/src/Miner/Logging/LoggerRef.h
 
-/coin/eletacoin/src/Miner/MinerEvent.h
+/coin/eleta/src/Miner/MinerEvent.h
 
-/coin/eletacoin/src/Miner/MinerManager.cpp
+/coin/eleta/src/Miner/MinerManager.cpp
 MinerManager.h
-/coin/eletacoin/src/Miner/MinerManager.h
+/coin/eleta/src/Miner/MinerManager.h
 System/EventLock.h
 -
 System/InterruptedException.h
@@ -590,23 +590,23 @@ System/InterruptedException.h
 System/Timer.h
 -
 Common/StringTools.h
-/coin/eletacoin/src/Miner/Common/StringTools.h
+/coin/eleta/src/Miner/Common/StringTools.h
 CryptoNoteConfig.h
-/coin/eletacoin/src/Miner/CryptoNoteConfig.h
+/coin/eleta/src/Miner/CryptoNoteConfig.h
 CryptoNoteCore/CryptoNoteTools.h
-/coin/eletacoin/src/Miner/CryptoNoteCore/CryptoNoteTools.h
+/coin/eleta/src/Miner/CryptoNoteCore/CryptoNoteTools.h
 CryptoNoteCore/CryptoNoteFormatUtils.h
-/coin/eletacoin/src/Miner/CryptoNoteCore/CryptoNoteFormatUtils.h
+/coin/eleta/src/Miner/CryptoNoteCore/CryptoNoteFormatUtils.h
 CryptoNoteCore/TransactionExtra.h
-/coin/eletacoin/src/Miner/CryptoNoteCore/TransactionExtra.h
+/coin/eleta/src/Miner/CryptoNoteCore/TransactionExtra.h
 Rpc/HttpClient.h
-/coin/eletacoin/src/Miner/Rpc/HttpClient.h
+/coin/eleta/src/Miner/Rpc/HttpClient.h
 Rpc/CoreRpcServerCommandsDefinitions.h
-/coin/eletacoin/src/Miner/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/Miner/Rpc/CoreRpcServerCommandsDefinitions.h
 Rpc/JsonRpc.h
-/coin/eletacoin/src/Miner/Rpc/JsonRpc.h
+/coin/eleta/src/Miner/Rpc/JsonRpc.h
 
-/coin/eletacoin/src/Miner/MinerManager.h
+/coin/eleta/src/Miner/MinerManager.h
 queue
 -
 System/ContextGroup.h
@@ -614,19 +614,19 @@ System/ContextGroup.h
 System/Event.h
 -
 BlockchainMonitor.h
-/coin/eletacoin/src/Miner/BlockchainMonitor.h
+/coin/eleta/src/Miner/BlockchainMonitor.h
 Logging/LoggerRef.h
-/coin/eletacoin/src/Miner/Logging/LoggerRef.h
+/coin/eleta/src/Miner/Logging/LoggerRef.h
 Miner.h
-/coin/eletacoin/src/Miner/Miner.h
+/coin/eleta/src/Miner/Miner.h
 MinerEvent.h
-/coin/eletacoin/src/Miner/MinerEvent.h
+/coin/eleta/src/Miner/MinerEvent.h
 MiningConfig.h
-/coin/eletacoin/src/Miner/MiningConfig.h
+/coin/eleta/src/Miner/MiningConfig.h
 
-/coin/eletacoin/src/Miner/MiningConfig.cpp
+/coin/eleta/src/Miner/MiningConfig.cpp
 MiningConfig.h
-/coin/eletacoin/src/Miner/MiningConfig.h
+/coin/eleta/src/Miner/MiningConfig.h
 iostream
 -
 thread
@@ -640,27 +640,27 @@ boost/lexical_cast.hpp
 boost/program_options.hpp
 -
 CryptoNoteConfig.h
-/coin/eletacoin/src/Miner/CryptoNoteConfig.h
+/coin/eleta/src/Miner/CryptoNoteConfig.h
 Logging/ILogger.h
-/coin/eletacoin/src/Miner/Logging/ILogger.h
+/coin/eleta/src/Miner/Logging/ILogger.h
 
-/coin/eletacoin/src/Miner/MiningConfig.h
+/coin/eleta/src/Miner/MiningConfig.h
 cstdint
 -
 string
 -
 
-/coin/eletacoin/src/Miner/main.cpp
+/coin/eleta/src/Miner/main.cpp
 Common/SignalHandler.h
-/coin/eletacoin/src/Miner/Common/SignalHandler.h
+/coin/eleta/src/Miner/Common/SignalHandler.h
 Logging/LoggerGroup.h
-/coin/eletacoin/src/Miner/Logging/LoggerGroup.h
+/coin/eleta/src/Miner/Logging/LoggerGroup.h
 Logging/ConsoleLogger.h
-/coin/eletacoin/src/Miner/Logging/ConsoleLogger.h
+/coin/eleta/src/Miner/Logging/ConsoleLogger.h
 Logging/LoggerRef.h
-/coin/eletacoin/src/Miner/Logging/LoggerRef.h
+/coin/eleta/src/Miner/Logging/LoggerRef.h
 MinerManager.h
-/coin/eletacoin/src/Miner/MinerManager.h
+/coin/eleta/src/Miner/MinerManager.h
 System/Dispatcher.h
 -
 

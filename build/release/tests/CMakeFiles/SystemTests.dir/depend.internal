@@ -31,7 +31,7 @@ tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.o
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
  ../../src/System/Ipv4Address.h
- /coin/eletacoin/tests/System/ContextGroupTests.cpp
+ /coin/eleta/tests/System/ContextGroupTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -57,7 +57,7 @@ tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.o
  ../../src/System/ContextGroup.h
  ../../src/System/ContextGroupTimeout.h
  ../../src/System/InterruptedException.h
- /coin/eletacoin/tests/System/ContextGroupTimeoutTests.cpp
+ /coin/eleta/tests/System/ContextGroupTimeoutTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -83,7 +83,7 @@ tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.o
  ../../src/System/Context.h
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
- /coin/eletacoin/tests/System/ContextTests.cpp
+ /coin/eleta/tests/System/ContextTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -109,7 +109,7 @@ tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.o
  ../../src/System/Context.h
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
- /coin/eletacoin/tests/System/DispatcherTests.cpp
+ /coin/eleta/tests/System/DispatcherTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -131,7 +131,7 @@ tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.o
  ../../external/gtest/include/gtest/internal/gtest-tuple.h
  ../../external/gtest/include/gtest/internal/gtest-type-util.h
  ../../src/Platform/Linux/System/ErrorMessage.h
- /coin/eletacoin/tests/System/ErrorMessageTests.cpp
+ /coin/eleta/tests/System/ErrorMessageTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -157,7 +157,7 @@ tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.o
  ../../src/System/Event.h
  ../../src/System/EventLock.h
  ../../src/System/InterruptedException.h
- /coin/eletacoin/tests/System/EventLockTests.cpp
+ /coin/eleta/tests/System/EventLockTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -182,7 +182,7 @@ tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.o
  ../../src/System/Context.h
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
- /coin/eletacoin/tests/System/EventTests.cpp
+ /coin/eleta/tests/System/EventTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -204,7 +204,7 @@ tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.o
  ../../external/gtest/include/gtest/internal/gtest-tuple.h
  ../../external/gtest/include/gtest/internal/gtest-type-util.h
  ../../src/System/Ipv4Address.h
- /coin/eletacoin/tests/System/Ipv4AddressTests.cpp
+ /coin/eleta/tests/System/Ipv4AddressTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -230,7 +230,7 @@ tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.o
  ../../src/System/ContextGroup.h
  ../../src/System/InterruptedException.h
  ../../src/System/Ipv4Address.h
- /coin/eletacoin/tests/System/Ipv4ResolverTests.cpp
+ /coin/eleta/tests/System/Ipv4ResolverTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -256,7 +256,7 @@ tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.o
  ../../src/System/ContextGroup.h
  ../../src/System/InterruptedException.h
  ../../src/System/OperationTimeout.h
- /coin/eletacoin/tests/System/OperationTimeoutTests.cpp
+ /coin/eleta/tests/System/OperationTimeoutTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -284,7 +284,7 @@ tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.o
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
  ../../src/System/RemoteContext.h
- /coin/eletacoin/tests/System/RemoteContextTests.cpp
+ /coin/eleta/tests/System/RemoteContextTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -315,7 +315,7 @@ tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.o
  ../../src/System/InterruptedException.h
  ../../src/System/Ipv4Address.h
  ../../src/System/TcpStream.h
- /coin/eletacoin/tests/System/TcpConnectionTests.cpp
+ /coin/eleta/tests/System/TcpConnectionTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -345,7 +345,7 @@ tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.o
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
  ../../src/System/Ipv4Address.h
- /coin/eletacoin/tests/System/TcpConnectorTests.cpp
+ /coin/eleta/tests/System/TcpConnectorTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -375,7 +375,7 @@ tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.o
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
  ../../src/System/Ipv4Address.h
- /coin/eletacoin/tests/System/TcpListenerTests.cpp
+ /coin/eleta/tests/System/TcpListenerTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -402,7 +402,7 @@ tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.o
  ../../src/System/ContextGroup.h
  ../../src/System/Event.h
  ../../src/System/InterruptedException.h
- /coin/eletacoin/tests/System/TimerTests.cpp
+ /coin/eleta/tests/System/TimerTests.cpp
 tests/CMakeFiles/SystemTests.dir/System/main.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -423,4 +423,4 @@ tests/CMakeFiles/SystemTests.dir/System/main.cpp.o
  ../../external/gtest/include/gtest/internal/gtest-string.h
  ../../external/gtest/include/gtest/internal/gtest-tuple.h
  ../../external/gtest/include/gtest/internal/gtest-type-util.h
- /coin/eletacoin/tests/System/main.cpp
+ /coin/eleta/tests/System/main.cpp

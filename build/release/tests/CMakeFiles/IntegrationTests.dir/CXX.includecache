@@ -1022,7 +1022,7 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
+/coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
 list
 -
 vector
@@ -1044,17 +1044,17 @@ System/Dispatcher.h
 Logging/ConsoleLogger.h
 -
 CryptoNoteCore/Currency.h
-/coin/eletacoin/tests/IntegrationTestLib/CryptoNoteCore/Currency.h
+/coin/eleta/tests/IntegrationTestLib/CryptoNoteCore/Currency.h
 IWalletLegacy.h
-/coin/eletacoin/tests/IntegrationTestLib/IWalletLegacy.h
+/coin/eleta/tests/IntegrationTestLib/IWalletLegacy.h
 INode.h
-/coin/eletacoin/tests/IntegrationTestLib/INode.h
+/coin/eleta/tests/IntegrationTestLib/INode.h
 TestNode.h
-/coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+/coin/eleta/tests/IntegrationTestLib/TestNode.h
 NetworkConfiguration.h
-/coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
+/coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
 
-/coin/eletacoin/tests/IntegrationTestLib/Logger.h
+/coin/eleta/tests/IntegrationTestLib/Logger.h
 iostream
 -
 boost/lexical_cast.hpp
@@ -1064,7 +1064,7 @@ map
 mutex
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
+/coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
 cstdint
 -
 string
@@ -1072,47 +1072,47 @@ string
 vector
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/NodeCallback.h
+/coin/eleta/tests/IntegrationTestLib/NodeCallback.h
 future
 -
 INode.h
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/NodeObserver.h
+/coin/eleta/tests/IntegrationTestLib/NodeObserver.h
 INode.h
-/coin/eletacoin/tests/IntegrationTestLib/INode.h
+/coin/eleta/tests/IntegrationTestLib/INode.h
 mutex
 -
 condition_variable
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/ObservableValue.h
+/coin/eleta/tests/IntegrationTestLib/ObservableValue.h
 mutex
 -
 condition_variable
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/Process.h
+/coin/eleta/tests/IntegrationTestLib/Process.h
 string
 -
 vector
 -
 
-/coin/eletacoin/tests/IntegrationTestLib/TestNetwork.h
+/coin/eleta/tests/IntegrationTestLib/TestNetwork.h
 NetworkConfiguration.h
-/coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
+/coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
 Process.h
-/coin/eletacoin/tests/IntegrationTestLib/Process.h
+/coin/eleta/tests/IntegrationTestLib/Process.h
 TestNode.h
-/coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+/coin/eleta/tests/IntegrationTestLib/TestNode.h
 
-/coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+/coin/eleta/tests/IntegrationTestLib/TestNode.h
 system_error
 -
 INode.h
 -
 
-/coin/eletacoin/tests/IntegrationTests/BaseTests.h
+/coin/eleta/tests/IntegrationTests/BaseTests.h
 gtest/gtest.h
 -
 future
@@ -1122,37 +1122,37 @@ Logging/ConsoleLogger.h
 System/Dispatcher.h
 -
 CryptoNoteCore/Currency.h
-/coin/eletacoin/tests/IntegrationTests/CryptoNoteCore/Currency.h
+/coin/eleta/tests/IntegrationTests/CryptoNoteCore/Currency.h
 ../IntegrationTestLib/TestNetwork.h
-/coin/eletacoin/tests/IntegrationTestLib/TestNetwork.h
+/coin/eleta/tests/IntegrationTestLib/TestNetwork.h
 
-/coin/eletacoin/tests/IntegrationTests/IntegrationTests.cpp
+/coin/eleta/tests/IntegrationTests/IntegrationTests.cpp
 gtest/gtest.h
-/coin/eletacoin/tests/IntegrationTests/gtest/gtest.h
+/coin/eleta/tests/IntegrationTests/gtest/gtest.h
 Logging/LoggerRef.h
 -
 ../IntegrationTestLib/BaseFunctionalTests.h
-/coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
+/coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
 ../IntegrationTestLib/NodeObserver.h
-/coin/eletacoin/tests/IntegrationTestLib/NodeObserver.h
+/coin/eleta/tests/IntegrationTestLib/NodeObserver.h
 WalletLegacy/WalletLegacy.h
-/coin/eletacoin/tests/IntegrationTests/WalletLegacy/WalletLegacy.h
+/coin/eleta/tests/IntegrationTests/WalletLegacy/WalletLegacy.h
 WalletLegacyObserver.h
-/coin/eletacoin/tests/IntegrationTests/WalletLegacyObserver.h
+/coin/eleta/tests/IntegrationTests/WalletLegacyObserver.h
 
-/coin/eletacoin/tests/IntegrationTests/MultiVersion.cpp
+/coin/eleta/tests/IntegrationTests/MultiVersion.cpp
 ../IntegrationTestLib/BaseFunctionalTests.h
-/coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
+/coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
 thread
 -
 Logging/ConsoleLogger.h
 -
 CryptoNoteCore/Account.h
-/coin/eletacoin/tests/IntegrationTests/CryptoNoteCore/Account.h
+/coin/eleta/tests/IntegrationTests/CryptoNoteCore/Account.h
 WalletLegacyObserver.h
-/coin/eletacoin/tests/IntegrationTests/WalletLegacyObserver.h
+/coin/eleta/tests/IntegrationTests/WalletLegacyObserver.h
 
-/coin/eletacoin/tests/IntegrationTests/Node.cpp
+/coin/eleta/tests/IntegrationTests/Node.cpp
 gtest/gtest.h
 -
 fstream
@@ -1170,23 +1170,23 @@ Serialization/JsonInputStreamSerializer.h
 Serialization/SerializationOverloads.h
 -
 CryptoNoteCore/Currency.h
-/coin/eletacoin/tests/IntegrationTests/CryptoNoteCore/Currency.h
+/coin/eleta/tests/IntegrationTests/CryptoNoteCore/Currency.h
 CryptoNoteCore/CryptoNoteTools.h
-/coin/eletacoin/tests/IntegrationTests/CryptoNoteCore/CryptoNoteTools.h
+/coin/eleta/tests/IntegrationTests/CryptoNoteCore/CryptoNoteTools.h
 Wallet/WalletGreen.h
-/coin/eletacoin/tests/IntegrationTests/Wallet/WalletGreen.h
+/coin/eleta/tests/IntegrationTests/Wallet/WalletGreen.h
 ../IntegrationTestLib/TestNetwork.h
-/coin/eletacoin/tests/IntegrationTestLib/TestNetwork.h
+/coin/eleta/tests/IntegrationTestLib/TestNetwork.h
 ../IntegrationTestLib/NodeObserver.h
-/coin/eletacoin/tests/IntegrationTestLib/NodeObserver.h
+/coin/eleta/tests/IntegrationTestLib/NodeObserver.h
 ../IntegrationTestLib/NodeCallback.h
-/coin/eletacoin/tests/IntegrationTestLib/NodeCallback.h
+/coin/eleta/tests/IntegrationTestLib/NodeCallback.h
 BaseTests.h
-/coin/eletacoin/tests/IntegrationTests/BaseTests.h
+/coin/eleta/tests/IntegrationTests/BaseTests.h
 
-/coin/eletacoin/tests/IntegrationTests/WalletLegacyObserver.h
+/coin/eleta/tests/IntegrationTests/WalletLegacyObserver.h
 IWalletLegacy.h
-/coin/eletacoin/tests/IntegrationTests/IWalletLegacy.h
+/coin/eleta/tests/IntegrationTests/IWalletLegacy.h
 atomic
 -
 condition_variable
@@ -1198,19 +1198,19 @@ mutex
 unordered_map
 -
 ../IntegrationTestLib/ObservableValue.h
-/coin/eletacoin/tests/IntegrationTestLib/ObservableValue.h
+/coin/eleta/tests/IntegrationTestLib/ObservableValue.h
 
-/coin/eletacoin/tests/IntegrationTests/WalletLegacyTests.cpp
+/coin/eleta/tests/IntegrationTests/WalletLegacyTests.cpp
 BaseTests.h
-/coin/eletacoin/tests/IntegrationTests/BaseTests.h
+/coin/eleta/tests/IntegrationTests/BaseTests.h
 System/Timer.h
 -
 WalletLegacy/WalletLegacy.h
-/coin/eletacoin/tests/IntegrationTests/WalletLegacy/WalletLegacy.h
+/coin/eleta/tests/IntegrationTests/WalletLegacy/WalletLegacy.h
 WalletLegacyObserver.h
-/coin/eletacoin/tests/IntegrationTests/WalletLegacyObserver.h
+/coin/eleta/tests/IntegrationTests/WalletLegacyObserver.h
 
-/coin/eletacoin/tests/IntegrationTests/main.cpp
+/coin/eleta/tests/IntegrationTests/main.cpp
 gtest/gtest.h
 -
 thread
@@ -1228,11 +1228,11 @@ boost/lexical_cast.hpp
 boost/program_options.hpp
 -
 CryptoNoteCore/CryptoNoteFormatUtils.h
-/coin/eletacoin/tests/IntegrationTests/CryptoNoteCore/CryptoNoteFormatUtils.h
+/coin/eleta/tests/IntegrationTests/CryptoNoteCore/CryptoNoteFormatUtils.h
 ../IntegrationTestLib/BaseFunctionalTests.h
-/coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
+/coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
 ../IntegrationTestLib/Logger.h
-/coin/eletacoin/tests/IntegrationTestLib/Logger.h
+/coin/eleta/tests/IntegrationTestLib/Logger.h
 Logging/ConsoleLogger.h
-/coin/eletacoin/tests/IntegrationTests/Logging/ConsoleLogger.h
+/coin/eleta/tests/IntegrationTests/Logging/ConsoleLogger.h
 

@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/Logging/CommonLogger.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o"
-  "/coin/eletacoin/src/Logging/ConsoleLogger.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o"
-  "/coin/eletacoin/src/Logging/FileLogger.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o"
-  "/coin/eletacoin/src/Logging/ILogger.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o"
-  "/coin/eletacoin/src/Logging/LoggerGroup.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o"
-  "/coin/eletacoin/src/Logging/LoggerManager.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o"
-  "/coin/eletacoin/src/Logging/LoggerMessage.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o"
-  "/coin/eletacoin/src/Logging/LoggerRef.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o"
-  "/coin/eletacoin/src/Logging/StreamLogger.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o"
+  "/coin/eleta/src/Logging/CommonLogger.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o"
+  "/coin/eleta/src/Logging/ConsoleLogger.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o"
+  "/coin/eleta/src/Logging/FileLogger.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o"
+  "/coin/eleta/src/Logging/ILogger.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o"
+  "/coin/eleta/src/Logging/LoggerGroup.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o"
+  "/coin/eleta/src/Logging/LoggerManager.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o"
+  "/coin/eleta/src/Logging/LoggerMessage.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o"
+  "/coin/eleta/src/Logging/LoggerRef.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o"
+  "/coin/eleta/src/Logging/StreamLogger.cpp" "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

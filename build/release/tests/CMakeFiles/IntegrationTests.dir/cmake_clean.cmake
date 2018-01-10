@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.o"
-  "CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.o"
   "CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.o"
-  "CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.o"
+  "CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.o"
   "CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.o"
+  "CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.o"
+  "CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.o"
   "integration_tests.pdb"
   "integration_tests"
 )

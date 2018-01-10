@@ -5,23 +5,23 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/coin/eletacoin/src/crypto/blake256.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
-  "/coin/eletacoin/src/crypto/chacha8.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
-  "/coin/eletacoin/src/crypto/crypto-ops-data.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
-  "/coin/eletacoin/src/crypto/crypto-ops.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
-  "/coin/eletacoin/src/crypto/groestl.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
-  "/coin/eletacoin/src/crypto/hash-extra-blake.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
-  "/coin/eletacoin/src/crypto/hash-extra-groestl.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
-  "/coin/eletacoin/src/crypto/hash-extra-jh.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
-  "/coin/eletacoin/src/crypto/hash-extra-skein.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
-  "/coin/eletacoin/src/crypto/hash.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
-  "/coin/eletacoin/src/crypto/jh.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
-  "/coin/eletacoin/src/crypto/keccak.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
-  "/coin/eletacoin/src/crypto/oaes_lib.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
-  "/coin/eletacoin/src/crypto/random.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/random.c.o"
-  "/coin/eletacoin/src/crypto/skein.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
-  "/coin/eletacoin/src/crypto/slow-hash.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
-  "/coin/eletacoin/src/crypto/tree-hash.c" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
+  "/coin/eleta/src/crypto/blake256.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/blake256.c.o"
+  "/coin/eleta/src/crypto/chacha8.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o"
+  "/coin/eleta/src/crypto/crypto-ops-data.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o"
+  "/coin/eleta/src/crypto/crypto-ops.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o"
+  "/coin/eleta/src/crypto/groestl.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/groestl.c.o"
+  "/coin/eleta/src/crypto/hash-extra-blake.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o"
+  "/coin/eleta/src/crypto/hash-extra-groestl.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o"
+  "/coin/eleta/src/crypto/hash-extra-jh.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o"
+  "/coin/eleta/src/crypto/hash-extra-skein.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o"
+  "/coin/eleta/src/crypto/hash.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/hash.c.o"
+  "/coin/eleta/src/crypto/jh.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/jh.c.o"
+  "/coin/eleta/src/crypto/keccak.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/keccak.c.o"
+  "/coin/eleta/src/crypto/oaes_lib.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o"
+  "/coin/eleta/src/crypto/random.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/random.c.o"
+  "/coin/eleta/src/crypto/skein.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/skein.c.o"
+  "/coin/eleta/src/crypto/slow-hash.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o"
+  "/coin/eleta/src/crypto/tree-hash.c" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -39,8 +39,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../src/Platform/Linux"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/crypto/crypto.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
-  "/coin/eletacoin/src/crypto/slow-hash.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.o"
+  "/coin/eleta/src/crypto/crypto.cpp" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o"
+  "/coin/eleta/src/crypto/slow-hash.cpp" "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

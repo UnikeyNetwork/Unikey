@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/Transfers/BlockchainSynchronizer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
-  "/coin/eletacoin/src/Transfers/SynchronizationState.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
-  "/coin/eletacoin/src/Transfers/TransfersConsumer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o"
-  "/coin/eletacoin/src/Transfers/TransfersContainer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o"
-  "/coin/eletacoin/src/Transfers/TransfersSubscription.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
-  "/coin/eletacoin/src/Transfers/TransfersSynchronizer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
+  "/coin/eleta/src/Transfers/BlockchainSynchronizer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
+  "/coin/eleta/src/Transfers/SynchronizationState.cpp" "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
+  "/coin/eleta/src/Transfers/TransfersConsumer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o"
+  "/coin/eleta/src/Transfers/TransfersContainer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o"
+  "/coin/eleta/src/Transfers/TransfersSubscription.cpp" "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
+  "/coin/eleta/src/Transfers/TransfersSynchronizer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

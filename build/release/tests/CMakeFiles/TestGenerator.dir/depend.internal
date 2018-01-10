@@ -40,5 +40,5 @@ tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.cpp
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.cpp
+ /coin/eleta/tests/TestGenerator/TestGenerator.h

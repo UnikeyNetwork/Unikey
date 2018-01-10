@@ -468,7 +468,7 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/src/ConnectivityTool/ConnectivityTool.cpp
+/coin/eleta/src/ConnectivityTool/ConnectivityTool.cpp
 boost/optional.hpp
 -
 boost/program_options.hpp
@@ -494,23 +494,23 @@ System/TcpConnector.h
 System/Timer.h
 -
 Common/CommandLine.h
-/coin/eletacoin/src/ConnectivityTool/Common/CommandLine.h
+/coin/eleta/src/ConnectivityTool/Common/CommandLine.h
 Common/StringTools.h
-/coin/eletacoin/src/ConnectivityTool/Common/StringTools.h
+/coin/eleta/src/ConnectivityTool/Common/StringTools.h
 crypto/crypto.h
-/coin/eletacoin/src/ConnectivityTool/crypto/crypto.h
+/coin/eleta/src/ConnectivityTool/crypto/crypto.h
 P2p/P2pProtocolDefinitions.h
-/coin/eletacoin/src/ConnectivityTool/P2p/P2pProtocolDefinitions.h
+/coin/eleta/src/ConnectivityTool/P2p/P2pProtocolDefinitions.h
 P2p/LevinProtocol.h
-/coin/eletacoin/src/ConnectivityTool/P2p/LevinProtocol.h
+/coin/eleta/src/ConnectivityTool/P2p/LevinProtocol.h
 Rpc/CoreRpcServerCommandsDefinitions.h
-/coin/eletacoin/src/ConnectivityTool/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/ConnectivityTool/Rpc/CoreRpcServerCommandsDefinitions.h
 Rpc/HttpClient.h
-/coin/eletacoin/src/ConnectivityTool/Rpc/HttpClient.h
+/coin/eleta/src/ConnectivityTool/Rpc/HttpClient.h
 Serialization/SerializationTools.h
-/coin/eletacoin/src/ConnectivityTool/Serialization/SerializationTools.h
+/coin/eleta/src/ConnectivityTool/Serialization/SerializationTools.h
 version.h
-/coin/eletacoin/src/ConnectivityTool/version.h
+/coin/eleta/src/ConnectivityTool/version.h
 
 version/version.h
 

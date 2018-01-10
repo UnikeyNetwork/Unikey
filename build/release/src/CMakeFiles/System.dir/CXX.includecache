@@ -50,9 +50,9 @@ cstdint
 string
 -
 
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.cpp
+/coin/eleta/src/Platform/Linux/System/Dispatcher.cpp
 Dispatcher.h
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.h
+/coin/eleta/src/Platform/Linux/System/Dispatcher.h
 cassert
 -
 sys/epoll.h
@@ -70,9 +70,9 @@ ucontext.h
 unistd.h
 -
 ErrorMessage.h
-/coin/eletacoin/src/Platform/Linux/System/ErrorMessage.h
+/coin/eleta/src/Platform/Linux/System/ErrorMessage.h
 
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.h
+/coin/eleta/src/Platform/Linux/System/Dispatcher.h
 cstddef
 -
 functional
@@ -82,21 +82,21 @@ queue
 stack
 -
 
-/coin/eletacoin/src/Platform/Linux/System/ErrorMessage.cpp
+/coin/eleta/src/Platform/Linux/System/ErrorMessage.cpp
 ErrorMessage.h
-/coin/eletacoin/src/Platform/Linux/System/ErrorMessage.h
+/coin/eleta/src/Platform/Linux/System/ErrorMessage.h
 cerrno
 -
 cstring
 -
 
-/coin/eletacoin/src/Platform/Linux/System/ErrorMessage.h
+/coin/eleta/src/Platform/Linux/System/ErrorMessage.h
 string
 -
 
-/coin/eletacoin/src/Platform/Linux/System/Ipv4Resolver.cpp
+/coin/eleta/src/Platform/Linux/System/Ipv4Resolver.cpp
 Ipv4Resolver.h
-/coin/eletacoin/src/Platform/Linux/System/Ipv4Resolver.h
+/coin/eleta/src/Platform/Linux/System/Ipv4Resolver.h
 cassert
 -
 random
@@ -114,13 +114,13 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 
-/coin/eletacoin/src/Platform/Linux/System/Ipv4Resolver.h
+/coin/eleta/src/Platform/Linux/System/Ipv4Resolver.h
 string
 -
 
-/coin/eletacoin/src/Platform/Linux/System/TcpConnection.cpp
+/coin/eleta/src/Platform/Linux/System/TcpConnection.cpp
 TcpConnection.h
-/coin/eletacoin/src/Platform/Linux/System/TcpConnection.h
+/coin/eleta/src/Platform/Linux/System/TcpConnection.h
 arpa/inet.h
 -
 cassert
@@ -136,7 +136,7 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 
-/coin/eletacoin/src/Platform/Linux/System/TcpConnection.h
+/coin/eleta/src/Platform/Linux/System/TcpConnection.h
 cstddef
 -
 cstdint
@@ -144,11 +144,11 @@ cstdint
 string
 -
 Dispatcher.h
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.h
+/coin/eleta/src/Platform/Linux/System/Dispatcher.h
 
-/coin/eletacoin/src/Platform/Linux/System/TcpConnector.cpp
+/coin/eleta/src/Platform/Linux/System/TcpConnector.cpp
 TcpConnector.h
-/coin/eletacoin/src/Platform/Linux/System/TcpConnector.h
+/coin/eleta/src/Platform/Linux/System/TcpConnector.h
 cassert
 -
 stdexcept
@@ -166,21 +166,21 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 Dispatcher.h
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.h
+/coin/eleta/src/Platform/Linux/System/Dispatcher.h
 ErrorMessage.h
-/coin/eletacoin/src/Platform/Linux/System/ErrorMessage.h
+/coin/eleta/src/Platform/Linux/System/ErrorMessage.h
 TcpConnection.h
-/coin/eletacoin/src/Platform/Linux/System/TcpConnection.h
+/coin/eleta/src/Platform/Linux/System/TcpConnection.h
 
-/coin/eletacoin/src/Platform/Linux/System/TcpConnector.h
+/coin/eleta/src/Platform/Linux/System/TcpConnector.h
 cstdint
 -
 string
 -
 
-/coin/eletacoin/src/Platform/Linux/System/TcpListener.cpp
+/coin/eleta/src/Platform/Linux/System/TcpListener.cpp
 TcpListener.h
-/coin/eletacoin/src/Platform/Linux/System/TcpListener.h
+/coin/eleta/src/Platform/Linux/System/TcpListener.h
 cassert
 -
 stdexcept
@@ -196,9 +196,9 @@ unistd.h
 string.h
 -
 Dispatcher.h
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.h
+/coin/eleta/src/Platform/Linux/System/Dispatcher.h
 TcpConnection.h
-/coin/eletacoin/src/Platform/Linux/System/TcpConnection.h
+/coin/eleta/src/Platform/Linux/System/TcpConnection.h
 System/ErrorMessage.h
 -
 System/InterruptedException.h
@@ -206,15 +206,15 @@ System/InterruptedException.h
 System/Ipv4Address.h
 -
 
-/coin/eletacoin/src/Platform/Linux/System/TcpListener.h
+/coin/eleta/src/Platform/Linux/System/TcpListener.h
 cstdint
 -
 string
 -
 
-/coin/eletacoin/src/Platform/Linux/System/Timer.cpp
+/coin/eleta/src/Platform/Linux/System/Timer.cpp
 Timer.h
-/coin/eletacoin/src/Platform/Linux/System/Timer.h
+/coin/eleta/src/Platform/Linux/System/Timer.h
 cassert
 -
 stdexcept
@@ -226,33 +226,33 @@ sys/epoll.h
 unistd.h
 -
 Dispatcher.h
-/coin/eletacoin/src/Platform/Linux/System/Dispatcher.h
+/coin/eleta/src/Platform/Linux/System/Dispatcher.h
 System/ErrorMessage.h
 -
 System/InterruptedException.h
 -
 
-/coin/eletacoin/src/Platform/Linux/System/Timer.h
+/coin/eleta/src/Platform/Linux/System/Timer.h
 chrono
 -
 
-/coin/eletacoin/src/System/ContextGroup.cpp
+/coin/eleta/src/System/ContextGroup.cpp
 ContextGroup.h
-/coin/eletacoin/src/System/ContextGroup.h
+/coin/eleta/src/System/ContextGroup.h
 cassert
 -
 
-/coin/eletacoin/src/System/ContextGroup.h
+/coin/eleta/src/System/ContextGroup.h
 System/Dispatcher.h
 -
 
-/coin/eletacoin/src/System/ContextGroupTimeout.cpp
+/coin/eleta/src/System/ContextGroupTimeout.cpp
 ContextGroupTimeout.h
-/coin/eletacoin/src/System/ContextGroupTimeout.h
+/coin/eleta/src/System/ContextGroupTimeout.h
 System/InterruptedException.h
 -
 
-/coin/eletacoin/src/System/ContextGroupTimeout.h
+/coin/eleta/src/System/ContextGroupTimeout.h
 chrono
 -
 System/ContextGroup.h
@@ -260,9 +260,9 @@ System/ContextGroup.h
 System/Timer.h
 -
 
-/coin/eletacoin/src/System/Event.cpp
+/coin/eleta/src/System/Event.cpp
 Event.h
-/coin/eletacoin/src/System/Event.h
+/coin/eleta/src/System/Event.h
 cassert
 -
 System/Dispatcher.h
@@ -270,39 +270,39 @@ System/Dispatcher.h
 System/InterruptedException.h
 -
 
-/coin/eletacoin/src/System/Event.h
+/coin/eleta/src/System/Event.h
 
-/coin/eletacoin/src/System/EventLock.cpp
+/coin/eleta/src/System/EventLock.cpp
 EventLock.h
-/coin/eletacoin/src/System/EventLock.h
+/coin/eleta/src/System/EventLock.h
 System/Event.h
 -
 
-/coin/eletacoin/src/System/EventLock.h
+/coin/eleta/src/System/EventLock.h
 
-/coin/eletacoin/src/System/InterruptedException.cpp
+/coin/eleta/src/System/InterruptedException.cpp
 InterruptedException.h
-/coin/eletacoin/src/System/InterruptedException.h
+/coin/eleta/src/System/InterruptedException.h
 
-/coin/eletacoin/src/System/InterruptedException.h
+/coin/eleta/src/System/InterruptedException.h
 exception
 -
 
-/coin/eletacoin/src/System/Ipv4Address.cpp
+/coin/eleta/src/System/Ipv4Address.cpp
 Ipv4Address.h
-/coin/eletacoin/src/System/Ipv4Address.h
+/coin/eleta/src/System/Ipv4Address.h
 stdexcept
 -
 
-/coin/eletacoin/src/System/Ipv4Address.h
+/coin/eleta/src/System/Ipv4Address.h
 cstdint
 -
 string
 -
 
-/coin/eletacoin/src/System/RemoteEventLock.cpp
+/coin/eleta/src/System/RemoteEventLock.cpp
 RemoteEventLock.h
-/coin/eletacoin/src/System/RemoteEventLock.h
+/coin/eleta/src/System/RemoteEventLock.h
 cassert
 -
 mutex
@@ -314,15 +314,15 @@ System/Dispatcher.h
 System/Event.h
 -
 
-/coin/eletacoin/src/System/RemoteEventLock.h
+/coin/eleta/src/System/RemoteEventLock.h
 
-/coin/eletacoin/src/System/TcpStream.cpp
+/coin/eleta/src/System/TcpStream.cpp
 TcpStream.h
-/coin/eletacoin/src/System/TcpStream.h
+/coin/eleta/src/System/TcpStream.h
 System/TcpConnection.h
 -
 
-/coin/eletacoin/src/System/TcpStream.h
+/coin/eleta/src/System/TcpStream.h
 array
 -
 cstdint

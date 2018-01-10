@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/PaymentGate/NodeFactory.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o"
-  "/coin/eletacoin/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o"
-  "/coin/eletacoin/src/PaymentGate/PaymentServiceJsonRpcServer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o"
-  "/coin/eletacoin/src/PaymentGate/WalletFactory.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.o"
-  "/coin/eletacoin/src/PaymentGate/WalletService.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o"
-  "/coin/eletacoin/src/PaymentGate/WalletServiceErrorCategory.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o"
+  "/coin/eleta/src/PaymentGate/NodeFactory.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o"
+  "/coin/eleta/src/PaymentGate/PaymentServiceJsonRpcMessages.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o"
+  "/coin/eleta/src/PaymentGate/PaymentServiceJsonRpcServer.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o"
+  "/coin/eleta/src/PaymentGate/WalletFactory.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletFactory.cpp.o"
+  "/coin/eleta/src/PaymentGate/WalletService.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o"
+  "/coin/eleta/src/PaymentGate/WalletServiceErrorCategory.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

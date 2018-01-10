@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/NodeRpcProxy.dir/depend.make
@@ -57,42 +57,18 @@ include src/CMakeFiles/NodeRpcProxy.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/CMakeFiles/NodeRpcProxy.dir/flags.make
 
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o: ../../src/NodeRpcProxy/NodeRpcProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
-	cd /coin/eletacoin/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o -c /coin/eletacoin/src/NodeRpcProxy/NodeRpcProxy.cpp
-
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i"
-	cd /coin/eletacoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/src/NodeRpcProxy/NodeRpcProxy.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i
-
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s"
-	cd /coin/eletacoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/src/NodeRpcProxy/NodeRpcProxy.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
-
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires
-
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides.build
-.PHONY : src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides
-
-src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides.build: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
-
-
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o: ../../src/NodeRpcProxy/NodeErrors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
-	cd /coin/eletacoin/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o -c /coin/eletacoin/src/NodeRpcProxy/NodeErrors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
+	cd /coin/eleta/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o -c /coin/eleta/src/NodeRpcProxy/NodeErrors.cpp
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i"
-	cd /coin/eletacoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/src/NodeRpcProxy/NodeErrors.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i
+	cd /coin/eleta/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/src/NodeRpcProxy/NodeErrors.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s"
-	cd /coin/eletacoin/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/src/NodeRpcProxy/NodeErrors.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s
+	cd /coin/eleta/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/src/NodeRpcProxy/NodeErrors.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s
 
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o.requires:
 
@@ -105,37 +81,61 @@ src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o.provides: src/CMak
 src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o.provides.build: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o
 
 
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o: src/CMakeFiles/NodeRpcProxy.dir/flags.make
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o: ../../src/NodeRpcProxy/NodeRpcProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
+	cd /coin/eleta/build/release/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o -c /coin/eleta/src/NodeRpcProxy/NodeRpcProxy.cpp
+
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i"
+	cd /coin/eleta/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/src/NodeRpcProxy/NodeRpcProxy.cpp > CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i
+
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s"
+	cd /coin/eleta/build/release/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/src/NodeRpcProxy/NodeRpcProxy.cpp -o CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
+
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires:
+
+.PHONY : src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires
+
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires
+	$(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides.build
+.PHONY : src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides
+
+src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.provides.build: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
+
+
 # Object files for target NodeRpcProxy
 NodeRpcProxy_OBJECTS = \
-"CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o" \
-"CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o"
+"CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o" \
+"CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o"
 
 # External object files for target NodeRpcProxy
 NodeRpcProxy_EXTERNAL_OBJECTS =
 
-src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
 src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o
+src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
 src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/build.make
 src/libNodeRpcProxy.a: src/CMakeFiles/NodeRpcProxy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libNodeRpcProxy.a"
-	cd /coin/eletacoin/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean_target.cmake
-	cd /coin/eletacoin/build/release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NodeRpcProxy.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libNodeRpcProxy.a"
+	cd /coin/eleta/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean_target.cmake
+	cd /coin/eleta/build/release/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NodeRpcProxy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/NodeRpcProxy.dir/build: src/libNodeRpcProxy.a
 
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/build
 
-src/CMakeFiles/NodeRpcProxy.dir/requires: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires
 src/CMakeFiles/NodeRpcProxy.dir/requires: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o.requires
+src/CMakeFiles/NodeRpcProxy.dir/requires: src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o.requires
 
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/requires
 
 src/CMakeFiles/NodeRpcProxy.dir/clean:
-	cd /coin/eletacoin/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean.cmake
+	cd /coin/eleta/build/release/src && $(CMAKE_COMMAND) -P CMakeFiles/NodeRpcProxy.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/clean
 
 src/CMakeFiles/NodeRpcProxy.dir/depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eletacoin /coin/eletacoin/src /coin/eletacoin/build/release /coin/eletacoin/build/release/src /coin/eletacoin/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eleta /coin/eleta/src /coin/eleta/build/release /coin/eleta/build/release/src /coin/eleta/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/depend
 

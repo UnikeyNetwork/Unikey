@@ -48,8 +48,8 @@ src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Miner/BlockchainMonitor.cpp
- /coin/eletacoin/src/Miner/BlockchainMonitor.h
+ /coin/eleta/src/Miner/BlockchainMonitor.cpp
+ /coin/eleta/src/Miner/BlockchainMonitor.h
 src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -80,8 +80,8 @@ src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Miner/Miner.cpp
- /coin/eletacoin/src/Miner/Miner.h
+ /coin/eleta/src/Miner/Miner.cpp
+ /coin/eleta/src/Miner/Miner.h
 src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -138,17 +138,17 @@ src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Miner/BlockchainMonitor.h
- /coin/eletacoin/src/Miner/Miner.h
- /coin/eletacoin/src/Miner/MinerEvent.h
- /coin/eletacoin/src/Miner/MinerManager.cpp
- /coin/eletacoin/src/Miner/MinerManager.h
- /coin/eletacoin/src/Miner/MiningConfig.h
+ /coin/eleta/src/Miner/BlockchainMonitor.h
+ /coin/eleta/src/Miner/Miner.h
+ /coin/eleta/src/Miner/MinerEvent.h
+ /coin/eleta/src/Miner/MinerManager.cpp
+ /coin/eleta/src/Miner/MinerManager.h
+ /coin/eleta/src/Miner/MiningConfig.h
 src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o
  ../../src/CryptoNoteConfig.h
  ../../src/Logging/ILogger.h
- /coin/eletacoin/src/Miner/MiningConfig.cpp
- /coin/eletacoin/src/Miner/MiningConfig.h
+ /coin/eleta/src/Miner/MiningConfig.cpp
+ /coin/eleta/src/Miner/MiningConfig.h
 src/CMakeFiles/Miner.dir/Miner/main.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -171,9 +171,9 @@ src/CMakeFiles/Miner.dir/Miner/main.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /coin/eletacoin/src/Miner/BlockchainMonitor.h
- /coin/eletacoin/src/Miner/Miner.h
- /coin/eletacoin/src/Miner/MinerEvent.h
- /coin/eletacoin/src/Miner/MinerManager.h
- /coin/eletacoin/src/Miner/MiningConfig.h
- /coin/eletacoin/src/Miner/main.cpp
+ /coin/eleta/src/Miner/BlockchainMonitor.h
+ /coin/eleta/src/Miner/Miner.h
+ /coin/eleta/src/Miner/MinerEvent.h
+ /coin/eleta/src/Miner/MinerManager.h
+ /coin/eleta/src/Miner/MiningConfig.h
+ /coin/eleta/src/Miner/main.cpp

@@ -9,4 +9,4 @@ tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /coin/eletacoin/tests/HashTarget.cpp
+ /coin/eleta/tests/HashTarget.cpp

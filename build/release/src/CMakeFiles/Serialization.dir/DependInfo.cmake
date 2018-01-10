@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/Serialization/BinaryInputStreamSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/BinaryOutputStreamSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/JsonInputStreamSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/JsonInputValueSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/JsonOutputStreamSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/KVBinaryInputStreamSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/KVBinaryOutputStreamSerializer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o"
-  "/coin/eletacoin/src/Serialization/MemoryStream.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o"
-  "/coin/eletacoin/src/Serialization/SerializationOverloads.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o"
+  "/coin/eleta/src/Serialization/BinaryInputStreamSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/BinaryOutputStreamSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/JsonInputStreamSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/JsonInputValueSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/JsonOutputStreamSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/KVBinaryInputStreamSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/KVBinaryOutputStreamSerializer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o"
+  "/coin/eleta/src/Serialization/MemoryStream.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o"
+  "/coin/eleta/src/Serialization/SerializationOverloads.cpp" "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

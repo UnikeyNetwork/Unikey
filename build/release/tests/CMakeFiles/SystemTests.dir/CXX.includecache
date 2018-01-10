@@ -356,7 +356,7 @@ cstdint
 streambuf
 -
 
-/coin/eletacoin/tests/System/ContextGroupTests.cpp
+/coin/eleta/tests/System/ContextGroupTests.cpp
 System/Context.h
 -
 System/ContextGroup.h
@@ -382,7 +382,7 @@ gtest/gtest.h
 thread
 -
 
-/coin/eletacoin/tests/System/ContextGroupTimeoutTests.cpp
+/coin/eleta/tests/System/ContextGroupTimeoutTests.cpp
 gtest/gtest.h
 -
 System/ContextGroupTimeout.h
@@ -390,7 +390,7 @@ System/ContextGroupTimeout.h
 System/InterruptedException.h
 -
 
-/coin/eletacoin/tests/System/ContextTests.cpp
+/coin/eleta/tests/System/ContextTests.cpp
 System/Context.h
 -
 System/Dispatcher.h
@@ -404,7 +404,7 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/DispatcherTests.cpp
+/coin/eleta/tests/System/DispatcherTests.cpp
 future
 -
 System/Context.h
@@ -418,13 +418,13 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/ErrorMessageTests.cpp
+/coin/eleta/tests/System/ErrorMessageTests.cpp
 System/ErrorMessage.h
 -
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/EventLockTests.cpp
+/coin/eleta/tests/System/EventLockTests.cpp
 System/Context.h
 -
 System/Dispatcher.h
@@ -436,7 +436,7 @@ System/EventLock.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/EventTests.cpp
+/coin/eleta/tests/System/EventTests.cpp
 System/Context.h
 -
 System/Dispatcher.h
@@ -448,13 +448,13 @@ System/InterruptedException.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/Ipv4AddressTests.cpp
+/coin/eleta/tests/System/Ipv4AddressTests.cpp
 System/Ipv4Address.h
 -
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/Ipv4ResolverTests.cpp
+/coin/eleta/tests/System/Ipv4ResolverTests.cpp
 System/Dispatcher.h
 -
 System/ContextGroup.h
@@ -468,7 +468,7 @@ System/Ipv4Resolver.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/OperationTimeoutTests.cpp
+/coin/eleta/tests/System/OperationTimeoutTests.cpp
 gtest/gtest.h
 -
 System/OperationTimeout.h
@@ -476,7 +476,7 @@ System/OperationTimeout.h
 System/InterruptedException.h
 -
 
-/coin/eletacoin/tests/System/RemoteContextTests.cpp
+/coin/eleta/tests/System/RemoteContextTests.cpp
 System/RemoteContext.h
 -
 System/Dispatcher.h
@@ -492,7 +492,7 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/TcpConnectionTests.cpp
+/coin/eleta/tests/System/TcpConnectionTests.cpp
 System/Dispatcher.h
 -
 System/ContextGroup.h
@@ -516,7 +516,7 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/TcpConnectorTests.cpp
+/coin/eleta/tests/System/TcpConnectorTests.cpp
 System/Dispatcher.h
 -
 System/ContextGroup.h
@@ -538,7 +538,7 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/TcpListenerTests.cpp
+/coin/eleta/tests/System/TcpListenerTests.cpp
 System/Dispatcher.h
 -
 System/ContextGroup.h
@@ -560,7 +560,7 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/TimerTests.cpp
+/coin/eleta/tests/System/TimerTests.cpp
 thread
 -
 System/Context.h
@@ -578,7 +578,7 @@ System/Timer.h
 gtest/gtest.h
 -
 
-/coin/eletacoin/tests/System/main.cpp
+/coin/eleta/tests/System/main.cpp
 gtest/gtest.h
 -
 

@@ -4,19 +4,19 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/coin/eletacoin/external/miniupnpc/connecthostport.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
-  "/coin/eletacoin/external/miniupnpc/igd_desc_parse.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
-  "/coin/eletacoin/external/miniupnpc/minisoap.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
-  "/coin/eletacoin/external/miniupnpc/minissdpc.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
-  "/coin/eletacoin/external/miniupnpc/miniupnpc.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
-  "/coin/eletacoin/external/miniupnpc/miniwget.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
-  "/coin/eletacoin/external/miniupnpc/minixml.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
-  "/coin/eletacoin/external/miniupnpc/portlistingparse.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
-  "/coin/eletacoin/external/miniupnpc/receivedata.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
-  "/coin/eletacoin/external/miniupnpc/upnpc.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
-  "/coin/eletacoin/external/miniupnpc/upnpcommands.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
-  "/coin/eletacoin/external/miniupnpc/upnperrors.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
-  "/coin/eletacoin/external/miniupnpc/upnpreplyparse.c" "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
+  "/coin/eleta/external/miniupnpc/connecthostport.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/connecthostport.c.o"
+  "/coin/eleta/external/miniupnpc/igd_desc_parse.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/igd_desc_parse.c.o"
+  "/coin/eleta/external/miniupnpc/minisoap.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minisoap.c.o"
+  "/coin/eleta/external/miniupnpc/minissdpc.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minissdpc.c.o"
+  "/coin/eleta/external/miniupnpc/miniupnpc.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniupnpc.c.o"
+  "/coin/eleta/external/miniupnpc/miniwget.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/miniwget.c.o"
+  "/coin/eleta/external/miniupnpc/minixml.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/minixml.c.o"
+  "/coin/eleta/external/miniupnpc/portlistingparse.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/portlistingparse.c.o"
+  "/coin/eleta/external/miniupnpc/receivedata.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/receivedata.c.o"
+  "/coin/eleta/external/miniupnpc/upnpc.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpc.c.o"
+  "/coin/eleta/external/miniupnpc/upnpcommands.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpcommands.c.o"
+  "/coin/eleta/external/miniupnpc/upnperrors.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnperrors.c.o"
+  "/coin/eleta/external/miniupnpc/upnpreplyparse.c" "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/upnpreplyparse.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

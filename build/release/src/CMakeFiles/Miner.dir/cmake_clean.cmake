@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Miner.dir/Miner/Miner.cpp.o"
-  "CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o"
   "CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o"
-  "CMakeFiles/Miner.dir/Miner/main.cpp.o"
   "CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/main.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o"
+  "CMakeFiles/Miner.dir/Miner/Miner.cpp.o"
   "miner.pdb"
   "miner"
 )

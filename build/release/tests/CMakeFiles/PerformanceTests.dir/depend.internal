@@ -37,17 +37,17 @@ tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/PerformanceTests/CheckRingSignature.h
- /coin/eletacoin/tests/PerformanceTests/ConstructTransaction.h
- /coin/eletacoin/tests/PerformanceTests/CryptoNoteSlowHash.h
- /coin/eletacoin/tests/PerformanceTests/DerivePublicKey.h
- /coin/eletacoin/tests/PerformanceTests/DeriveSecretKey.h
- /coin/eletacoin/tests/PerformanceTests/GenerateKeyDerivation.h
- /coin/eletacoin/tests/PerformanceTests/GenerateKeyImage.h
- /coin/eletacoin/tests/PerformanceTests/GenerateKeyImageHelper.h
- /coin/eletacoin/tests/PerformanceTests/IsOutToAccount.h
- /coin/eletacoin/tests/PerformanceTests/MultiTransactionTestBase.h
- /coin/eletacoin/tests/PerformanceTests/PerformanceTests.h
- /coin/eletacoin/tests/PerformanceTests/PerformanceUtils.h
- /coin/eletacoin/tests/PerformanceTests/SingleTransactionTestBase.h
- /coin/eletacoin/tests/PerformanceTests/main.cpp
+ /coin/eleta/tests/PerformanceTests/CheckRingSignature.h
+ /coin/eleta/tests/PerformanceTests/ConstructTransaction.h
+ /coin/eleta/tests/PerformanceTests/CryptoNoteSlowHash.h
+ /coin/eleta/tests/PerformanceTests/DerivePublicKey.h
+ /coin/eleta/tests/PerformanceTests/DeriveSecretKey.h
+ /coin/eleta/tests/PerformanceTests/GenerateKeyDerivation.h
+ /coin/eleta/tests/PerformanceTests/GenerateKeyImage.h
+ /coin/eleta/tests/PerformanceTests/GenerateKeyImageHelper.h
+ /coin/eleta/tests/PerformanceTests/IsOutToAccount.h
+ /coin/eleta/tests/PerformanceTests/MultiTransactionTestBase.h
+ /coin/eleta/tests/PerformanceTests/PerformanceTests.h
+ /coin/eleta/tests/PerformanceTests/PerformanceUtils.h
+ /coin/eleta/tests/PerformanceTests/SingleTransactionTestBase.h
+ /coin/eleta/tests/PerformanceTests/main.cpp

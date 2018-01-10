@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/tests/CoreTests/BlockReward.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/BlockValidation.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/ChainSplit1.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/ChainSwitch1.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/Chaingen.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/Chaingen001.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/ChaingenMain.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/DoubleSpend.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/IntegerOverflow.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/RandomOuts.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/RingSignature.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/TransactionBuilder.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/TransactionTests.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o"
-  "/coin/eletacoin/tests/CoreTests/TransactionValidation.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o"
+  "/coin/eleta/tests/CoreTests/BlockReward.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o"
+  "/coin/eleta/tests/CoreTests/BlockValidation.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o"
+  "/coin/eleta/tests/CoreTests/ChainSplit1.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o"
+  "/coin/eleta/tests/CoreTests/ChainSwitch1.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o"
+  "/coin/eleta/tests/CoreTests/Chaingen.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o"
+  "/coin/eleta/tests/CoreTests/Chaingen001.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o"
+  "/coin/eleta/tests/CoreTests/ChaingenMain.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o"
+  "/coin/eleta/tests/CoreTests/DoubleSpend.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o"
+  "/coin/eleta/tests/CoreTests/IntegerOverflow.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o"
+  "/coin/eleta/tests/CoreTests/RandomOuts.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o"
+  "/coin/eleta/tests/CoreTests/RingSignature.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o"
+  "/coin/eleta/tests/CoreTests/TransactionBuilder.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o"
+  "/coin/eleta/tests/CoreTests/TransactionTests.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o"
+  "/coin/eleta/tests/CoreTests/TransactionValidation.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -40,14 +40,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/coin/eletacoin/build/release/tests/CMakeFiles/TestGenerator.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/tests/CMakeFiles/TestGenerator.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 # Utility rule file for version.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /coin/eletacoin/build/release
 include CMakeFiles/version.dir/progress.make
 
 CMakeFiles/version:
-	cd /coin/eletacoin && /usr/bin/cmake -D VERSION=0.1 -D GIT=/usr/bin/git -D TO=/coin/eletacoin/build/release/version/version.h -P src/version.cmake
+	cd /coin/eleta && /usr/bin/cmake -D VERSION=0.1 -D GIT=/usr/bin/git -D TO=/coin/eleta/build/release/version/version.h -P src/version.cmake
 
 version: CMakeFiles/version
 version: CMakeFiles/version.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/version.dir/clean:
 .PHONY : CMakeFiles/version.dir/clean
 
 CMakeFiles/version.dir/depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eletacoin /coin/eletacoin /coin/eletacoin/build/release /coin/eletacoin/build/release /coin/eletacoin/build/release/CMakeFiles/version.dir/DependInfo.cmake --color=$(COLOR)
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eleta /coin/eleta /coin/eleta/build/release /coin/eleta/build/release /coin/eleta/build/release/CMakeFiles/version.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/version.dir/depend
 

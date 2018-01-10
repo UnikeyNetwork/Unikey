@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/TransfersTests.dir/depend.make
@@ -57,66 +57,18 @@ include tests/CMakeFiles/TransfersTests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/TransfersTests.dir/flags.make
 
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o: tests/CMakeFiles/TransfersTests.dir/flags.make
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o: ../../tests/TransfersTests/TestNodeRpcProxy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o -c /coin/eletacoin/tests/TransfersTests/TestNodeRpcProxy.cpp
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/TransfersTests/TestNodeRpcProxy.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/TransfersTests/TestNodeRpcProxy.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides.build: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
-
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o: tests/CMakeFiles/TransfersTests.dir/flags.make
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o: ../../tests/TransfersTests/Tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o -c /coin/eletacoin/tests/TransfersTests/Tests.cpp
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/TransfersTests/Tests.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/TransfersTests/Tests.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires:
-
-.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires
-	$(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides.build
-.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides
-
-tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides.build: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
-
-
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o: tests/CMakeFiles/TransfersTests.dir/flags.make
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o: ../../tests/TransfersTests/TestTxPoolSync.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o -c /coin/eletacoin/tests/TransfersTests/TestTxPoolSync.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o -c /coin/eleta/tests/TransfersTests/TestTxPoolSync.cpp
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/TransfersTests/TestTxPoolSync.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.i
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/TransfersTests/TestTxPoolSync.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.i
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/TransfersTests/TestTxPoolSync.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.s
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/TransfersTests/TestTxPoolSync.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.s
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o.requires:
 
@@ -131,16 +83,16 @@ tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o.provides
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o: tests/CMakeFiles/TransfersTests.dir/flags.make
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o: ../../tests/TransfersTests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o -c /coin/eletacoin/tests/TransfersTests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o -c /coin/eleta/tests/TransfersTests/main.cpp
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.i"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eletacoin/tests/TransfersTests/main.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.i
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/TransfersTests/main.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.i
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.s"
-	cd /coin/eletacoin/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eletacoin/tests/TransfersTests/main.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.s
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/TransfersTests/main.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.s
 
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o.requires:
 
@@ -153,20 +105,68 @@ tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o.provides: tests/CM
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o.provides.build: tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o
 
 
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o: tests/CMakeFiles/TransfersTests.dir/flags.make
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o: ../../tests/TransfersTests/TestNodeRpcProxy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o -c /coin/eleta/tests/TransfersTests/TestNodeRpcProxy.cpp
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/TransfersTests/TestNodeRpcProxy.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/TransfersTests/TestNodeRpcProxy.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.provides.build: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
+
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o: tests/CMakeFiles/TransfersTests.dir/flags.make
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o: ../../tests/TransfersTests/Tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o -c /coin/eleta/tests/TransfersTests/Tests.cpp
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /coin/eleta/tests/TransfersTests/Tests.cpp > CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s"
+	cd /coin/eleta/build/release/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /coin/eleta/tests/TransfersTests/Tests.cpp -o CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires:
+
+.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires
+	$(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides.build
+.PHONY : tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides
+
+tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.provides.build: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
+
+
 # Object files for target TransfersTests
 TransfersTests_OBJECTS = \
-"CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o" \
-"CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o" \
 "CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o" \
-"CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
+"CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o" \
+"CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o" \
+"CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
 
 # External object files for target TransfersTests
 TransfersTests_EXTERNAL_OBJECTS =
 
-tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
-tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
 tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o
 tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o
+tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
+tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
 tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/build.make
 tests/transfers_tests: tests/libIntegrationTestLibrary.a
 tests/transfers_tests: src/libWallet.a
@@ -197,26 +197,26 @@ tests/transfers_tests: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 tests/transfers_tests: /usr/lib/x86_64-linux-gnu/libpthread.so
 tests/transfers_tests: external/gtest/libgtest.a
 tests/transfers_tests: tests/CMakeFiles/TransfersTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/coin/eletacoin/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable transfers_tests"
-	cd /coin/eletacoin/build/release/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TransfersTests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/coin/eleta/build/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable transfers_tests"
+	cd /coin/eleta/build/release/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TransfersTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/TransfersTests.dir/build: tests/transfers_tests
 
 .PHONY : tests/CMakeFiles/TransfersTests.dir/build
 
-tests/CMakeFiles/TransfersTests.dir/requires: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires
-tests/CMakeFiles/TransfersTests.dir/requires: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires
 tests/CMakeFiles/TransfersTests.dir/requires: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o.requires
 tests/CMakeFiles/TransfersTests.dir/requires: tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o.requires
+tests/CMakeFiles/TransfersTests.dir/requires: tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o.requires
+tests/CMakeFiles/TransfersTests.dir/requires: tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o.requires
 
 .PHONY : tests/CMakeFiles/TransfersTests.dir/requires
 
 tests/CMakeFiles/TransfersTests.dir/clean:
-	cd /coin/eletacoin/build/release/tests && $(CMAKE_COMMAND) -P CMakeFiles/TransfersTests.dir/cmake_clean.cmake
+	cd /coin/eleta/build/release/tests && $(CMAKE_COMMAND) -P CMakeFiles/TransfersTests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/TransfersTests.dir/clean
 
 tests/CMakeFiles/TransfersTests.dir/depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eletacoin /coin/eletacoin/tests /coin/eletacoin/build/release /coin/eletacoin/build/release/tests /coin/eletacoin/build/release/tests/CMakeFiles/TransfersTests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eleta /coin/eleta/tests /coin/eleta/build/release /coin/eleta/build/release/tests /coin/eleta/build/release/tests/CMakeFiles/TransfersTests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/TransfersTests.dir/depend
 

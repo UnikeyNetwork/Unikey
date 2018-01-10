@@ -246,9 +246,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/coin/eletacoin/external/gtest/src/gtest_main.cc
+/coin/eleta/external/gtest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-/coin/eletacoin/external/gtest/src/gtest/gtest.h
+/coin/eleta/external/gtest/src/gtest/gtest.h
 

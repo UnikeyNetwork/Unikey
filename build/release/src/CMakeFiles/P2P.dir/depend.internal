@@ -57,8 +57,8 @@ src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp
- /coin/eletacoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.h
+ /coin/eleta/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp
+ /coin/eleta/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.h
 src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -78,10 +78,10 @@ src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/IP2pNodeInternal.cpp
- /coin/eletacoin/src/P2p/IP2pNodeInternal.h
- /coin/eletacoin/src/P2p/P2pProtocolDefinitions.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/IP2pNodeInternal.cpp
+ /coin/eleta/src/P2p/IP2pNodeInternal.h
+ /coin/eleta/src/P2p/P2pProtocolDefinitions.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -98,8 +98,8 @@ src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
  ../../src/Serialization/KVBinaryInputStreamSerializer.h
  ../../src/Serialization/KVBinaryOutputStreamSerializer.h
  ../../src/Serialization/MemoryStream.h
- /coin/eletacoin/src/P2p/LevinProtocol.cpp
- /coin/eletacoin/src/P2p/LevinProtocol.h
+ /coin/eleta/src/P2p/LevinProtocol.cpp
+ /coin/eleta/src/P2p/LevinProtocol.h
 src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
  ../../external/miniupnpc/bsdqueue.h
  ../../external/miniupnpc/declspec.h
@@ -173,16 +173,16 @@ src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/ConnectionContext.h
- /coin/eletacoin/src/P2p/LevinProtocol.h
- /coin/eletacoin/src/P2p/NetNode.cpp
- /coin/eletacoin/src/P2p/NetNode.h
- /coin/eletacoin/src/P2p/NetNodeCommon.h
- /coin/eletacoin/src/P2p/NetNodeConfig.h
- /coin/eletacoin/src/P2p/P2pNetworks.h
- /coin/eletacoin/src/P2p/P2pProtocolDefinitions.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
- /coin/eletacoin/src/P2p/PeerListManager.h
+ /coin/eleta/src/P2p/ConnectionContext.h
+ /coin/eleta/src/P2p/LevinProtocol.h
+ /coin/eleta/src/P2p/NetNode.cpp
+ /coin/eleta/src/P2p/NetNode.h
+ /coin/eleta/src/P2p/NetNodeCommon.h
+ /coin/eleta/src/P2p/NetNodeConfig.h
+ /coin/eleta/src/P2p/P2pNetworks.h
+ /coin/eleta/src/P2p/P2pProtocolDefinitions.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/PeerListManager.h
  version/version.h
 src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
  ../../include/CryptoTypes.h
@@ -197,9 +197,9 @@ src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/NetNodeConfig.cpp
- /coin/eletacoin/src/P2p/NetNodeConfig.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/NetNodeConfig.cpp
+ /coin/eleta/src/P2p/NetNodeConfig.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -239,19 +239,19 @@ src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/IP2pNodeInternal.h
- /coin/eletacoin/src/P2p/LevinProtocol.h
- /coin/eletacoin/src/P2p/NetNodeConfig.h
- /coin/eletacoin/src/P2p/P2pConnectionProxy.cpp
- /coin/eletacoin/src/P2p/P2pConnectionProxy.h
- /coin/eletacoin/src/P2p/P2pContext.h
- /coin/eletacoin/src/P2p/P2pContextOwner.h
- /coin/eletacoin/src/P2p/P2pInterfaces.h
- /coin/eletacoin/src/P2p/P2pNode.h
- /coin/eletacoin/src/P2p/P2pNodeConfig.h
- /coin/eletacoin/src/P2p/P2pProtocolDefinitions.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
- /coin/eletacoin/src/P2p/PeerListManager.h
+ /coin/eleta/src/P2p/IP2pNodeInternal.h
+ /coin/eleta/src/P2p/LevinProtocol.h
+ /coin/eleta/src/P2p/NetNodeConfig.h
+ /coin/eleta/src/P2p/P2pConnectionProxy.cpp
+ /coin/eleta/src/P2p/P2pConnectionProxy.h
+ /coin/eleta/src/P2p/P2pContext.h
+ /coin/eleta/src/P2p/P2pContextOwner.h
+ /coin/eleta/src/P2p/P2pInterfaces.h
+ /coin/eleta/src/P2p/P2pNode.h
+ /coin/eleta/src/P2p/P2pNodeConfig.h
+ /coin/eleta/src/P2p/P2pProtocolDefinitions.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/PeerListManager.h
 src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -289,12 +289,12 @@ src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/LevinProtocol.h
- /coin/eletacoin/src/P2p/P2pContext.cpp
- /coin/eletacoin/src/P2p/P2pContext.h
- /coin/eletacoin/src/P2p/P2pInterfaces.h
- /coin/eletacoin/src/P2p/P2pProtocolDefinitions.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/LevinProtocol.h
+ /coin/eleta/src/P2p/P2pContext.cpp
+ /coin/eleta/src/P2p/P2pContext.h
+ /coin/eleta/src/P2p/P2pInterfaces.h
+ /coin/eleta/src/P2p/P2pProtocolDefinitions.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -328,18 +328,18 @@ src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/LevinProtocol.h
- /coin/eletacoin/src/P2p/P2pContext.h
- /coin/eletacoin/src/P2p/P2pContextOwner.cpp
- /coin/eletacoin/src/P2p/P2pContextOwner.h
- /coin/eletacoin/src/P2p/P2pInterfaces.h
- /coin/eletacoin/src/P2p/P2pProtocolDefinitions.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/LevinProtocol.h
+ /coin/eleta/src/P2p/P2pContext.h
+ /coin/eleta/src/P2p/P2pContextOwner.cpp
+ /coin/eleta/src/P2p/P2pContextOwner.h
+ /coin/eleta/src/P2p/P2pInterfaces.h
+ /coin/eleta/src/P2p/P2pProtocolDefinitions.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
- /coin/eletacoin/src/P2p/P2pInterfaces.cpp
- /coin/eletacoin/src/P2p/P2pInterfaces.h
+ /coin/eleta/src/P2p/P2pInterfaces.cpp
+ /coin/eleta/src/P2p/P2pInterfaces.h
 src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -387,28 +387,28 @@ src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/P2p/IP2pNodeInternal.h
- /coin/eletacoin/src/P2p/LevinProtocol.h
- /coin/eletacoin/src/P2p/NetNodeConfig.h
- /coin/eletacoin/src/P2p/P2pConnectionProxy.h
- /coin/eletacoin/src/P2p/P2pContext.h
- /coin/eletacoin/src/P2p/P2pContextOwner.h
- /coin/eletacoin/src/P2p/P2pInterfaces.h
- /coin/eletacoin/src/P2p/P2pNetworks.h
- /coin/eletacoin/src/P2p/P2pNode.cpp
- /coin/eletacoin/src/P2p/P2pNode.h
- /coin/eletacoin/src/P2p/P2pNodeConfig.h
- /coin/eletacoin/src/P2p/P2pProtocolDefinitions.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
- /coin/eletacoin/src/P2p/PeerListManager.h
+ /coin/eleta/src/P2p/IP2pNodeInternal.h
+ /coin/eleta/src/P2p/LevinProtocol.h
+ /coin/eleta/src/P2p/NetNodeConfig.h
+ /coin/eleta/src/P2p/P2pConnectionProxy.h
+ /coin/eleta/src/P2p/P2pContext.h
+ /coin/eleta/src/P2p/P2pContextOwner.h
+ /coin/eleta/src/P2p/P2pInterfaces.h
+ /coin/eleta/src/P2p/P2pNetworks.h
+ /coin/eleta/src/P2p/P2pNode.cpp
+ /coin/eleta/src/P2p/P2pNode.h
+ /coin/eleta/src/P2p/P2pNodeConfig.h
+ /coin/eleta/src/P2p/P2pProtocolDefinitions.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/PeerListManager.h
 src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o
  ../../src/Common/StringTools.h
  ../../src/CryptoNoteConfig.h
- /coin/eletacoin/src/P2p/NetNodeConfig.h
- /coin/eletacoin/src/P2p/P2pNetworks.h
- /coin/eletacoin/src/P2p/P2pNodeConfig.cpp
- /coin/eletacoin/src/P2p/P2pNodeConfig.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/NetNodeConfig.h
+ /coin/eleta/src/P2p/P2pNetworks.h
+ /coin/eleta/src/P2p/P2pNodeConfig.cpp
+ /coin/eleta/src/P2p/P2pNodeConfig.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
 src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
  ../../src/Common/StringTools.h
  ../../src/Common/StringView.h
@@ -416,6 +416,6 @@ src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
  ../../src/System/Ipv4Address.h
- /coin/eletacoin/src/P2p/P2pProtocolTypes.h
- /coin/eletacoin/src/P2p/PeerListManager.cpp
- /coin/eletacoin/src/P2p/PeerListManager.h
+ /coin/eleta/src/P2p/P2pProtocolTypes.h
+ /coin/eleta/src/P2p/PeerListManager.cpp
+ /coin/eleta/src/P2p/PeerListManager.h

@@ -34,12 +34,12 @@ src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Transfers/BlockchainSynchronizer.cpp
- /coin/eletacoin/src/Transfers/BlockchainSynchronizer.h
- /coin/eletacoin/src/Transfers/CommonTypes.h
- /coin/eletacoin/src/Transfers/IBlockchainSynchronizer.h
- /coin/eletacoin/src/Transfers/IObservableImpl.h
- /coin/eletacoin/src/Transfers/SynchronizationState.h
+ /coin/eleta/src/Transfers/BlockchainSynchronizer.cpp
+ /coin/eleta/src/Transfers/BlockchainSynchronizer.h
+ /coin/eleta/src/Transfers/CommonTypes.h
+ /coin/eleta/src/Transfers/IBlockchainSynchronizer.h
+ /coin/eleta/src/Transfers/IObservableImpl.h
+ /coin/eleta/src/Transfers/SynchronizationState.h
 src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -69,9 +69,9 @@ src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Transfers/CommonTypes.h
- /coin/eletacoin/src/Transfers/SynchronizationState.cpp
- /coin/eletacoin/src/Transfers/SynchronizationState.h
+ /coin/eleta/src/Transfers/CommonTypes.h
+ /coin/eleta/src/Transfers/SynchronizationState.cpp
+ /coin/eleta/src/Transfers/SynchronizationState.h
 src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -112,14 +112,14 @@ src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Transfers/CommonTypes.h
- /coin/eletacoin/src/Transfers/IBlockchainSynchronizer.h
- /coin/eletacoin/src/Transfers/IObservableImpl.h
- /coin/eletacoin/src/Transfers/TransfersConsumer.cpp
- /coin/eletacoin/src/Transfers/TransfersConsumer.h
- /coin/eletacoin/src/Transfers/TransfersContainer.h
- /coin/eletacoin/src/Transfers/TransfersSubscription.h
- /coin/eletacoin/src/Transfers/TypeHelpers.h
+ /coin/eleta/src/Transfers/CommonTypes.h
+ /coin/eleta/src/Transfers/IBlockchainSynchronizer.h
+ /coin/eleta/src/Transfers/IObservableImpl.h
+ /coin/eleta/src/Transfers/TransfersConsumer.cpp
+ /coin/eleta/src/Transfers/TransfersConsumer.h
+ /coin/eleta/src/Transfers/TransfersContainer.h
+ /coin/eleta/src/Transfers/TransfersSubscription.h
+ /coin/eleta/src/Transfers/TypeHelpers.h
 src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -154,8 +154,8 @@ src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Transfers/TransfersContainer.cpp
- /coin/eletacoin/src/Transfers/TransfersContainer.h
+ /coin/eleta/src/Transfers/TransfersContainer.cpp
+ /coin/eleta/src/Transfers/TransfersContainer.h
 src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -185,10 +185,10 @@ src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Transfers/IObservableImpl.h
- /coin/eletacoin/src/Transfers/TransfersContainer.h
- /coin/eletacoin/src/Transfers/TransfersSubscription.cpp
- /coin/eletacoin/src/Transfers/TransfersSubscription.h
+ /coin/eleta/src/Transfers/IObservableImpl.h
+ /coin/eleta/src/Transfers/TransfersContainer.h
+ /coin/eleta/src/Transfers/TransfersSubscription.cpp
+ /coin/eleta/src/Transfers/TransfersSubscription.h
 src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -223,11 +223,11 @@ src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Transfers/IBlockchainSynchronizer.h
- /coin/eletacoin/src/Transfers/IObservableImpl.h
- /coin/eletacoin/src/Transfers/TransfersConsumer.h
- /coin/eletacoin/src/Transfers/TransfersContainer.h
- /coin/eletacoin/src/Transfers/TransfersSubscription.h
- /coin/eletacoin/src/Transfers/TransfersSynchronizer.cpp
- /coin/eletacoin/src/Transfers/TransfersSynchronizer.h
- /coin/eletacoin/src/Transfers/TypeHelpers.h
+ /coin/eleta/src/Transfers/IBlockchainSynchronizer.h
+ /coin/eleta/src/Transfers/IObservableImpl.h
+ /coin/eleta/src/Transfers/TransfersConsumer.h
+ /coin/eleta/src/Transfers/TransfersContainer.h
+ /coin/eleta/src/Transfers/TransfersSubscription.h
+ /coin/eleta/src/Transfers/TransfersSynchronizer.cpp
+ /coin/eleta/src/Transfers/TransfersSynchronizer.h
+ /coin/eleta/src/Transfers/TypeHelpers.h

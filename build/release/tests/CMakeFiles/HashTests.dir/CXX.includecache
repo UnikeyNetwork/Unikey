@@ -58,7 +58,7 @@ generic-ops.h
 hash-ops.h
 ../../src/crypto/hash-ops.h
 
-/coin/eletacoin/tests/Hash/main.cpp
+/coin/eleta/tests/Hash/main.cpp
 cstddef
 -
 fstream
@@ -70,11 +70,11 @@ ios
 string
 -
 crypto/hash.h
-/coin/eletacoin/tests/Hash/crypto/hash.h
+/coin/eleta/tests/Hash/crypto/hash.h
 ../Io.h
-/coin/eletacoin/tests/Io.h
+/coin/eleta/tests/Io.h
 
-/coin/eletacoin/tests/Io.h
+/coin/eleta/tests/Io.h
 cstddef
 -
 ios

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
-  "CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
-  "CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
   "CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o"
-  "CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
   "CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o"
+  "CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o"
+  "CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o"
+  "CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o"
+  "CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o"
   "libTransfers.pdb"
   "libTransfers.a"
 )

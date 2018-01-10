@@ -482,21 +482,21 @@ netdb.h
 src/gtest-internal-inl.h
 ../../external/gtest/src/src/gtest-internal-inl.h
 
-/coin/eletacoin/external/gtest/src/gtest-all.cc
+/coin/eleta/external/gtest/src/gtest-all.cc
 gtest/gtest.h
-/coin/eletacoin/external/gtest/src/gtest/gtest.h
+/coin/eleta/external/gtest/src/gtest/gtest.h
 src/gtest.cc
-/coin/eletacoin/external/gtest/src/src/gtest.cc
+/coin/eleta/external/gtest/src/src/gtest.cc
 src/gtest-death-test.cc
-/coin/eletacoin/external/gtest/src/src/gtest-death-test.cc
+/coin/eleta/external/gtest/src/src/gtest-death-test.cc
 src/gtest-filepath.cc
-/coin/eletacoin/external/gtest/src/src/gtest-filepath.cc
+/coin/eleta/external/gtest/src/src/gtest-filepath.cc
 src/gtest-port.cc
-/coin/eletacoin/external/gtest/src/src/gtest-port.cc
+/coin/eleta/external/gtest/src/src/gtest-port.cc
 src/gtest-printers.cc
-/coin/eletacoin/external/gtest/src/src/gtest-printers.cc
+/coin/eleta/external/gtest/src/src/gtest-printers.cc
 src/gtest-test-part.cc
-/coin/eletacoin/external/gtest/src/src/gtest-test-part.cc
+/coin/eleta/external/gtest/src/src/gtest-test-part.cc
 src/gtest-typed-test.cc
-/coin/eletacoin/external/gtest/src/src/gtest-typed-test.cc
+/coin/eleta/external/gtest/src/src/gtest-typed-test.cc
 

@@ -64,9 +64,9 @@ generic-ops.h
 hash-ops.h
 ../../src/crypto/hash-ops.h
 
-/coin/eletacoin/src/Common/Base58.cpp
+/coin/eleta/src/Common/Base58.cpp
 Base58.h
-/coin/eletacoin/src/Common/Base58.h
+/coin/eleta/src/Common/Base58.h
 assert.h
 -
 string
@@ -74,23 +74,23 @@ string
 vector
 -
 crypto/hash.h
-/coin/eletacoin/src/Common/crypto/hash.h
+/coin/eleta/src/Common/crypto/hash.h
 int-util.h
-/coin/eletacoin/src/Common/int-util.h
+/coin/eleta/src/Common/int-util.h
 Varint.h
-/coin/eletacoin/src/Common/Varint.h
+/coin/eleta/src/Common/Varint.h
 
-/coin/eletacoin/src/Common/Base58.h
+/coin/eleta/src/Common/Base58.h
 cstdint
 -
 string
 -
 
-/coin/eletacoin/src/Common/BlockingQueue.cpp
+/coin/eleta/src/Common/BlockingQueue.cpp
 BlockingQueue.h
-/coin/eletacoin/src/Common/BlockingQueue.h
+/coin/eleta/src/Common/BlockingQueue.h
 
-/coin/eletacoin/src/Common/BlockingQueue.h
+/coin/eleta/src/Common/BlockingQueue.h
 atomic
 -
 condition_variable
@@ -102,11 +102,11 @@ mutex
 thread
 -
 
-/coin/eletacoin/src/Common/CommandLine.cpp
+/coin/eleta/src/Common/CommandLine.cpp
 CommandLine.h
-/coin/eletacoin/src/Common/CommandLine.h
+/coin/eleta/src/Common/CommandLine.h
 
-/coin/eletacoin/src/Common/CommandLine.h
+/coin/eleta/src/Common/CommandLine.h
 iostream
 -
 type_traits
@@ -118,9 +118,9 @@ boost/program_options/options_description.hpp
 boost/program_options/variables_map.hpp
 -
 
-/coin/eletacoin/src/Common/ConsoleHandler.cpp
+/coin/eleta/src/Common/ConsoleHandler.cpp
 ConsoleHandler.h
-/coin/eletacoin/src/Common/ConsoleHandler.h
+/coin/eleta/src/Common/ConsoleHandler.h
 iostream
 -
 iomanip
@@ -136,7 +136,7 @@ stdio.h
 boost/algorithm/string.hpp
 -
 
-/coin/eletacoin/src/Common/ConsoleHandler.h
+/coin/eleta/src/Common/ConsoleHandler.h
 atomic
 -
 functional
@@ -150,13 +150,13 @@ thread
 vector
 -
 BlockingQueue.h
-/coin/eletacoin/src/Common/BlockingQueue.h
+/coin/eleta/src/Common/BlockingQueue.h
 ConsoleTools.h
-/coin/eletacoin/src/Common/ConsoleTools.h
+/coin/eleta/src/Common/ConsoleTools.h
 
-/coin/eletacoin/src/Common/ConsoleTools.cpp
+/coin/eleta/src/Common/ConsoleTools.cpp
 ConsoleTools.h
-/coin/eletacoin/src/Common/ConsoleTools.h
+/coin/eleta/src/Common/ConsoleTools.h
 stdio.h
 -
 Windows.h
@@ -168,35 +168,35 @@ iostream
 unistd.h
 -
 
-/coin/eletacoin/src/Common/ConsoleTools.h
+/coin/eleta/src/Common/ConsoleTools.h
 cstdint
 -
 
-/coin/eletacoin/src/Common/IInputStream.cpp
+/coin/eleta/src/Common/IInputStream.cpp
 IInputStream.h
-/coin/eletacoin/src/Common/IInputStream.h
+/coin/eleta/src/Common/IInputStream.h
 
-/coin/eletacoin/src/Common/IInputStream.h
+/coin/eleta/src/Common/IInputStream.h
 cstddef
 -
 
-/coin/eletacoin/src/Common/IOutputStream.cpp
+/coin/eleta/src/Common/IOutputStream.cpp
 IOutputStream.h
-/coin/eletacoin/src/Common/IOutputStream.h
+/coin/eleta/src/Common/IOutputStream.h
 
-/coin/eletacoin/src/Common/IOutputStream.h
+/coin/eleta/src/Common/IOutputStream.h
 cstddef
 -
 
-/coin/eletacoin/src/Common/JsonValue.cpp
+/coin/eleta/src/Common/JsonValue.cpp
 JsonValue.h
-/coin/eletacoin/src/Common/JsonValue.h
+/coin/eleta/src/Common/JsonValue.h
 iomanip
 -
 sstream
 -
 
-/coin/eletacoin/src/Common/JsonValue.h
+/coin/eleta/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -208,19 +208,19 @@ string
 vector
 -
 
-/coin/eletacoin/src/Common/Math.cpp
+/coin/eleta/src/Common/Math.cpp
 Math.h
-/coin/eletacoin/src/Common/Math.h
+/coin/eleta/src/Common/Math.h
 
-/coin/eletacoin/src/Common/Math.h
+/coin/eleta/src/Common/Math.h
 algorithm
 -
 vector
 -
 
-/coin/eletacoin/src/Common/MemoryInputStream.cpp
+/coin/eleta/src/Common/MemoryInputStream.cpp
 MemoryInputStream.h
-/coin/eletacoin/src/Common/MemoryInputStream.h
+/coin/eleta/src/Common/MemoryInputStream.h
 algorithm
 -
 cassert
@@ -228,31 +228,31 @@ cassert
 cstring
 -
 
-/coin/eletacoin/src/Common/MemoryInputStream.h
+/coin/eleta/src/Common/MemoryInputStream.h
 IInputStream.h
-/coin/eletacoin/src/Common/IInputStream.h
+/coin/eleta/src/Common/IInputStream.h
 
-/coin/eletacoin/src/Common/PathTools.cpp
+/coin/eleta/src/Common/PathTools.cpp
 PathTools.h
-/coin/eletacoin/src/Common/PathTools.h
+/coin/eleta/src/Common/PathTools.h
 algorithm
 -
 
-/coin/eletacoin/src/Common/PathTools.h
+/coin/eleta/src/Common/PathTools.h
 string
 -
 
-/coin/eletacoin/src/Common/ScopeExit.cpp
+/coin/eleta/src/Common/ScopeExit.cpp
 ScopeExit.h
-/coin/eletacoin/src/Common/ScopeExit.h
+/coin/eleta/src/Common/ScopeExit.h
 
-/coin/eletacoin/src/Common/ScopeExit.h
+/coin/eleta/src/Common/ScopeExit.h
 functional
 -
 
-/coin/eletacoin/src/Common/SignalHandler.cpp
+/coin/eleta/src/Common/SignalHandler.cpp
 SignalHandler.h
-/coin/eletacoin/src/Common/SignalHandler.h
+/coin/eleta/src/Common/SignalHandler.h
 mutex
 -
 iostream
@@ -264,41 +264,41 @@ signal.h
 cstring
 -
 
-/coin/eletacoin/src/Common/SignalHandler.h
+/coin/eleta/src/Common/SignalHandler.h
 functional
 -
 
-/coin/eletacoin/src/Common/StdInputStream.cpp
+/coin/eleta/src/Common/StdInputStream.cpp
 StdInputStream.h
-/coin/eletacoin/src/Common/StdInputStream.h
+/coin/eleta/src/Common/StdInputStream.h
 
-/coin/eletacoin/src/Common/StdInputStream.h
+/coin/eleta/src/Common/StdInputStream.h
 istream
 -
 IInputStream.h
-/coin/eletacoin/src/Common/IInputStream.h
+/coin/eleta/src/Common/IInputStream.h
 
-/coin/eletacoin/src/Common/StdOutputStream.cpp
+/coin/eleta/src/Common/StdOutputStream.cpp
 StdOutputStream.h
-/coin/eletacoin/src/Common/StdOutputStream.h
+/coin/eleta/src/Common/StdOutputStream.h
 
-/coin/eletacoin/src/Common/StdOutputStream.h
+/coin/eleta/src/Common/StdOutputStream.h
 ostream
 -
 IOutputStream.h
-/coin/eletacoin/src/Common/IOutputStream.h
+/coin/eleta/src/Common/IOutputStream.h
 
-/coin/eletacoin/src/Common/StreamTools.cpp
+/coin/eleta/src/Common/StreamTools.cpp
 StreamTools.h
-/coin/eletacoin/src/Common/StreamTools.h
+/coin/eleta/src/Common/StreamTools.h
 stdexcept
 -
 IInputStream.h
-/coin/eletacoin/src/Common/IInputStream.h
+/coin/eleta/src/Common/IInputStream.h
 IOutputStream.h
-/coin/eletacoin/src/Common/IOutputStream.h
+/coin/eleta/src/Common/IOutputStream.h
 
-/coin/eletacoin/src/Common/StreamTools.h
+/coin/eleta/src/Common/StreamTools.h
 cstdint
 -
 vector
@@ -306,35 +306,35 @@ vector
 string
 -
 
-/coin/eletacoin/src/Common/StringInputStream.cpp
+/coin/eleta/src/Common/StringInputStream.cpp
 StringInputStream.h
-/coin/eletacoin/src/Common/StringInputStream.h
+/coin/eleta/src/Common/StringInputStream.h
 string.h
 -
 
-/coin/eletacoin/src/Common/StringInputStream.h
+/coin/eleta/src/Common/StringInputStream.h
 string
 -
 IInputStream.h
-/coin/eletacoin/src/Common/IInputStream.h
+/coin/eleta/src/Common/IInputStream.h
 
-/coin/eletacoin/src/Common/StringOutputStream.cpp
+/coin/eleta/src/Common/StringOutputStream.cpp
 StringOutputStream.h
-/coin/eletacoin/src/Common/StringOutputStream.h
+/coin/eleta/src/Common/StringOutputStream.h
 
-/coin/eletacoin/src/Common/StringOutputStream.h
+/coin/eleta/src/Common/StringOutputStream.h
 string
 -
 IOutputStream.h
-/coin/eletacoin/src/Common/IOutputStream.h
+/coin/eleta/src/Common/IOutputStream.h
 
-/coin/eletacoin/src/Common/StringTools.cpp
+/coin/eleta/src/Common/StringTools.cpp
 StringTools.h
-/coin/eletacoin/src/Common/StringTools.h
+/coin/eleta/src/Common/StringTools.h
 fstream
 -
 
-/coin/eletacoin/src/Common/StringTools.h
+/coin/eleta/src/Common/StringTools.h
 cstdint
 -
 sstream
@@ -344,27 +344,27 @@ stdexcept
 vector
 -
 
-/coin/eletacoin/src/Common/StringView.cpp
+/coin/eleta/src/Common/StringView.cpp
 StringView.h
-/coin/eletacoin/src/Common/StringView.h
+/coin/eleta/src/Common/StringView.h
 limits
 -
 
-/coin/eletacoin/src/Common/StringView.h
+/coin/eleta/src/Common/StringView.h
 cassert
 -
 string
 -
 
-/coin/eletacoin/src/Common/Util.cpp
+/coin/eleta/src/Common/Util.cpp
 Util.h
-/coin/eletacoin/src/Common/Util.h
+/coin/eleta/src/Common/Util.h
 cstdio
 -
 boost/filesystem.hpp
 -
 CryptoNoteConfig.h
-/coin/eletacoin/src/Common/CryptoNoteConfig.h
+/coin/eleta/src/Common/CryptoNoteConfig.h
 windows.h
 -
 shlobj.h
@@ -374,13 +374,13 @@ strsafe.h
 sys/utsname.h
 -
 
-/coin/eletacoin/src/Common/Util.h
+/coin/eleta/src/Common/Util.h
 string
 -
 system_error
 -
 
-/coin/eletacoin/src/Common/Varint.h
+/coin/eleta/src/Common/Varint.h
 limits
 -
 sstream
@@ -392,19 +392,19 @@ type_traits
 utility
 -
 
-/coin/eletacoin/src/Common/VectorOutputStream.cpp
+/coin/eleta/src/Common/VectorOutputStream.cpp
 VectorOutputStream.h
-/coin/eletacoin/src/Common/VectorOutputStream.h
+/coin/eleta/src/Common/VectorOutputStream.h
 
-/coin/eletacoin/src/Common/VectorOutputStream.h
+/coin/eleta/src/Common/VectorOutputStream.h
 cstdint
 -
 vector
 -
 IOutputStream.h
-/coin/eletacoin/src/Common/IOutputStream.h
+/coin/eleta/src/Common/IOutputStream.h
 
-/coin/eletacoin/src/Common/int-util.h
+/coin/eleta/src/Common/int-util.h
 assert.h
 -
 stdbool.h

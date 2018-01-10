@@ -6,5 +6,5 @@ CXX_FLAGS =  -pthread -std=c++11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -W
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/coin/eletacoin/include -I/coin/eletacoin/src -I/coin/eletacoin/external -I/coin/eletacoin/build/release/version -I/coin/eletacoin/src/Platform/Linux -I/coin/eletacoin/external/gtest/include -I/coin/eletacoin/external/gtest 
+CXX_INCLUDES = -I/coin/eleta/include -I/coin/eleta/src -I/coin/eleta/external -I/coin/eleta/build/release/version -I/coin/eleta/src/Platform/Linux -I/coin/eleta/external/gtest/include -I/coin/eleta/external/gtest 
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
-  "CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
   "CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o"
   "CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
+  "CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
+  "CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
   "transfers_tests.pdb"
   "transfers_tests"
 )

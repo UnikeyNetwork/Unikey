@@ -84,11 +84,11 @@ tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/TestWalletLegacy.h
- /coin/eletacoin/tests/TransfersTests/TestNodeRpcProxy.cpp
+ /coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/TestWalletLegacy.h
+ /coin/eleta/tests/TransfersTests/TestNodeRpcProxy.cpp
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -210,11 +210,11 @@ tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/TestWalletLegacy.h
- /coin/eletacoin/tests/TransfersTests/TestTxPoolSync.cpp
+ /coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/TestWalletLegacy.h
+ /coin/eleta/tests/TransfersTests/TestTxPoolSync.cpp
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -299,13 +299,13 @@ tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
- /coin/eletacoin/tests/IntegrationTestLib/Logger.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/TestWalletLegacy.h
- /coin/eletacoin/tests/TransfersTests/Globals.h
- /coin/eletacoin/tests/TransfersTests/Tests.cpp
+ /coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
+ /coin/eleta/tests/IntegrationTestLib/Logger.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/TestWalletLegacy.h
+ /coin/eleta/tests/TransfersTests/Globals.h
+ /coin/eleta/tests/TransfersTests/Tests.cpp
 tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o
  ../../external/gtest/include/gtest/gtest-death-test.h
  ../../external/gtest/include/gtest/gtest-message.h
@@ -356,9 +356,9 @@ tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
- /coin/eletacoin/tests/IntegrationTestLib/Logger.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
- /coin/eletacoin/tests/TransfersTests/Globals.h
- /coin/eletacoin/tests/TransfersTests/main.cpp
+ /coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
+ /coin/eleta/tests/IntegrationTestLib/Logger.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/TransfersTests/Globals.h
+ /coin/eleta/tests/TransfersTests/main.cpp

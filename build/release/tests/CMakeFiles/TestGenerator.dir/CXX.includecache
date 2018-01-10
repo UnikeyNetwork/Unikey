@@ -360,21 +360,21 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/tests/TestGenerator/TestGenerator.cpp
+/coin/eleta/tests/TestGenerator/TestGenerator.cpp
 TestGenerator.h
-/coin/eletacoin/tests/TestGenerator/TestGenerator.h
+/coin/eleta/tests/TestGenerator/TestGenerator.h
 Common/Math.h
 -
 CryptoNoteCore/Account.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/Account.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/Account.h
 CryptoNoteCore/Miner.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/Miner.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/Miner.h
 CryptoNoteCore/TransactionExtra.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/TransactionExtra.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/TransactionExtra.h
 CryptoNoteCore/CryptoNoteTools.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/CryptoNoteTools.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/CryptoNoteTools.h
 
-/coin/eletacoin/tests/TestGenerator/TestGenerator.h
+/coin/eleta/tests/TestGenerator/TestGenerator.h
 cstdint
 -
 list
@@ -384,15 +384,15 @@ vector
 unordered_map
 -
 crypto/hash.h
-/coin/eletacoin/tests/TestGenerator/crypto/hash.h
+/coin/eleta/tests/TestGenerator/crypto/hash.h
 CryptoNoteCore/CryptoNoteBasic.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/CryptoNoteBasic.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/CryptoNoteBasic.h
 CryptoNoteCore/CryptoNoteBasicImpl.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/CryptoNoteBasicImpl.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/CryptoNoteBasicImpl.h
 CryptoNoteCore/CryptoNoteFormatUtils.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/CryptoNoteFormatUtils.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/CryptoNoteFormatUtils.h
 CryptoNoteCore/Currency.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/Currency.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/Currency.h
 CryptoNoteCore/Difficulty.h
-/coin/eletacoin/tests/TestGenerator/CryptoNoteCore/Difficulty.h
+/coin/eleta/tests/TestGenerator/CryptoNoteCore/Difficulty.h
 

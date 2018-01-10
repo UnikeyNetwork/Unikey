@@ -138,7 +138,7 @@ generic-ops.h
 hash-ops.h
 ../../src/crypto/hash-ops.h
 
-/coin/eletacoin/tests/Difficulty/Difficulty.cpp
+/coin/eleta/tests/Difficulty/Difficulty.cpp
 cstddef
 -
 cstdint
@@ -152,11 +152,11 @@ vector
 algorithm
 -
 CryptoNoteConfig.h
-/coin/eletacoin/tests/Difficulty/CryptoNoteConfig.h
+/coin/eleta/tests/Difficulty/CryptoNoteConfig.h
 CryptoNoteCore/Difficulty.h
-/coin/eletacoin/tests/Difficulty/CryptoNoteCore/Difficulty.h
+/coin/eleta/tests/Difficulty/CryptoNoteCore/Difficulty.h
 CryptoNoteCore/Currency.h
-/coin/eletacoin/tests/Difficulty/CryptoNoteCore/Currency.h
+/coin/eleta/tests/Difficulty/CryptoNoteCore/Currency.h
 Logging/ConsoleLogger.h
-/coin/eletacoin/tests/Difficulty/Logging/ConsoleLogger.h
+/coin/eleta/tests/Difficulty/Logging/ConsoleLogger.h
 

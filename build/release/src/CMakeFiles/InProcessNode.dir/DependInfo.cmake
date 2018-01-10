@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/InProcessNode/InProcessNode.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o"
-  "/coin/eletacoin/src/InProcessNode/InProcessNodeErrors.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o"
+  "/coin/eleta/src/InProcessNode/InProcessNode.cpp" "/coin/eleta/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o"
+  "/coin/eleta/src/InProcessNode/InProcessNodeErrors.cpp" "/coin/eleta/build/release/src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

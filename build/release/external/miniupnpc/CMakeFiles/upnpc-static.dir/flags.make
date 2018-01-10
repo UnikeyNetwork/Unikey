@@ -6,5 +6,5 @@ C_FLAGS =  -std=c11  -Wall -Wextra -Wpointer-arith -Wundef -Wvla -Wwrite-strings
 
 C_DEFINES = -DMINIUPNPC_SET_SOCKET_TIMEOUT -D_BSD_SOURCE -D_POSIX_C_SOURCE=1
 
-C_INCLUDES = -I/coin/eletacoin/include -I/coin/eletacoin/src -I/coin/eletacoin/external -I/coin/eletacoin/build/release/version -I/coin/eletacoin/src/Platform/Linux -I/coin/eletacoin/build/release 
+C_INCLUDES = -I/coin/eleta/include -I/coin/eleta/src -I/coin/eleta/external -I/coin/eleta/build/release/version -I/coin/eleta/src/Platform/Linux -I/coin/eleta/build/release 
 

@@ -294,7 +294,7 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/tests/NodeRpcProxyTests/NodeRpcProxyTests.cpp
+/coin/eleta/tests/NodeRpcProxyTests/NodeRpcProxyTests.cpp
 chrono
 -
 thread
@@ -304,5 +304,5 @@ Logging/LoggerRef.h
 Logging/ConsoleLogger.h
 -
 NodeRpcProxy/NodeRpcProxy.h
-/coin/eletacoin/tests/NodeRpcProxyTests/NodeRpcProxy/NodeRpcProxy.h
+/coin/eleta/tests/NodeRpcProxyTests/NodeRpcProxy/NodeRpcProxy.h
 

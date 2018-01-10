@@ -124,7 +124,7 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/tests/Io.h
+/coin/eleta/tests/Io.h
 cstddef
 -
 ios
@@ -146,17 +146,17 @@ boost/preprocessor/repetition/repeat.hpp
 boost/preprocessor/repetition/repeat_from_to.hpp
 -
 
-/coin/eletacoin/tests/crypto/crypto-tests.h
+/coin/eleta/tests/crypto/crypto-tests.h
 crypto/crypto.h
-/coin/eletacoin/tests/crypto/crypto/crypto.h
+/coin/eleta/tests/crypto/crypto/crypto.h
 
-/coin/eletacoin/tests/crypto/crypto.cpp
+/coin/eleta/tests/crypto/crypto.cpp
 crypto/crypto.cpp
-/coin/eletacoin/tests/crypto/crypto/crypto.cpp
+/coin/eleta/tests/crypto/crypto/crypto.cpp
 crypto-tests.h
-/coin/eletacoin/tests/crypto/crypto-tests.h
+/coin/eleta/tests/crypto/crypto-tests.h
 
-/coin/eletacoin/tests/crypto/main.cpp
+/coin/eleta/tests/crypto/main.cpp
 cstddef
 -
 cstring
@@ -168,11 +168,11 @@ string
 vector
 -
 crypto/crypto.h
-/coin/eletacoin/tests/crypto/crypto/crypto.h
+/coin/eleta/tests/crypto/crypto/crypto.h
 crypto/hash.h
-/coin/eletacoin/tests/crypto/crypto/hash.h
+/coin/eleta/tests/crypto/crypto/hash.h
 crypto-tests.h
-/coin/eletacoin/tests/crypto/crypto-tests.h
+/coin/eleta/tests/crypto/crypto-tests.h
 ../Io.h
-/coin/eletacoin/tests/Io.h
+/coin/eleta/tests/Io.h
 

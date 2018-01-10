@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/tests/HashTarget.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.o"
+  "/coin/eleta/tests/HashTarget.cpp" "/coin/eleta/build/release/tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,8 +27,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/coin/eletacoin/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

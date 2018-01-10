@@ -80,14 +80,14 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BlockReward.cpp
- /coin/eletacoin/tests/CoreTests/BlockReward.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BlockReward.cpp
+ /coin/eleta/tests/CoreTests/BlockReward.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -166,16 +166,16 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BlockValidation.cpp
- /coin/eletacoin/tests/CoreTests/BlockValidation.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/TestGenerator.h
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BlockValidation.cpp
+ /coin/eleta/tests/CoreTests/BlockValidation.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/TestGenerator.h
+ /coin/eleta/tests/CoreTests/TransactionBuilder.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -254,14 +254,14 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/ChainSplit1.cpp
- /coin/eletacoin/tests/CoreTests/ChainSplit1.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/ChainSplit1.cpp
+ /coin/eleta/tests/CoreTests/ChainSplit1.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -340,14 +340,14 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/ChainSwitch1.cpp
- /coin/eletacoin/tests/CoreTests/ChainSwitch1.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/ChainSwitch1.cpp
+ /coin/eleta/tests/CoreTests/ChainSwitch1.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -426,13 +426,13 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.cpp
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.cpp
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -511,14 +511,14 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/Chaingen001.cpp
- /coin/eletacoin/tests/CoreTests/Chaingen001.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/Chaingen001.cpp
+ /coin/eleta/tests/CoreTests/Chaingen001.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -597,26 +597,26 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BlockReward.h
- /coin/eletacoin/tests/CoreTests/BlockValidation.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/ChainSplit1.h
- /coin/eletacoin/tests/CoreTests/ChainSwitch1.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/Chaingen001.h
- /coin/eletacoin/tests/CoreTests/ChaingenMain.cpp
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/DoubleSpend.h
- /coin/eletacoin/tests/CoreTests/IntegerOverflow.h
- /coin/eletacoin/tests/CoreTests/RandomOuts.h
- /coin/eletacoin/tests/CoreTests/RingSignature.h
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.h
- /coin/eletacoin/tests/CoreTests/TransactionTests.h
- /coin/eletacoin/tests/CoreTests/TransactionValidation.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/double_spend.inl
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BlockReward.h
+ /coin/eleta/tests/CoreTests/BlockValidation.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/ChainSplit1.h
+ /coin/eleta/tests/CoreTests/ChainSwitch1.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/Chaingen001.h
+ /coin/eleta/tests/CoreTests/ChaingenMain.cpp
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/DoubleSpend.h
+ /coin/eleta/tests/CoreTests/IntegerOverflow.h
+ /coin/eleta/tests/CoreTests/RandomOuts.h
+ /coin/eleta/tests/CoreTests/RingSignature.h
+ /coin/eleta/tests/CoreTests/TransactionBuilder.h
+ /coin/eleta/tests/CoreTests/TransactionTests.h
+ /coin/eleta/tests/CoreTests/TransactionValidation.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/CoreTests/double_spend.inl
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -695,17 +695,17 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/DoubleSpend.cpp
- /coin/eletacoin/tests/CoreTests/DoubleSpend.h
- /coin/eletacoin/tests/CoreTests/TestGenerator.h
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/double_spend.inl
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/DoubleSpend.cpp
+ /coin/eleta/tests/CoreTests/DoubleSpend.h
+ /coin/eleta/tests/CoreTests/TestGenerator.h
+ /coin/eleta/tests/CoreTests/TransactionBuilder.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/CoreTests/double_spend.inl
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -784,14 +784,14 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/IntegerOverflow.cpp
- /coin/eletacoin/tests/CoreTests/IntegerOverflow.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/IntegerOverflow.cpp
+ /coin/eleta/tests/CoreTests/IntegerOverflow.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -872,16 +872,16 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/RandomOuts.cpp
- /coin/eletacoin/tests/CoreTests/RandomOuts.h
- /coin/eletacoin/tests/CoreTests/TestGenerator.h
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/RandomOuts.cpp
+ /coin/eleta/tests/CoreTests/RandomOuts.h
+ /coin/eleta/tests/CoreTests/TestGenerator.h
+ /coin/eleta/tests/CoreTests/TransactionBuilder.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -960,14 +960,14 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/RingSignature.cpp
- /coin/eletacoin/tests/CoreTests/RingSignature.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/RingSignature.cpp
+ /coin/eleta/tests/CoreTests/RingSignature.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -1001,8 +1001,8 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.cpp
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.h
+ /coin/eleta/tests/CoreTests/TransactionBuilder.cpp
+ /coin/eleta/tests/CoreTests/TransactionBuilder.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -1082,13 +1082,13 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/TransactionTests.cpp
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/TransactionTests.cpp
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h
 tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -1167,13 +1167,13 @@ tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/CoreTests/AccountBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/BoostSerializationHelper.h
- /coin/eletacoin/tests/CoreTests/Chaingen.h
- /coin/eletacoin/tests/CoreTests/CryptoNoteBoostSerialization.h
- /coin/eletacoin/tests/CoreTests/TestGenerator.h
- /coin/eletacoin/tests/CoreTests/TransactionBuilder.h
- /coin/eletacoin/tests/CoreTests/TransactionValidation.cpp
- /coin/eletacoin/tests/CoreTests/TransactionValidation.h
- /coin/eletacoin/tests/CoreTests/UnorderedContainersBoostSerialization.h
- /coin/eletacoin/tests/TestGenerator/TestGenerator.h
+ /coin/eleta/tests/CoreTests/AccountBoostSerialization.h
+ /coin/eleta/tests/CoreTests/BoostSerializationHelper.h
+ /coin/eleta/tests/CoreTests/Chaingen.h
+ /coin/eleta/tests/CoreTests/CryptoNoteBoostSerialization.h
+ /coin/eleta/tests/CoreTests/TestGenerator.h
+ /coin/eleta/tests/CoreTests/TransactionBuilder.h
+ /coin/eleta/tests/CoreTests/TransactionValidation.cpp
+ /coin/eleta/tests/CoreTests/TransactionValidation.h
+ /coin/eleta/tests/CoreTests/UnorderedContainersBoostSerialization.h
+ /coin/eleta/tests/TestGenerator/TestGenerator.h

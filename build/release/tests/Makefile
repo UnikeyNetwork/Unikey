@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_progress_start /coin/eletacoin/build/release/CMakeFiles /coin/eletacoin/build/release/tests/CMakeFiles/progress.marks
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /coin/eletacoin/build/release/CMakeFiles 0
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_progress_start /coin/eleta/build/release/CMakeFiles /coin/eleta/build/release/tests/CMakeFiles/progress.marks
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /coin/eleta/build/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,22 +108,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/tests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/tests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/tests.dir/rule
 .PHONY : tests/CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -133,12 +133,12 @@ tests: tests/CMakeFiles/tests.dir/rule
 
 # fast build rule for target.
 tests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/HashTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/HashTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/HashTests.dir/rule
 .PHONY : tests/CMakeFiles/HashTests.dir/rule
 
 # Convenience name for target.
@@ -148,12 +148,12 @@ HashTests: tests/CMakeFiles/HashTests.dir/rule
 
 # fast build rule for target.
 HashTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/build
 .PHONY : HashTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/DifficultyTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/DifficultyTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/DifficultyTests.dir/rule
 .PHONY : tests/CMakeFiles/DifficultyTests.dir/rule
 
 # Convenience name for target.
@@ -163,12 +163,12 @@ DifficultyTests: tests/CMakeFiles/DifficultyTests.dir/rule
 
 # fast build rule for target.
 DifficultyTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/build
 .PHONY : DifficultyTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/CryptoTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/CryptoTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/CryptoTests.dir/rule
 .PHONY : tests/CMakeFiles/CryptoTests.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ CryptoTests: tests/CMakeFiles/CryptoTests.dir/rule
 
 # fast build rule for target.
 CryptoTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/build
 .PHONY : CryptoTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/PerformanceTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/PerformanceTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/PerformanceTests.dir/rule
 .PHONY : tests/CMakeFiles/PerformanceTests.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ PerformanceTests: tests/CMakeFiles/PerformanceTests.dir/rule
 
 # fast build rule for target.
 PerformanceTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/build
 .PHONY : PerformanceTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/IntegrationTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/IntegrationTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/IntegrationTests.dir/rule
 .PHONY : tests/CMakeFiles/IntegrationTests.dir/rule
 
 # Convenience name for target.
@@ -208,12 +208,12 @@ IntegrationTests: tests/CMakeFiles/IntegrationTests.dir/rule
 
 # fast build rule for target.
 IntegrationTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/build
 .PHONY : IntegrationTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/TestGenerator.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/TestGenerator.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/TestGenerator.dir/rule
 .PHONY : tests/CMakeFiles/TestGenerator.dir/rule
 
 # Convenience name for target.
@@ -223,12 +223,12 @@ TestGenerator: tests/CMakeFiles/TestGenerator.dir/rule
 
 # fast build rule for target.
 TestGenerator/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/build
 .PHONY : TestGenerator/fast
 
 # Convenience name for target.
 tests/CMakeFiles/IntegrationTestLibrary.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/IntegrationTestLibrary.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/IntegrationTestLibrary.dir/rule
 .PHONY : tests/CMakeFiles/IntegrationTestLibrary.dir/rule
 
 # Convenience name for target.
@@ -238,12 +238,12 @@ IntegrationTestLibrary: tests/CMakeFiles/IntegrationTestLibrary.dir/rule
 
 # fast build rule for target.
 IntegrationTestLibrary/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/build
 .PHONY : IntegrationTestLibrary/fast
 
 # Convenience name for target.
 tests/CMakeFiles/UnitTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/UnitTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/UnitTests.dir/rule
 .PHONY : tests/CMakeFiles/UnitTests.dir/rule
 
 # Convenience name for target.
@@ -253,12 +253,12 @@ UnitTests: tests/CMakeFiles/UnitTests.dir/rule
 
 # fast build rule for target.
 UnitTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/build
 .PHONY : UnitTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/CoreTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/CoreTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/CoreTests.dir/rule
 .PHONY : tests/CMakeFiles/CoreTests.dir/rule
 
 # Convenience name for target.
@@ -268,12 +268,12 @@ CoreTests: tests/CMakeFiles/CoreTests.dir/rule
 
 # fast build rule for target.
 CoreTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/build
 .PHONY : CoreTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/NodeRpcProxyTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NodeRpcProxyTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/NodeRpcProxyTests.dir/rule
 .PHONY : tests/CMakeFiles/NodeRpcProxyTests.dir/rule
 
 # Convenience name for target.
@@ -283,12 +283,12 @@ NodeRpcProxyTests: tests/CMakeFiles/NodeRpcProxyTests.dir/rule
 
 # fast build rule for target.
 NodeRpcProxyTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/build
 .PHONY : NodeRpcProxyTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/SystemTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/SystemTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/SystemTests.dir/rule
 .PHONY : tests/CMakeFiles/SystemTests.dir/rule
 
 # Convenience name for target.
@@ -298,12 +298,12 @@ SystemTests: tests/CMakeFiles/SystemTests.dir/rule
 
 # fast build rule for target.
 SystemTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/build
 .PHONY : SystemTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/HashTargetTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/HashTargetTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/HashTargetTests.dir/rule
 .PHONY : tests/CMakeFiles/HashTargetTests.dir/rule
 
 # Convenience name for target.
@@ -313,12 +313,12 @@ HashTargetTests: tests/CMakeFiles/HashTargetTests.dir/rule
 
 # fast build rule for target.
 HashTargetTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/build
 .PHONY : HashTargetTests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/TransfersTests.dir/rule:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/TransfersTests.dir/rule
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/TransfersTests.dir/rule
 .PHONY : tests/CMakeFiles/TransfersTests.dir/rule
 
 # Convenience name for target.
@@ -328,7 +328,7 @@ TransfersTests: tests/CMakeFiles/TransfersTests.dir/rule
 
 # fast build rule for target.
 TransfersTests/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/build
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/build
 .PHONY : TransfersTests/fast
 
 CoreTests/BlockReward.o: CoreTests/BlockReward.cpp.o
@@ -337,7 +337,7 @@ CoreTests/BlockReward.o: CoreTests/BlockReward.cpp.o
 
 # target to build an object file
 CoreTests/BlockReward.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.o
 .PHONY : CoreTests/BlockReward.cpp.o
 
 CoreTests/BlockReward.i: CoreTests/BlockReward.cpp.i
@@ -346,7 +346,7 @@ CoreTests/BlockReward.i: CoreTests/BlockReward.cpp.i
 
 # target to preprocess a source file
 CoreTests/BlockReward.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.i
 .PHONY : CoreTests/BlockReward.cpp.i
 
 CoreTests/BlockReward.s: CoreTests/BlockReward.cpp.s
@@ -355,7 +355,7 @@ CoreTests/BlockReward.s: CoreTests/BlockReward.cpp.s
 
 # target to generate assembly for a file
 CoreTests/BlockReward.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockReward.cpp.s
 .PHONY : CoreTests/BlockReward.cpp.s
 
 CoreTests/BlockValidation.o: CoreTests/BlockValidation.cpp.o
@@ -364,7 +364,7 @@ CoreTests/BlockValidation.o: CoreTests/BlockValidation.cpp.o
 
 # target to build an object file
 CoreTests/BlockValidation.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.o
 .PHONY : CoreTests/BlockValidation.cpp.o
 
 CoreTests/BlockValidation.i: CoreTests/BlockValidation.cpp.i
@@ -373,7 +373,7 @@ CoreTests/BlockValidation.i: CoreTests/BlockValidation.cpp.i
 
 # target to preprocess a source file
 CoreTests/BlockValidation.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.i
 .PHONY : CoreTests/BlockValidation.cpp.i
 
 CoreTests/BlockValidation.s: CoreTests/BlockValidation.cpp.s
@@ -382,7 +382,7 @@ CoreTests/BlockValidation.s: CoreTests/BlockValidation.cpp.s
 
 # target to generate assembly for a file
 CoreTests/BlockValidation.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/BlockValidation.cpp.s
 .PHONY : CoreTests/BlockValidation.cpp.s
 
 CoreTests/ChainSplit1.o: CoreTests/ChainSplit1.cpp.o
@@ -391,7 +391,7 @@ CoreTests/ChainSplit1.o: CoreTests/ChainSplit1.cpp.o
 
 # target to build an object file
 CoreTests/ChainSplit1.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.o
 .PHONY : CoreTests/ChainSplit1.cpp.o
 
 CoreTests/ChainSplit1.i: CoreTests/ChainSplit1.cpp.i
@@ -400,7 +400,7 @@ CoreTests/ChainSplit1.i: CoreTests/ChainSplit1.cpp.i
 
 # target to preprocess a source file
 CoreTests/ChainSplit1.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.i
 .PHONY : CoreTests/ChainSplit1.cpp.i
 
 CoreTests/ChainSplit1.s: CoreTests/ChainSplit1.cpp.s
@@ -409,7 +409,7 @@ CoreTests/ChainSplit1.s: CoreTests/ChainSplit1.cpp.s
 
 # target to generate assembly for a file
 CoreTests/ChainSplit1.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSplit1.cpp.s
 .PHONY : CoreTests/ChainSplit1.cpp.s
 
 CoreTests/ChainSwitch1.o: CoreTests/ChainSwitch1.cpp.o
@@ -418,7 +418,7 @@ CoreTests/ChainSwitch1.o: CoreTests/ChainSwitch1.cpp.o
 
 # target to build an object file
 CoreTests/ChainSwitch1.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.o
 .PHONY : CoreTests/ChainSwitch1.cpp.o
 
 CoreTests/ChainSwitch1.i: CoreTests/ChainSwitch1.cpp.i
@@ -427,7 +427,7 @@ CoreTests/ChainSwitch1.i: CoreTests/ChainSwitch1.cpp.i
 
 # target to preprocess a source file
 CoreTests/ChainSwitch1.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.i
 .PHONY : CoreTests/ChainSwitch1.cpp.i
 
 CoreTests/ChainSwitch1.s: CoreTests/ChainSwitch1.cpp.s
@@ -436,7 +436,7 @@ CoreTests/ChainSwitch1.s: CoreTests/ChainSwitch1.cpp.s
 
 # target to generate assembly for a file
 CoreTests/ChainSwitch1.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChainSwitch1.cpp.s
 .PHONY : CoreTests/ChainSwitch1.cpp.s
 
 CoreTests/Chaingen.o: CoreTests/Chaingen.cpp.o
@@ -445,7 +445,7 @@ CoreTests/Chaingen.o: CoreTests/Chaingen.cpp.o
 
 # target to build an object file
 CoreTests/Chaingen.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.o
 .PHONY : CoreTests/Chaingen.cpp.o
 
 CoreTests/Chaingen.i: CoreTests/Chaingen.cpp.i
@@ -454,7 +454,7 @@ CoreTests/Chaingen.i: CoreTests/Chaingen.cpp.i
 
 # target to preprocess a source file
 CoreTests/Chaingen.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.i
 .PHONY : CoreTests/Chaingen.cpp.i
 
 CoreTests/Chaingen.s: CoreTests/Chaingen.cpp.s
@@ -463,7 +463,7 @@ CoreTests/Chaingen.s: CoreTests/Chaingen.cpp.s
 
 # target to generate assembly for a file
 CoreTests/Chaingen.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen.cpp.s
 .PHONY : CoreTests/Chaingen.cpp.s
 
 CoreTests/Chaingen001.o: CoreTests/Chaingen001.cpp.o
@@ -472,7 +472,7 @@ CoreTests/Chaingen001.o: CoreTests/Chaingen001.cpp.o
 
 # target to build an object file
 CoreTests/Chaingen001.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.o
 .PHONY : CoreTests/Chaingen001.cpp.o
 
 CoreTests/Chaingen001.i: CoreTests/Chaingen001.cpp.i
@@ -481,7 +481,7 @@ CoreTests/Chaingen001.i: CoreTests/Chaingen001.cpp.i
 
 # target to preprocess a source file
 CoreTests/Chaingen001.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.i
 .PHONY : CoreTests/Chaingen001.cpp.i
 
 CoreTests/Chaingen001.s: CoreTests/Chaingen001.cpp.s
@@ -490,7 +490,7 @@ CoreTests/Chaingen001.s: CoreTests/Chaingen001.cpp.s
 
 # target to generate assembly for a file
 CoreTests/Chaingen001.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/Chaingen001.cpp.s
 .PHONY : CoreTests/Chaingen001.cpp.s
 
 CoreTests/ChaingenMain.o: CoreTests/ChaingenMain.cpp.o
@@ -499,7 +499,7 @@ CoreTests/ChaingenMain.o: CoreTests/ChaingenMain.cpp.o
 
 # target to build an object file
 CoreTests/ChaingenMain.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.o
 .PHONY : CoreTests/ChaingenMain.cpp.o
 
 CoreTests/ChaingenMain.i: CoreTests/ChaingenMain.cpp.i
@@ -508,7 +508,7 @@ CoreTests/ChaingenMain.i: CoreTests/ChaingenMain.cpp.i
 
 # target to preprocess a source file
 CoreTests/ChaingenMain.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.i
 .PHONY : CoreTests/ChaingenMain.cpp.i
 
 CoreTests/ChaingenMain.s: CoreTests/ChaingenMain.cpp.s
@@ -517,7 +517,7 @@ CoreTests/ChaingenMain.s: CoreTests/ChaingenMain.cpp.s
 
 # target to generate assembly for a file
 CoreTests/ChaingenMain.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/ChaingenMain.cpp.s
 .PHONY : CoreTests/ChaingenMain.cpp.s
 
 CoreTests/DoubleSpend.o: CoreTests/DoubleSpend.cpp.o
@@ -526,7 +526,7 @@ CoreTests/DoubleSpend.o: CoreTests/DoubleSpend.cpp.o
 
 # target to build an object file
 CoreTests/DoubleSpend.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.o
 .PHONY : CoreTests/DoubleSpend.cpp.o
 
 CoreTests/DoubleSpend.i: CoreTests/DoubleSpend.cpp.i
@@ -535,7 +535,7 @@ CoreTests/DoubleSpend.i: CoreTests/DoubleSpend.cpp.i
 
 # target to preprocess a source file
 CoreTests/DoubleSpend.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.i
 .PHONY : CoreTests/DoubleSpend.cpp.i
 
 CoreTests/DoubleSpend.s: CoreTests/DoubleSpend.cpp.s
@@ -544,7 +544,7 @@ CoreTests/DoubleSpend.s: CoreTests/DoubleSpend.cpp.s
 
 # target to generate assembly for a file
 CoreTests/DoubleSpend.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/DoubleSpend.cpp.s
 .PHONY : CoreTests/DoubleSpend.cpp.s
 
 CoreTests/IntegerOverflow.o: CoreTests/IntegerOverflow.cpp.o
@@ -553,7 +553,7 @@ CoreTests/IntegerOverflow.o: CoreTests/IntegerOverflow.cpp.o
 
 # target to build an object file
 CoreTests/IntegerOverflow.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.o
 .PHONY : CoreTests/IntegerOverflow.cpp.o
 
 CoreTests/IntegerOverflow.i: CoreTests/IntegerOverflow.cpp.i
@@ -562,7 +562,7 @@ CoreTests/IntegerOverflow.i: CoreTests/IntegerOverflow.cpp.i
 
 # target to preprocess a source file
 CoreTests/IntegerOverflow.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.i
 .PHONY : CoreTests/IntegerOverflow.cpp.i
 
 CoreTests/IntegerOverflow.s: CoreTests/IntegerOverflow.cpp.s
@@ -571,7 +571,7 @@ CoreTests/IntegerOverflow.s: CoreTests/IntegerOverflow.cpp.s
 
 # target to generate assembly for a file
 CoreTests/IntegerOverflow.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/IntegerOverflow.cpp.s
 .PHONY : CoreTests/IntegerOverflow.cpp.s
 
 CoreTests/RandomOuts.o: CoreTests/RandomOuts.cpp.o
@@ -580,7 +580,7 @@ CoreTests/RandomOuts.o: CoreTests/RandomOuts.cpp.o
 
 # target to build an object file
 CoreTests/RandomOuts.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.o
 .PHONY : CoreTests/RandomOuts.cpp.o
 
 CoreTests/RandomOuts.i: CoreTests/RandomOuts.cpp.i
@@ -589,7 +589,7 @@ CoreTests/RandomOuts.i: CoreTests/RandomOuts.cpp.i
 
 # target to preprocess a source file
 CoreTests/RandomOuts.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.i
 .PHONY : CoreTests/RandomOuts.cpp.i
 
 CoreTests/RandomOuts.s: CoreTests/RandomOuts.cpp.s
@@ -598,7 +598,7 @@ CoreTests/RandomOuts.s: CoreTests/RandomOuts.cpp.s
 
 # target to generate assembly for a file
 CoreTests/RandomOuts.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RandomOuts.cpp.s
 .PHONY : CoreTests/RandomOuts.cpp.s
 
 CoreTests/RingSignature.o: CoreTests/RingSignature.cpp.o
@@ -607,7 +607,7 @@ CoreTests/RingSignature.o: CoreTests/RingSignature.cpp.o
 
 # target to build an object file
 CoreTests/RingSignature.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.o
 .PHONY : CoreTests/RingSignature.cpp.o
 
 CoreTests/RingSignature.i: CoreTests/RingSignature.cpp.i
@@ -616,7 +616,7 @@ CoreTests/RingSignature.i: CoreTests/RingSignature.cpp.i
 
 # target to preprocess a source file
 CoreTests/RingSignature.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.i
 .PHONY : CoreTests/RingSignature.cpp.i
 
 CoreTests/RingSignature.s: CoreTests/RingSignature.cpp.s
@@ -625,7 +625,7 @@ CoreTests/RingSignature.s: CoreTests/RingSignature.cpp.s
 
 # target to generate assembly for a file
 CoreTests/RingSignature.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/RingSignature.cpp.s
 .PHONY : CoreTests/RingSignature.cpp.s
 
 CoreTests/TransactionBuilder.o: CoreTests/TransactionBuilder.cpp.o
@@ -634,7 +634,7 @@ CoreTests/TransactionBuilder.o: CoreTests/TransactionBuilder.cpp.o
 
 # target to build an object file
 CoreTests/TransactionBuilder.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.o
 .PHONY : CoreTests/TransactionBuilder.cpp.o
 
 CoreTests/TransactionBuilder.i: CoreTests/TransactionBuilder.cpp.i
@@ -643,7 +643,7 @@ CoreTests/TransactionBuilder.i: CoreTests/TransactionBuilder.cpp.i
 
 # target to preprocess a source file
 CoreTests/TransactionBuilder.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.i
 .PHONY : CoreTests/TransactionBuilder.cpp.i
 
 CoreTests/TransactionBuilder.s: CoreTests/TransactionBuilder.cpp.s
@@ -652,7 +652,7 @@ CoreTests/TransactionBuilder.s: CoreTests/TransactionBuilder.cpp.s
 
 # target to generate assembly for a file
 CoreTests/TransactionBuilder.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionBuilder.cpp.s
 .PHONY : CoreTests/TransactionBuilder.cpp.s
 
 CoreTests/TransactionTests.o: CoreTests/TransactionTests.cpp.o
@@ -661,7 +661,7 @@ CoreTests/TransactionTests.o: CoreTests/TransactionTests.cpp.o
 
 # target to build an object file
 CoreTests/TransactionTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.o
 .PHONY : CoreTests/TransactionTests.cpp.o
 
 CoreTests/TransactionTests.i: CoreTests/TransactionTests.cpp.i
@@ -670,7 +670,7 @@ CoreTests/TransactionTests.i: CoreTests/TransactionTests.cpp.i
 
 # target to preprocess a source file
 CoreTests/TransactionTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.i
 .PHONY : CoreTests/TransactionTests.cpp.i
 
 CoreTests/TransactionTests.s: CoreTests/TransactionTests.cpp.s
@@ -679,7 +679,7 @@ CoreTests/TransactionTests.s: CoreTests/TransactionTests.cpp.s
 
 # target to generate assembly for a file
 CoreTests/TransactionTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionTests.cpp.s
 .PHONY : CoreTests/TransactionTests.cpp.s
 
 CoreTests/TransactionValidation.o: CoreTests/TransactionValidation.cpp.o
@@ -688,7 +688,7 @@ CoreTests/TransactionValidation.o: CoreTests/TransactionValidation.cpp.o
 
 # target to build an object file
 CoreTests/TransactionValidation.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.o
 .PHONY : CoreTests/TransactionValidation.cpp.o
 
 CoreTests/TransactionValidation.i: CoreTests/TransactionValidation.cpp.i
@@ -697,7 +697,7 @@ CoreTests/TransactionValidation.i: CoreTests/TransactionValidation.cpp.i
 
 # target to preprocess a source file
 CoreTests/TransactionValidation.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.i
 .PHONY : CoreTests/TransactionValidation.cpp.i
 
 CoreTests/TransactionValidation.s: CoreTests/TransactionValidation.cpp.s
@@ -706,7 +706,7 @@ CoreTests/TransactionValidation.s: CoreTests/TransactionValidation.cpp.s
 
 # target to generate assembly for a file
 CoreTests/TransactionValidation.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CoreTests.dir/build.make tests/CMakeFiles/CoreTests.dir/CoreTests/TransactionValidation.cpp.s
 .PHONY : CoreTests/TransactionValidation.cpp.s
 
 Difficulty/Difficulty.o: Difficulty/Difficulty.cpp.o
@@ -715,7 +715,7 @@ Difficulty/Difficulty.o: Difficulty/Difficulty.cpp.o
 
 # target to build an object file
 Difficulty/Difficulty.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.o
 .PHONY : Difficulty/Difficulty.cpp.o
 
 Difficulty/Difficulty.i: Difficulty/Difficulty.cpp.i
@@ -724,7 +724,7 @@ Difficulty/Difficulty.i: Difficulty/Difficulty.cpp.i
 
 # target to preprocess a source file
 Difficulty/Difficulty.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.i
 .PHONY : Difficulty/Difficulty.cpp.i
 
 Difficulty/Difficulty.s: Difficulty/Difficulty.cpp.s
@@ -733,7 +733,7 @@ Difficulty/Difficulty.s: Difficulty/Difficulty.cpp.s
 
 # target to generate assembly for a file
 Difficulty/Difficulty.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/DifficultyTests.dir/build.make tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.s
 .PHONY : Difficulty/Difficulty.cpp.s
 
 Hash/main.o: Hash/main.cpp.o
@@ -742,7 +742,7 @@ Hash/main.o: Hash/main.cpp.o
 
 # target to build an object file
 Hash/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/Hash/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/Hash/main.cpp.o
 .PHONY : Hash/main.cpp.o
 
 Hash/main.i: Hash/main.cpp.i
@@ -751,7 +751,7 @@ Hash/main.i: Hash/main.cpp.i
 
 # target to preprocess a source file
 Hash/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/Hash/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/Hash/main.cpp.i
 .PHONY : Hash/main.cpp.i
 
 Hash/main.s: Hash/main.cpp.s
@@ -760,7 +760,7 @@ Hash/main.s: Hash/main.cpp.s
 
 # target to generate assembly for a file
 Hash/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/Hash/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTests.dir/build.make tests/CMakeFiles/HashTests.dir/Hash/main.cpp.s
 .PHONY : Hash/main.cpp.s
 
 HashTarget.o: HashTarget.cpp.o
@@ -769,7 +769,7 @@ HashTarget.o: HashTarget.cpp.o
 
 # target to build an object file
 HashTarget.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.o
 .PHONY : HashTarget.cpp.o
 
 HashTarget.i: HashTarget.cpp.i
@@ -778,7 +778,7 @@ HashTarget.i: HashTarget.cpp.i
 
 # target to preprocess a source file
 HashTarget.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.i
 .PHONY : HashTarget.cpp.i
 
 HashTarget.s: HashTarget.cpp.s
@@ -787,7 +787,7 @@ HashTarget.s: HashTarget.cpp.s
 
 # target to generate assembly for a file
 HashTarget.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/HashTargetTests.dir/build.make tests/CMakeFiles/HashTargetTests.dir/HashTarget.cpp.s
 .PHONY : HashTarget.cpp.s
 
 IntegrationTestLib/BaseFunctionalTests.o: IntegrationTestLib/BaseFunctionalTests.cpp.o
@@ -796,7 +796,7 @@ IntegrationTestLib/BaseFunctionalTests.o: IntegrationTestLib/BaseFunctionalTests
 
 # target to build an object file
 IntegrationTestLib/BaseFunctionalTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.o
 .PHONY : IntegrationTestLib/BaseFunctionalTests.cpp.o
 
 IntegrationTestLib/BaseFunctionalTests.i: IntegrationTestLib/BaseFunctionalTests.cpp.i
@@ -805,7 +805,7 @@ IntegrationTestLib/BaseFunctionalTests.i: IntegrationTestLib/BaseFunctionalTests
 
 # target to preprocess a source file
 IntegrationTestLib/BaseFunctionalTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.i
 .PHONY : IntegrationTestLib/BaseFunctionalTests.cpp.i
 
 IntegrationTestLib/BaseFunctionalTests.s: IntegrationTestLib/BaseFunctionalTests.cpp.s
@@ -814,7 +814,7 @@ IntegrationTestLib/BaseFunctionalTests.s: IntegrationTestLib/BaseFunctionalTests
 
 # target to generate assembly for a file
 IntegrationTestLib/BaseFunctionalTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.s
 .PHONY : IntegrationTestLib/BaseFunctionalTests.cpp.s
 
 IntegrationTestLib/InProcTestNode.o: IntegrationTestLib/InProcTestNode.cpp.o
@@ -823,7 +823,7 @@ IntegrationTestLib/InProcTestNode.o: IntegrationTestLib/InProcTestNode.cpp.o
 
 # target to build an object file
 IntegrationTestLib/InProcTestNode.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o
 .PHONY : IntegrationTestLib/InProcTestNode.cpp.o
 
 IntegrationTestLib/InProcTestNode.i: IntegrationTestLib/InProcTestNode.cpp.i
@@ -832,7 +832,7 @@ IntegrationTestLib/InProcTestNode.i: IntegrationTestLib/InProcTestNode.cpp.i
 
 # target to preprocess a source file
 IntegrationTestLib/InProcTestNode.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.i
 .PHONY : IntegrationTestLib/InProcTestNode.cpp.i
 
 IntegrationTestLib/InProcTestNode.s: IntegrationTestLib/InProcTestNode.cpp.s
@@ -841,7 +841,7 @@ IntegrationTestLib/InProcTestNode.s: IntegrationTestLib/InProcTestNode.cpp.s
 
 # target to generate assembly for a file
 IntegrationTestLib/InProcTestNode.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.s
 .PHONY : IntegrationTestLib/InProcTestNode.cpp.s
 
 IntegrationTestLib/Logger.o: IntegrationTestLib/Logger.cpp.o
@@ -850,7 +850,7 @@ IntegrationTestLib/Logger.o: IntegrationTestLib/Logger.cpp.o
 
 # target to build an object file
 IntegrationTestLib/Logger.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o
 .PHONY : IntegrationTestLib/Logger.cpp.o
 
 IntegrationTestLib/Logger.i: IntegrationTestLib/Logger.cpp.i
@@ -859,7 +859,7 @@ IntegrationTestLib/Logger.i: IntegrationTestLib/Logger.cpp.i
 
 # target to preprocess a source file
 IntegrationTestLib/Logger.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.i
 .PHONY : IntegrationTestLib/Logger.cpp.i
 
 IntegrationTestLib/Logger.s: IntegrationTestLib/Logger.cpp.s
@@ -868,7 +868,7 @@ IntegrationTestLib/Logger.s: IntegrationTestLib/Logger.cpp.s
 
 # target to generate assembly for a file
 IntegrationTestLib/Logger.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.s
 .PHONY : IntegrationTestLib/Logger.cpp.s
 
 IntegrationTestLib/Process.o: IntegrationTestLib/Process.cpp.o
@@ -877,7 +877,7 @@ IntegrationTestLib/Process.o: IntegrationTestLib/Process.cpp.o
 
 # target to build an object file
 IntegrationTestLib/Process.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o
 .PHONY : IntegrationTestLib/Process.cpp.o
 
 IntegrationTestLib/Process.i: IntegrationTestLib/Process.cpp.i
@@ -886,7 +886,7 @@ IntegrationTestLib/Process.i: IntegrationTestLib/Process.cpp.i
 
 # target to preprocess a source file
 IntegrationTestLib/Process.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.i
 .PHONY : IntegrationTestLib/Process.cpp.i
 
 IntegrationTestLib/Process.s: IntegrationTestLib/Process.cpp.s
@@ -895,7 +895,7 @@ IntegrationTestLib/Process.s: IntegrationTestLib/Process.cpp.s
 
 # target to generate assembly for a file
 IntegrationTestLib/Process.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.s
 .PHONY : IntegrationTestLib/Process.cpp.s
 
 IntegrationTestLib/RPCTestNode.o: IntegrationTestLib/RPCTestNode.cpp.o
@@ -904,7 +904,7 @@ IntegrationTestLib/RPCTestNode.o: IntegrationTestLib/RPCTestNode.cpp.o
 
 # target to build an object file
 IntegrationTestLib/RPCTestNode.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o
 .PHONY : IntegrationTestLib/RPCTestNode.cpp.o
 
 IntegrationTestLib/RPCTestNode.i: IntegrationTestLib/RPCTestNode.cpp.i
@@ -913,7 +913,7 @@ IntegrationTestLib/RPCTestNode.i: IntegrationTestLib/RPCTestNode.cpp.i
 
 # target to preprocess a source file
 IntegrationTestLib/RPCTestNode.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.i
 .PHONY : IntegrationTestLib/RPCTestNode.cpp.i
 
 IntegrationTestLib/RPCTestNode.s: IntegrationTestLib/RPCTestNode.cpp.s
@@ -922,7 +922,7 @@ IntegrationTestLib/RPCTestNode.s: IntegrationTestLib/RPCTestNode.cpp.s
 
 # target to generate assembly for a file
 IntegrationTestLib/RPCTestNode.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.s
 .PHONY : IntegrationTestLib/RPCTestNode.cpp.s
 
 IntegrationTestLib/TestNetwork.o: IntegrationTestLib/TestNetwork.cpp.o
@@ -931,7 +931,7 @@ IntegrationTestLib/TestNetwork.o: IntegrationTestLib/TestNetwork.cpp.o
 
 # target to build an object file
 IntegrationTestLib/TestNetwork.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o
 .PHONY : IntegrationTestLib/TestNetwork.cpp.o
 
 IntegrationTestLib/TestNetwork.i: IntegrationTestLib/TestNetwork.cpp.i
@@ -940,7 +940,7 @@ IntegrationTestLib/TestNetwork.i: IntegrationTestLib/TestNetwork.cpp.i
 
 # target to preprocess a source file
 IntegrationTestLib/TestNetwork.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.i
 .PHONY : IntegrationTestLib/TestNetwork.cpp.i
 
 IntegrationTestLib/TestNetwork.s: IntegrationTestLib/TestNetwork.cpp.s
@@ -949,7 +949,7 @@ IntegrationTestLib/TestNetwork.s: IntegrationTestLib/TestNetwork.cpp.s
 
 # target to generate assembly for a file
 IntegrationTestLib/TestNetwork.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.s
 .PHONY : IntegrationTestLib/TestNetwork.cpp.s
 
 IntegrationTestLib/TestWalletLegacy.o: IntegrationTestLib/TestWalletLegacy.cpp.o
@@ -958,7 +958,7 @@ IntegrationTestLib/TestWalletLegacy.o: IntegrationTestLib/TestWalletLegacy.cpp.o
 
 # target to build an object file
 IntegrationTestLib/TestWalletLegacy.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o
 .PHONY : IntegrationTestLib/TestWalletLegacy.cpp.o
 
 IntegrationTestLib/TestWalletLegacy.i: IntegrationTestLib/TestWalletLegacy.cpp.i
@@ -967,7 +967,7 @@ IntegrationTestLib/TestWalletLegacy.i: IntegrationTestLib/TestWalletLegacy.cpp.i
 
 # target to preprocess a source file
 IntegrationTestLib/TestWalletLegacy.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.i
 .PHONY : IntegrationTestLib/TestWalletLegacy.cpp.i
 
 IntegrationTestLib/TestWalletLegacy.s: IntegrationTestLib/TestWalletLegacy.cpp.s
@@ -976,7 +976,7 @@ IntegrationTestLib/TestWalletLegacy.s: IntegrationTestLib/TestWalletLegacy.cpp.s
 
 # target to generate assembly for a file
 IntegrationTestLib/TestWalletLegacy.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTestLibrary.dir/build.make tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.s
 .PHONY : IntegrationTestLib/TestWalletLegacy.cpp.s
 
 IntegrationTests/IntegrationTests.o: IntegrationTests/IntegrationTests.cpp.o
@@ -985,7 +985,7 @@ IntegrationTests/IntegrationTests.o: IntegrationTests/IntegrationTests.cpp.o
 
 # target to build an object file
 IntegrationTests/IntegrationTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.o
 .PHONY : IntegrationTests/IntegrationTests.cpp.o
 
 IntegrationTests/IntegrationTests.i: IntegrationTests/IntegrationTests.cpp.i
@@ -994,7 +994,7 @@ IntegrationTests/IntegrationTests.i: IntegrationTests/IntegrationTests.cpp.i
 
 # target to preprocess a source file
 IntegrationTests/IntegrationTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.i
 .PHONY : IntegrationTests/IntegrationTests.cpp.i
 
 IntegrationTests/IntegrationTests.s: IntegrationTests/IntegrationTests.cpp.s
@@ -1003,7 +1003,7 @@ IntegrationTests/IntegrationTests.s: IntegrationTests/IntegrationTests.cpp.s
 
 # target to generate assembly for a file
 IntegrationTests/IntegrationTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/IntegrationTests.cpp.s
 .PHONY : IntegrationTests/IntegrationTests.cpp.s
 
 IntegrationTests/MultiVersion.o: IntegrationTests/MultiVersion.cpp.o
@@ -1012,7 +1012,7 @@ IntegrationTests/MultiVersion.o: IntegrationTests/MultiVersion.cpp.o
 
 # target to build an object file
 IntegrationTests/MultiVersion.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.o
 .PHONY : IntegrationTests/MultiVersion.cpp.o
 
 IntegrationTests/MultiVersion.i: IntegrationTests/MultiVersion.cpp.i
@@ -1021,7 +1021,7 @@ IntegrationTests/MultiVersion.i: IntegrationTests/MultiVersion.cpp.i
 
 # target to preprocess a source file
 IntegrationTests/MultiVersion.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.i
 .PHONY : IntegrationTests/MultiVersion.cpp.i
 
 IntegrationTests/MultiVersion.s: IntegrationTests/MultiVersion.cpp.s
@@ -1030,7 +1030,7 @@ IntegrationTests/MultiVersion.s: IntegrationTests/MultiVersion.cpp.s
 
 # target to generate assembly for a file
 IntegrationTests/MultiVersion.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/MultiVersion.cpp.s
 .PHONY : IntegrationTests/MultiVersion.cpp.s
 
 IntegrationTests/Node.o: IntegrationTests/Node.cpp.o
@@ -1039,7 +1039,7 @@ IntegrationTests/Node.o: IntegrationTests/Node.cpp.o
 
 # target to build an object file
 IntegrationTests/Node.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.o
 .PHONY : IntegrationTests/Node.cpp.o
 
 IntegrationTests/Node.i: IntegrationTests/Node.cpp.i
@@ -1048,7 +1048,7 @@ IntegrationTests/Node.i: IntegrationTests/Node.cpp.i
 
 # target to preprocess a source file
 IntegrationTests/Node.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.i
 .PHONY : IntegrationTests/Node.cpp.i
 
 IntegrationTests/Node.s: IntegrationTests/Node.cpp.s
@@ -1057,7 +1057,7 @@ IntegrationTests/Node.s: IntegrationTests/Node.cpp.s
 
 # target to generate assembly for a file
 IntegrationTests/Node.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/Node.cpp.s
 .PHONY : IntegrationTests/Node.cpp.s
 
 IntegrationTests/WalletLegacyTests.o: IntegrationTests/WalletLegacyTests.cpp.o
@@ -1066,7 +1066,7 @@ IntegrationTests/WalletLegacyTests.o: IntegrationTests/WalletLegacyTests.cpp.o
 
 # target to build an object file
 IntegrationTests/WalletLegacyTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.o
 .PHONY : IntegrationTests/WalletLegacyTests.cpp.o
 
 IntegrationTests/WalletLegacyTests.i: IntegrationTests/WalletLegacyTests.cpp.i
@@ -1075,7 +1075,7 @@ IntegrationTests/WalletLegacyTests.i: IntegrationTests/WalletLegacyTests.cpp.i
 
 # target to preprocess a source file
 IntegrationTests/WalletLegacyTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.i
 .PHONY : IntegrationTests/WalletLegacyTests.cpp.i
 
 IntegrationTests/WalletLegacyTests.s: IntegrationTests/WalletLegacyTests.cpp.s
@@ -1084,7 +1084,7 @@ IntegrationTests/WalletLegacyTests.s: IntegrationTests/WalletLegacyTests.cpp.s
 
 # target to generate assembly for a file
 IntegrationTests/WalletLegacyTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/WalletLegacyTests.cpp.s
 .PHONY : IntegrationTests/WalletLegacyTests.cpp.s
 
 IntegrationTests/main.o: IntegrationTests/main.cpp.o
@@ -1093,7 +1093,7 @@ IntegrationTests/main.o: IntegrationTests/main.cpp.o
 
 # target to build an object file
 IntegrationTests/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.o
 .PHONY : IntegrationTests/main.cpp.o
 
 IntegrationTests/main.i: IntegrationTests/main.cpp.i
@@ -1102,7 +1102,7 @@ IntegrationTests/main.i: IntegrationTests/main.cpp.i
 
 # target to preprocess a source file
 IntegrationTests/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.i
 .PHONY : IntegrationTests/main.cpp.i
 
 IntegrationTests/main.s: IntegrationTests/main.cpp.s
@@ -1111,7 +1111,7 @@ IntegrationTests/main.s: IntegrationTests/main.cpp.s
 
 # target to generate assembly for a file
 IntegrationTests/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/IntegrationTests.dir/build.make tests/CMakeFiles/IntegrationTests.dir/IntegrationTests/main.cpp.s
 .PHONY : IntegrationTests/main.cpp.s
 
 NodeRpcProxyTests/NodeRpcProxyTests.o: NodeRpcProxyTests/NodeRpcProxyTests.cpp.o
@@ -1120,7 +1120,7 @@ NodeRpcProxyTests/NodeRpcProxyTests.o: NodeRpcProxyTests/NodeRpcProxyTests.cpp.o
 
 # target to build an object file
 NodeRpcProxyTests/NodeRpcProxyTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.o
 .PHONY : NodeRpcProxyTests/NodeRpcProxyTests.cpp.o
 
 NodeRpcProxyTests/NodeRpcProxyTests.i: NodeRpcProxyTests/NodeRpcProxyTests.cpp.i
@@ -1129,7 +1129,7 @@ NodeRpcProxyTests/NodeRpcProxyTests.i: NodeRpcProxyTests/NodeRpcProxyTests.cpp.i
 
 # target to preprocess a source file
 NodeRpcProxyTests/NodeRpcProxyTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.i
 .PHONY : NodeRpcProxyTests/NodeRpcProxyTests.cpp.i
 
 NodeRpcProxyTests/NodeRpcProxyTests.s: NodeRpcProxyTests/NodeRpcProxyTests.cpp.s
@@ -1138,7 +1138,7 @@ NodeRpcProxyTests/NodeRpcProxyTests.s: NodeRpcProxyTests/NodeRpcProxyTests.cpp.s
 
 # target to generate assembly for a file
 NodeRpcProxyTests/NodeRpcProxyTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/NodeRpcProxyTests.dir/build.make tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.s
 .PHONY : NodeRpcProxyTests/NodeRpcProxyTests.cpp.s
 
 PerformanceTests/main.o: PerformanceTests/main.cpp.o
@@ -1147,7 +1147,7 @@ PerformanceTests/main.o: PerformanceTests/main.cpp.o
 
 # target to build an object file
 PerformanceTests/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.o
 .PHONY : PerformanceTests/main.cpp.o
 
 PerformanceTests/main.i: PerformanceTests/main.cpp.i
@@ -1156,7 +1156,7 @@ PerformanceTests/main.i: PerformanceTests/main.cpp.i
 
 # target to preprocess a source file
 PerformanceTests/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.i
 .PHONY : PerformanceTests/main.cpp.i
 
 PerformanceTests/main.s: PerformanceTests/main.cpp.s
@@ -1165,7 +1165,7 @@ PerformanceTests/main.s: PerformanceTests/main.cpp.s
 
 # target to generate assembly for a file
 PerformanceTests/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/PerformanceTests.dir/build.make tests/CMakeFiles/PerformanceTests.dir/PerformanceTests/main.cpp.s
 .PHONY : PerformanceTests/main.cpp.s
 
 System/ContextGroupTests.o: System/ContextGroupTests.cpp.o
@@ -1174,7 +1174,7 @@ System/ContextGroupTests.o: System/ContextGroupTests.cpp.o
 
 # target to build an object file
 System/ContextGroupTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.o
 .PHONY : System/ContextGroupTests.cpp.o
 
 System/ContextGroupTests.i: System/ContextGroupTests.cpp.i
@@ -1183,7 +1183,7 @@ System/ContextGroupTests.i: System/ContextGroupTests.cpp.i
 
 # target to preprocess a source file
 System/ContextGroupTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.i
 .PHONY : System/ContextGroupTests.cpp.i
 
 System/ContextGroupTests.s: System/ContextGroupTests.cpp.s
@@ -1192,7 +1192,7 @@ System/ContextGroupTests.s: System/ContextGroupTests.cpp.s
 
 # target to generate assembly for a file
 System/ContextGroupTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTests.cpp.s
 .PHONY : System/ContextGroupTests.cpp.s
 
 System/ContextGroupTimeoutTests.o: System/ContextGroupTimeoutTests.cpp.o
@@ -1201,7 +1201,7 @@ System/ContextGroupTimeoutTests.o: System/ContextGroupTimeoutTests.cpp.o
 
 # target to build an object file
 System/ContextGroupTimeoutTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.o
 .PHONY : System/ContextGroupTimeoutTests.cpp.o
 
 System/ContextGroupTimeoutTests.i: System/ContextGroupTimeoutTests.cpp.i
@@ -1210,7 +1210,7 @@ System/ContextGroupTimeoutTests.i: System/ContextGroupTimeoutTests.cpp.i
 
 # target to preprocess a source file
 System/ContextGroupTimeoutTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.i
 .PHONY : System/ContextGroupTimeoutTests.cpp.i
 
 System/ContextGroupTimeoutTests.s: System/ContextGroupTimeoutTests.cpp.s
@@ -1219,7 +1219,7 @@ System/ContextGroupTimeoutTests.s: System/ContextGroupTimeoutTests.cpp.s
 
 # target to generate assembly for a file
 System/ContextGroupTimeoutTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextGroupTimeoutTests.cpp.s
 .PHONY : System/ContextGroupTimeoutTests.cpp.s
 
 System/ContextTests.o: System/ContextTests.cpp.o
@@ -1228,7 +1228,7 @@ System/ContextTests.o: System/ContextTests.cpp.o
 
 # target to build an object file
 System/ContextTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.o
 .PHONY : System/ContextTests.cpp.o
 
 System/ContextTests.i: System/ContextTests.cpp.i
@@ -1237,7 +1237,7 @@ System/ContextTests.i: System/ContextTests.cpp.i
 
 # target to preprocess a source file
 System/ContextTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.i
 .PHONY : System/ContextTests.cpp.i
 
 System/ContextTests.s: System/ContextTests.cpp.s
@@ -1246,7 +1246,7 @@ System/ContextTests.s: System/ContextTests.cpp.s
 
 # target to generate assembly for a file
 System/ContextTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ContextTests.cpp.s
 .PHONY : System/ContextTests.cpp.s
 
 System/DispatcherTests.o: System/DispatcherTests.cpp.o
@@ -1255,7 +1255,7 @@ System/DispatcherTests.o: System/DispatcherTests.cpp.o
 
 # target to build an object file
 System/DispatcherTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.o
 .PHONY : System/DispatcherTests.cpp.o
 
 System/DispatcherTests.i: System/DispatcherTests.cpp.i
@@ -1264,7 +1264,7 @@ System/DispatcherTests.i: System/DispatcherTests.cpp.i
 
 # target to preprocess a source file
 System/DispatcherTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.i
 .PHONY : System/DispatcherTests.cpp.i
 
 System/DispatcherTests.s: System/DispatcherTests.cpp.s
@@ -1273,7 +1273,7 @@ System/DispatcherTests.s: System/DispatcherTests.cpp.s
 
 # target to generate assembly for a file
 System/DispatcherTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/DispatcherTests.cpp.s
 .PHONY : System/DispatcherTests.cpp.s
 
 System/ErrorMessageTests.o: System/ErrorMessageTests.cpp.o
@@ -1282,7 +1282,7 @@ System/ErrorMessageTests.o: System/ErrorMessageTests.cpp.o
 
 # target to build an object file
 System/ErrorMessageTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.o
 .PHONY : System/ErrorMessageTests.cpp.o
 
 System/ErrorMessageTests.i: System/ErrorMessageTests.cpp.i
@@ -1291,7 +1291,7 @@ System/ErrorMessageTests.i: System/ErrorMessageTests.cpp.i
 
 # target to preprocess a source file
 System/ErrorMessageTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.i
 .PHONY : System/ErrorMessageTests.cpp.i
 
 System/ErrorMessageTests.s: System/ErrorMessageTests.cpp.s
@@ -1300,7 +1300,7 @@ System/ErrorMessageTests.s: System/ErrorMessageTests.cpp.s
 
 # target to generate assembly for a file
 System/ErrorMessageTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/ErrorMessageTests.cpp.s
 .PHONY : System/ErrorMessageTests.cpp.s
 
 System/EventLockTests.o: System/EventLockTests.cpp.o
@@ -1309,7 +1309,7 @@ System/EventLockTests.o: System/EventLockTests.cpp.o
 
 # target to build an object file
 System/EventLockTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.o
 .PHONY : System/EventLockTests.cpp.o
 
 System/EventLockTests.i: System/EventLockTests.cpp.i
@@ -1318,7 +1318,7 @@ System/EventLockTests.i: System/EventLockTests.cpp.i
 
 # target to preprocess a source file
 System/EventLockTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.i
 .PHONY : System/EventLockTests.cpp.i
 
 System/EventLockTests.s: System/EventLockTests.cpp.s
@@ -1327,7 +1327,7 @@ System/EventLockTests.s: System/EventLockTests.cpp.s
 
 # target to generate assembly for a file
 System/EventLockTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventLockTests.cpp.s
 .PHONY : System/EventLockTests.cpp.s
 
 System/EventTests.o: System/EventTests.cpp.o
@@ -1336,7 +1336,7 @@ System/EventTests.o: System/EventTests.cpp.o
 
 # target to build an object file
 System/EventTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.o
 .PHONY : System/EventTests.cpp.o
 
 System/EventTests.i: System/EventTests.cpp.i
@@ -1345,7 +1345,7 @@ System/EventTests.i: System/EventTests.cpp.i
 
 # target to preprocess a source file
 System/EventTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.i
 .PHONY : System/EventTests.cpp.i
 
 System/EventTests.s: System/EventTests.cpp.s
@@ -1354,7 +1354,7 @@ System/EventTests.s: System/EventTests.cpp.s
 
 # target to generate assembly for a file
 System/EventTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/EventTests.cpp.s
 .PHONY : System/EventTests.cpp.s
 
 System/Ipv4AddressTests.o: System/Ipv4AddressTests.cpp.o
@@ -1363,7 +1363,7 @@ System/Ipv4AddressTests.o: System/Ipv4AddressTests.cpp.o
 
 # target to build an object file
 System/Ipv4AddressTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.o
 .PHONY : System/Ipv4AddressTests.cpp.o
 
 System/Ipv4AddressTests.i: System/Ipv4AddressTests.cpp.i
@@ -1372,7 +1372,7 @@ System/Ipv4AddressTests.i: System/Ipv4AddressTests.cpp.i
 
 # target to preprocess a source file
 System/Ipv4AddressTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.i
 .PHONY : System/Ipv4AddressTests.cpp.i
 
 System/Ipv4AddressTests.s: System/Ipv4AddressTests.cpp.s
@@ -1381,7 +1381,7 @@ System/Ipv4AddressTests.s: System/Ipv4AddressTests.cpp.s
 
 # target to generate assembly for a file
 System/Ipv4AddressTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4AddressTests.cpp.s
 .PHONY : System/Ipv4AddressTests.cpp.s
 
 System/Ipv4ResolverTests.o: System/Ipv4ResolverTests.cpp.o
@@ -1390,7 +1390,7 @@ System/Ipv4ResolverTests.o: System/Ipv4ResolverTests.cpp.o
 
 # target to build an object file
 System/Ipv4ResolverTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.o
 .PHONY : System/Ipv4ResolverTests.cpp.o
 
 System/Ipv4ResolverTests.i: System/Ipv4ResolverTests.cpp.i
@@ -1399,7 +1399,7 @@ System/Ipv4ResolverTests.i: System/Ipv4ResolverTests.cpp.i
 
 # target to preprocess a source file
 System/Ipv4ResolverTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.i
 .PHONY : System/Ipv4ResolverTests.cpp.i
 
 System/Ipv4ResolverTests.s: System/Ipv4ResolverTests.cpp.s
@@ -1408,7 +1408,7 @@ System/Ipv4ResolverTests.s: System/Ipv4ResolverTests.cpp.s
 
 # target to generate assembly for a file
 System/Ipv4ResolverTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/Ipv4ResolverTests.cpp.s
 .PHONY : System/Ipv4ResolverTests.cpp.s
 
 System/OperationTimeoutTests.o: System/OperationTimeoutTests.cpp.o
@@ -1417,7 +1417,7 @@ System/OperationTimeoutTests.o: System/OperationTimeoutTests.cpp.o
 
 # target to build an object file
 System/OperationTimeoutTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.o
 .PHONY : System/OperationTimeoutTests.cpp.o
 
 System/OperationTimeoutTests.i: System/OperationTimeoutTests.cpp.i
@@ -1426,7 +1426,7 @@ System/OperationTimeoutTests.i: System/OperationTimeoutTests.cpp.i
 
 # target to preprocess a source file
 System/OperationTimeoutTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.i
 .PHONY : System/OperationTimeoutTests.cpp.i
 
 System/OperationTimeoutTests.s: System/OperationTimeoutTests.cpp.s
@@ -1435,7 +1435,7 @@ System/OperationTimeoutTests.s: System/OperationTimeoutTests.cpp.s
 
 # target to generate assembly for a file
 System/OperationTimeoutTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/OperationTimeoutTests.cpp.s
 .PHONY : System/OperationTimeoutTests.cpp.s
 
 System/RemoteContextTests.o: System/RemoteContextTests.cpp.o
@@ -1444,7 +1444,7 @@ System/RemoteContextTests.o: System/RemoteContextTests.cpp.o
 
 # target to build an object file
 System/RemoteContextTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.o
 .PHONY : System/RemoteContextTests.cpp.o
 
 System/RemoteContextTests.i: System/RemoteContextTests.cpp.i
@@ -1453,7 +1453,7 @@ System/RemoteContextTests.i: System/RemoteContextTests.cpp.i
 
 # target to preprocess a source file
 System/RemoteContextTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.i
 .PHONY : System/RemoteContextTests.cpp.i
 
 System/RemoteContextTests.s: System/RemoteContextTests.cpp.s
@@ -1462,7 +1462,7 @@ System/RemoteContextTests.s: System/RemoteContextTests.cpp.s
 
 # target to generate assembly for a file
 System/RemoteContextTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/RemoteContextTests.cpp.s
 .PHONY : System/RemoteContextTests.cpp.s
 
 System/TcpConnectionTests.o: System/TcpConnectionTests.cpp.o
@@ -1471,7 +1471,7 @@ System/TcpConnectionTests.o: System/TcpConnectionTests.cpp.o
 
 # target to build an object file
 System/TcpConnectionTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.o
 .PHONY : System/TcpConnectionTests.cpp.o
 
 System/TcpConnectionTests.i: System/TcpConnectionTests.cpp.i
@@ -1480,7 +1480,7 @@ System/TcpConnectionTests.i: System/TcpConnectionTests.cpp.i
 
 # target to preprocess a source file
 System/TcpConnectionTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.i
 .PHONY : System/TcpConnectionTests.cpp.i
 
 System/TcpConnectionTests.s: System/TcpConnectionTests.cpp.s
@@ -1489,7 +1489,7 @@ System/TcpConnectionTests.s: System/TcpConnectionTests.cpp.s
 
 # target to generate assembly for a file
 System/TcpConnectionTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectionTests.cpp.s
 .PHONY : System/TcpConnectionTests.cpp.s
 
 System/TcpConnectorTests.o: System/TcpConnectorTests.cpp.o
@@ -1498,7 +1498,7 @@ System/TcpConnectorTests.o: System/TcpConnectorTests.cpp.o
 
 # target to build an object file
 System/TcpConnectorTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.o
 .PHONY : System/TcpConnectorTests.cpp.o
 
 System/TcpConnectorTests.i: System/TcpConnectorTests.cpp.i
@@ -1507,7 +1507,7 @@ System/TcpConnectorTests.i: System/TcpConnectorTests.cpp.i
 
 # target to preprocess a source file
 System/TcpConnectorTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.i
 .PHONY : System/TcpConnectorTests.cpp.i
 
 System/TcpConnectorTests.s: System/TcpConnectorTests.cpp.s
@@ -1516,7 +1516,7 @@ System/TcpConnectorTests.s: System/TcpConnectorTests.cpp.s
 
 # target to generate assembly for a file
 System/TcpConnectorTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpConnectorTests.cpp.s
 .PHONY : System/TcpConnectorTests.cpp.s
 
 System/TcpListenerTests.o: System/TcpListenerTests.cpp.o
@@ -1525,7 +1525,7 @@ System/TcpListenerTests.o: System/TcpListenerTests.cpp.o
 
 # target to build an object file
 System/TcpListenerTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.o
 .PHONY : System/TcpListenerTests.cpp.o
 
 System/TcpListenerTests.i: System/TcpListenerTests.cpp.i
@@ -1534,7 +1534,7 @@ System/TcpListenerTests.i: System/TcpListenerTests.cpp.i
 
 # target to preprocess a source file
 System/TcpListenerTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.i
 .PHONY : System/TcpListenerTests.cpp.i
 
 System/TcpListenerTests.s: System/TcpListenerTests.cpp.s
@@ -1543,7 +1543,7 @@ System/TcpListenerTests.s: System/TcpListenerTests.cpp.s
 
 # target to generate assembly for a file
 System/TcpListenerTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TcpListenerTests.cpp.s
 .PHONY : System/TcpListenerTests.cpp.s
 
 System/TimerTests.o: System/TimerTests.cpp.o
@@ -1552,7 +1552,7 @@ System/TimerTests.o: System/TimerTests.cpp.o
 
 # target to build an object file
 System/TimerTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.o
 .PHONY : System/TimerTests.cpp.o
 
 System/TimerTests.i: System/TimerTests.cpp.i
@@ -1561,7 +1561,7 @@ System/TimerTests.i: System/TimerTests.cpp.i
 
 # target to preprocess a source file
 System/TimerTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.i
 .PHONY : System/TimerTests.cpp.i
 
 System/TimerTests.s: System/TimerTests.cpp.s
@@ -1570,7 +1570,7 @@ System/TimerTests.s: System/TimerTests.cpp.s
 
 # target to generate assembly for a file
 System/TimerTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/TimerTests.cpp.s
 .PHONY : System/TimerTests.cpp.s
 
 System/main.o: System/main.cpp.o
@@ -1579,7 +1579,7 @@ System/main.o: System/main.cpp.o
 
 # target to build an object file
 System/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/main.cpp.o
 .PHONY : System/main.cpp.o
 
 System/main.i: System/main.cpp.i
@@ -1588,7 +1588,7 @@ System/main.i: System/main.cpp.i
 
 # target to preprocess a source file
 System/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/main.cpp.i
 .PHONY : System/main.cpp.i
 
 System/main.s: System/main.cpp.s
@@ -1597,7 +1597,7 @@ System/main.s: System/main.cpp.s
 
 # target to generate assembly for a file
 System/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/SystemTests.dir/build.make tests/CMakeFiles/SystemTests.dir/System/main.cpp.s
 .PHONY : System/main.cpp.s
 
 TestGenerator/TestGenerator.o: TestGenerator/TestGenerator.cpp.o
@@ -1606,7 +1606,7 @@ TestGenerator/TestGenerator.o: TestGenerator/TestGenerator.cpp.o
 
 # target to build an object file
 TestGenerator/TestGenerator.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o
 .PHONY : TestGenerator/TestGenerator.cpp.o
 
 TestGenerator/TestGenerator.i: TestGenerator/TestGenerator.cpp.i
@@ -1615,7 +1615,7 @@ TestGenerator/TestGenerator.i: TestGenerator/TestGenerator.cpp.i
 
 # target to preprocess a source file
 TestGenerator/TestGenerator.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.i
 .PHONY : TestGenerator/TestGenerator.cpp.i
 
 TestGenerator/TestGenerator.s: TestGenerator/TestGenerator.cpp.s
@@ -1624,7 +1624,7 @@ TestGenerator/TestGenerator.s: TestGenerator/TestGenerator.cpp.s
 
 # target to generate assembly for a file
 TestGenerator/TestGenerator.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TestGenerator.dir/build.make tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.s
 .PHONY : TestGenerator/TestGenerator.cpp.s
 
 TransfersTests/TestNodeRpcProxy.o: TransfersTests/TestNodeRpcProxy.cpp.o
@@ -1633,7 +1633,7 @@ TransfersTests/TestNodeRpcProxy.o: TransfersTests/TestNodeRpcProxy.cpp.o
 
 # target to build an object file
 TransfersTests/TestNodeRpcProxy.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o
 .PHONY : TransfersTests/TestNodeRpcProxy.cpp.o
 
 TransfersTests/TestNodeRpcProxy.i: TransfersTests/TestNodeRpcProxy.cpp.i
@@ -1642,7 +1642,7 @@ TransfersTests/TestNodeRpcProxy.i: TransfersTests/TestNodeRpcProxy.cpp.i
 
 # target to preprocess a source file
 TransfersTests/TestNodeRpcProxy.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.i
 .PHONY : TransfersTests/TestNodeRpcProxy.cpp.i
 
 TransfersTests/TestNodeRpcProxy.s: TransfersTests/TestNodeRpcProxy.cpp.s
@@ -1651,7 +1651,7 @@ TransfersTests/TestNodeRpcProxy.s: TransfersTests/TestNodeRpcProxy.cpp.s
 
 # target to generate assembly for a file
 TransfersTests/TestNodeRpcProxy.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.s
 .PHONY : TransfersTests/TestNodeRpcProxy.cpp.s
 
 TransfersTests/TestTxPoolSync.o: TransfersTests/TestTxPoolSync.cpp.o
@@ -1660,7 +1660,7 @@ TransfersTests/TestTxPoolSync.o: TransfersTests/TestTxPoolSync.cpp.o
 
 # target to build an object file
 TransfersTests/TestTxPoolSync.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o
 .PHONY : TransfersTests/TestTxPoolSync.cpp.o
 
 TransfersTests/TestTxPoolSync.i: TransfersTests/TestTxPoolSync.cpp.i
@@ -1669,7 +1669,7 @@ TransfersTests/TestTxPoolSync.i: TransfersTests/TestTxPoolSync.cpp.i
 
 # target to preprocess a source file
 TransfersTests/TestTxPoolSync.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.i
 .PHONY : TransfersTests/TestTxPoolSync.cpp.i
 
 TransfersTests/TestTxPoolSync.s: TransfersTests/TestTxPoolSync.cpp.s
@@ -1678,7 +1678,7 @@ TransfersTests/TestTxPoolSync.s: TransfersTests/TestTxPoolSync.cpp.s
 
 # target to generate assembly for a file
 TransfersTests/TestTxPoolSync.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.s
 .PHONY : TransfersTests/TestTxPoolSync.cpp.s
 
 TransfersTests/Tests.o: TransfersTests/Tests.cpp.o
@@ -1687,7 +1687,7 @@ TransfersTests/Tests.o: TransfersTests/Tests.cpp.o
 
 # target to build an object file
 TransfersTests/Tests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o
 .PHONY : TransfersTests/Tests.cpp.o
 
 TransfersTests/Tests.i: TransfersTests/Tests.cpp.i
@@ -1696,7 +1696,7 @@ TransfersTests/Tests.i: TransfersTests/Tests.cpp.i
 
 # target to preprocess a source file
 TransfersTests/Tests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.i
 .PHONY : TransfersTests/Tests.cpp.i
 
 TransfersTests/Tests.s: TransfersTests/Tests.cpp.s
@@ -1705,7 +1705,7 @@ TransfersTests/Tests.s: TransfersTests/Tests.cpp.s
 
 # target to generate assembly for a file
 TransfersTests/Tests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.s
 .PHONY : TransfersTests/Tests.cpp.s
 
 TransfersTests/main.o: TransfersTests/main.cpp.o
@@ -1714,7 +1714,7 @@ TransfersTests/main.o: TransfersTests/main.cpp.o
 
 # target to build an object file
 TransfersTests/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o
 .PHONY : TransfersTests/main.cpp.o
 
 TransfersTests/main.i: TransfersTests/main.cpp.i
@@ -1723,7 +1723,7 @@ TransfersTests/main.i: TransfersTests/main.cpp.i
 
 # target to preprocess a source file
 TransfersTests/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.i
 .PHONY : TransfersTests/main.cpp.i
 
 TransfersTests/main.s: TransfersTests/main.cpp.s
@@ -1732,7 +1732,7 @@ TransfersTests/main.s: TransfersTests/main.cpp.s
 
 # target to generate assembly for a file
 TransfersTests/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/TransfersTests.dir/build.make tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.s
 .PHONY : TransfersTests/main.cpp.s
 
 UnitTests/ArrayRefTests.o: UnitTests/ArrayRefTests.cpp.o
@@ -1741,7 +1741,7 @@ UnitTests/ArrayRefTests.o: UnitTests/ArrayRefTests.cpp.o
 
 # target to build an object file
 UnitTests/ArrayRefTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayRefTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayRefTests.cpp.o
 .PHONY : UnitTests/ArrayRefTests.cpp.o
 
 UnitTests/ArrayRefTests.i: UnitTests/ArrayRefTests.cpp.i
@@ -1750,7 +1750,7 @@ UnitTests/ArrayRefTests.i: UnitTests/ArrayRefTests.cpp.i
 
 # target to preprocess a source file
 UnitTests/ArrayRefTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayRefTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayRefTests.cpp.i
 .PHONY : UnitTests/ArrayRefTests.cpp.i
 
 UnitTests/ArrayRefTests.s: UnitTests/ArrayRefTests.cpp.s
@@ -1759,7 +1759,7 @@ UnitTests/ArrayRefTests.s: UnitTests/ArrayRefTests.cpp.s
 
 # target to generate assembly for a file
 UnitTests/ArrayRefTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayRefTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayRefTests.cpp.s
 .PHONY : UnitTests/ArrayRefTests.cpp.s
 
 UnitTests/ArrayViewTests.o: UnitTests/ArrayViewTests.cpp.o
@@ -1768,7 +1768,7 @@ UnitTests/ArrayViewTests.o: UnitTests/ArrayViewTests.cpp.o
 
 # target to build an object file
 UnitTests/ArrayViewTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayViewTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayViewTests.cpp.o
 .PHONY : UnitTests/ArrayViewTests.cpp.o
 
 UnitTests/ArrayViewTests.i: UnitTests/ArrayViewTests.cpp.i
@@ -1777,7 +1777,7 @@ UnitTests/ArrayViewTests.i: UnitTests/ArrayViewTests.cpp.i
 
 # target to preprocess a source file
 UnitTests/ArrayViewTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayViewTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayViewTests.cpp.i
 .PHONY : UnitTests/ArrayViewTests.cpp.i
 
 UnitTests/ArrayViewTests.s: UnitTests/ArrayViewTests.cpp.s
@@ -1786,7 +1786,7 @@ UnitTests/ArrayViewTests.s: UnitTests/ArrayViewTests.cpp.s
 
 # target to generate assembly for a file
 UnitTests/ArrayViewTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayViewTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ArrayViewTests.cpp.s
 .PHONY : UnitTests/ArrayViewTests.cpp.s
 
 UnitTests/Base58.o: UnitTests/Base58.cpp.o
@@ -1795,7 +1795,7 @@ UnitTests/Base58.o: UnitTests/Base58.cpp.o
 
 # target to build an object file
 UnitTests/Base58.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Base58.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Base58.cpp.o
 .PHONY : UnitTests/Base58.cpp.o
 
 UnitTests/Base58.i: UnitTests/Base58.cpp.i
@@ -1804,7 +1804,7 @@ UnitTests/Base58.i: UnitTests/Base58.cpp.i
 
 # target to preprocess a source file
 UnitTests/Base58.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Base58.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Base58.cpp.i
 .PHONY : UnitTests/Base58.cpp.i
 
 UnitTests/Base58.s: UnitTests/Base58.cpp.s
@@ -1813,7 +1813,7 @@ UnitTests/Base58.s: UnitTests/Base58.cpp.s
 
 # target to generate assembly for a file
 UnitTests/Base58.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Base58.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Base58.cpp.s
 .PHONY : UnitTests/Base58.cpp.s
 
 UnitTests/BlockReward.o: UnitTests/BlockReward.cpp.o
@@ -1822,7 +1822,7 @@ UnitTests/BlockReward.o: UnitTests/BlockReward.cpp.o
 
 # target to build an object file
 UnitTests/BlockReward.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockReward.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockReward.cpp.o
 .PHONY : UnitTests/BlockReward.cpp.o
 
 UnitTests/BlockReward.i: UnitTests/BlockReward.cpp.i
@@ -1831,7 +1831,7 @@ UnitTests/BlockReward.i: UnitTests/BlockReward.cpp.i
 
 # target to preprocess a source file
 UnitTests/BlockReward.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockReward.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockReward.cpp.i
 .PHONY : UnitTests/BlockReward.cpp.i
 
 UnitTests/BlockReward.s: UnitTests/BlockReward.cpp.s
@@ -1840,7 +1840,7 @@ UnitTests/BlockReward.s: UnitTests/BlockReward.cpp.s
 
 # target to generate assembly for a file
 UnitTests/BlockReward.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockReward.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockReward.cpp.s
 .PHONY : UnitTests/BlockReward.cpp.s
 
 UnitTests/BlockingQueue.o: UnitTests/BlockingQueue.cpp.o
@@ -1849,7 +1849,7 @@ UnitTests/BlockingQueue.o: UnitTests/BlockingQueue.cpp.o
 
 # target to build an object file
 UnitTests/BlockingQueue.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockingQueue.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockingQueue.cpp.o
 .PHONY : UnitTests/BlockingQueue.cpp.o
 
 UnitTests/BlockingQueue.i: UnitTests/BlockingQueue.cpp.i
@@ -1858,7 +1858,7 @@ UnitTests/BlockingQueue.i: UnitTests/BlockingQueue.cpp.i
 
 # target to preprocess a source file
 UnitTests/BlockingQueue.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockingQueue.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockingQueue.cpp.i
 .PHONY : UnitTests/BlockingQueue.cpp.i
 
 UnitTests/BlockingQueue.s: UnitTests/BlockingQueue.cpp.s
@@ -1867,7 +1867,7 @@ UnitTests/BlockingQueue.s: UnitTests/BlockingQueue.cpp.s
 
 # target to generate assembly for a file
 UnitTests/BlockingQueue.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockingQueue.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/BlockingQueue.cpp.s
 .PHONY : UnitTests/BlockingQueue.cpp.s
 
 UnitTests/Chacha8.o: UnitTests/Chacha8.cpp.o
@@ -1876,7 +1876,7 @@ UnitTests/Chacha8.o: UnitTests/Chacha8.cpp.o
 
 # target to build an object file
 UnitTests/Chacha8.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Chacha8.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Chacha8.cpp.o
 .PHONY : UnitTests/Chacha8.cpp.o
 
 UnitTests/Chacha8.i: UnitTests/Chacha8.cpp.i
@@ -1885,7 +1885,7 @@ UnitTests/Chacha8.i: UnitTests/Chacha8.cpp.i
 
 # target to preprocess a source file
 UnitTests/Chacha8.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Chacha8.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Chacha8.cpp.i
 .PHONY : UnitTests/Chacha8.cpp.i
 
 UnitTests/Chacha8.s: UnitTests/Chacha8.cpp.s
@@ -1894,7 +1894,7 @@ UnitTests/Chacha8.s: UnitTests/Chacha8.cpp.s
 
 # target to generate assembly for a file
 UnitTests/Chacha8.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Chacha8.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Chacha8.cpp.s
 .PHONY : UnitTests/Chacha8.cpp.s
 
 UnitTests/Checkpoints.o: UnitTests/Checkpoints.cpp.o
@@ -1903,7 +1903,7 @@ UnitTests/Checkpoints.o: UnitTests/Checkpoints.cpp.o
 
 # target to build an object file
 UnitTests/Checkpoints.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Checkpoints.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Checkpoints.cpp.o
 .PHONY : UnitTests/Checkpoints.cpp.o
 
 UnitTests/Checkpoints.i: UnitTests/Checkpoints.cpp.i
@@ -1912,7 +1912,7 @@ UnitTests/Checkpoints.i: UnitTests/Checkpoints.cpp.i
 
 # target to preprocess a source file
 UnitTests/Checkpoints.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Checkpoints.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Checkpoints.cpp.i
 .PHONY : UnitTests/Checkpoints.cpp.i
 
 UnitTests/Checkpoints.s: UnitTests/Checkpoints.cpp.s
@@ -1921,7 +1921,7 @@ UnitTests/Checkpoints.s: UnitTests/Checkpoints.cpp.s
 
 # target to generate assembly for a file
 UnitTests/Checkpoints.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Checkpoints.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Checkpoints.cpp.s
 .PHONY : UnitTests/Checkpoints.cpp.s
 
 UnitTests/DecomposeAmountIntoDigits.o: UnitTests/DecomposeAmountIntoDigits.cpp.o
@@ -1930,7 +1930,7 @@ UnitTests/DecomposeAmountIntoDigits.o: UnitTests/DecomposeAmountIntoDigits.cpp.o
 
 # target to build an object file
 UnitTests/DecomposeAmountIntoDigits.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/DecomposeAmountIntoDigits.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/DecomposeAmountIntoDigits.cpp.o
 .PHONY : UnitTests/DecomposeAmountIntoDigits.cpp.o
 
 UnitTests/DecomposeAmountIntoDigits.i: UnitTests/DecomposeAmountIntoDigits.cpp.i
@@ -1939,7 +1939,7 @@ UnitTests/DecomposeAmountIntoDigits.i: UnitTests/DecomposeAmountIntoDigits.cpp.i
 
 # target to preprocess a source file
 UnitTests/DecomposeAmountIntoDigits.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/DecomposeAmountIntoDigits.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/DecomposeAmountIntoDigits.cpp.i
 .PHONY : UnitTests/DecomposeAmountIntoDigits.cpp.i
 
 UnitTests/DecomposeAmountIntoDigits.s: UnitTests/DecomposeAmountIntoDigits.cpp.s
@@ -1948,7 +1948,7 @@ UnitTests/DecomposeAmountIntoDigits.s: UnitTests/DecomposeAmountIntoDigits.cpp.s
 
 # target to generate assembly for a file
 UnitTests/DecomposeAmountIntoDigits.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/DecomposeAmountIntoDigits.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/DecomposeAmountIntoDigits.cpp.s
 .PHONY : UnitTests/DecomposeAmountIntoDigits.cpp.s
 
 UnitTests/EventWaiter.o: UnitTests/EventWaiter.cpp.o
@@ -1957,7 +1957,7 @@ UnitTests/EventWaiter.o: UnitTests/EventWaiter.cpp.o
 
 # target to build an object file
 UnitTests/EventWaiter.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/EventWaiter.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/EventWaiter.cpp.o
 .PHONY : UnitTests/EventWaiter.cpp.o
 
 UnitTests/EventWaiter.i: UnitTests/EventWaiter.cpp.i
@@ -1966,7 +1966,7 @@ UnitTests/EventWaiter.i: UnitTests/EventWaiter.cpp.i
 
 # target to preprocess a source file
 UnitTests/EventWaiter.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/EventWaiter.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/EventWaiter.cpp.i
 .PHONY : UnitTests/EventWaiter.cpp.i
 
 UnitTests/EventWaiter.s: UnitTests/EventWaiter.cpp.s
@@ -1975,7 +1975,7 @@ UnitTests/EventWaiter.s: UnitTests/EventWaiter.cpp.s
 
 # target to generate assembly for a file
 UnitTests/EventWaiter.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/EventWaiter.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/EventWaiter.cpp.s
 .PHONY : UnitTests/EventWaiter.cpp.s
 
 UnitTests/ICoreStub.o: UnitTests/ICoreStub.cpp.o
@@ -1984,7 +1984,7 @@ UnitTests/ICoreStub.o: UnitTests/ICoreStub.cpp.o
 
 # target to build an object file
 UnitTests/ICoreStub.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICoreStub.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICoreStub.cpp.o
 .PHONY : UnitTests/ICoreStub.cpp.o
 
 UnitTests/ICoreStub.i: UnitTests/ICoreStub.cpp.i
@@ -1993,7 +1993,7 @@ UnitTests/ICoreStub.i: UnitTests/ICoreStub.cpp.i
 
 # target to preprocess a source file
 UnitTests/ICoreStub.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICoreStub.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICoreStub.cpp.i
 .PHONY : UnitTests/ICoreStub.cpp.i
 
 UnitTests/ICoreStub.s: UnitTests/ICoreStub.cpp.s
@@ -2002,7 +2002,7 @@ UnitTests/ICoreStub.s: UnitTests/ICoreStub.cpp.s
 
 # target to generate assembly for a file
 UnitTests/ICoreStub.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICoreStub.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICoreStub.cpp.s
 .PHONY : UnitTests/ICoreStub.cpp.s
 
 UnitTests/ICryptoNoteProtocolQueryStub.o: UnitTests/ICryptoNoteProtocolQueryStub.cpp.o
@@ -2011,7 +2011,7 @@ UnitTests/ICryptoNoteProtocolQueryStub.o: UnitTests/ICryptoNoteProtocolQueryStub
 
 # target to build an object file
 UnitTests/ICryptoNoteProtocolQueryStub.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICryptoNoteProtocolQueryStub.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICryptoNoteProtocolQueryStub.cpp.o
 .PHONY : UnitTests/ICryptoNoteProtocolQueryStub.cpp.o
 
 UnitTests/ICryptoNoteProtocolQueryStub.i: UnitTests/ICryptoNoteProtocolQueryStub.cpp.i
@@ -2020,7 +2020,7 @@ UnitTests/ICryptoNoteProtocolQueryStub.i: UnitTests/ICryptoNoteProtocolQueryStub
 
 # target to preprocess a source file
 UnitTests/ICryptoNoteProtocolQueryStub.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICryptoNoteProtocolQueryStub.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICryptoNoteProtocolQueryStub.cpp.i
 .PHONY : UnitTests/ICryptoNoteProtocolQueryStub.cpp.i
 
 UnitTests/ICryptoNoteProtocolQueryStub.s: UnitTests/ICryptoNoteProtocolQueryStub.cpp.s
@@ -2029,7 +2029,7 @@ UnitTests/ICryptoNoteProtocolQueryStub.s: UnitTests/ICryptoNoteProtocolQueryStub
 
 # target to generate assembly for a file
 UnitTests/ICryptoNoteProtocolQueryStub.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICryptoNoteProtocolQueryStub.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ICryptoNoteProtocolQueryStub.cpp.s
 .PHONY : UnitTests/ICryptoNoteProtocolQueryStub.cpp.s
 
 UnitTests/INodeStubs.o: UnitTests/INodeStubs.cpp.o
@@ -2038,7 +2038,7 @@ UnitTests/INodeStubs.o: UnitTests/INodeStubs.cpp.o
 
 # target to build an object file
 UnitTests/INodeStubs.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/INodeStubs.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/INodeStubs.cpp.o
 .PHONY : UnitTests/INodeStubs.cpp.o
 
 UnitTests/INodeStubs.i: UnitTests/INodeStubs.cpp.i
@@ -2047,7 +2047,7 @@ UnitTests/INodeStubs.i: UnitTests/INodeStubs.cpp.i
 
 # target to preprocess a source file
 UnitTests/INodeStubs.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/INodeStubs.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/INodeStubs.cpp.i
 .PHONY : UnitTests/INodeStubs.cpp.i
 
 UnitTests/INodeStubs.s: UnitTests/INodeStubs.cpp.s
@@ -2056,7 +2056,7 @@ UnitTests/INodeStubs.s: UnitTests/INodeStubs.cpp.s
 
 # target to generate assembly for a file
 UnitTests/INodeStubs.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/INodeStubs.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/INodeStubs.cpp.s
 .PHONY : UnitTests/INodeStubs.cpp.s
 
 UnitTests/MulDiv.o: UnitTests/MulDiv.cpp.o
@@ -2065,7 +2065,7 @@ UnitTests/MulDiv.o: UnitTests/MulDiv.cpp.o
 
 # target to build an object file
 UnitTests/MulDiv.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/MulDiv.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/MulDiv.cpp.o
 .PHONY : UnitTests/MulDiv.cpp.o
 
 UnitTests/MulDiv.i: UnitTests/MulDiv.cpp.i
@@ -2074,7 +2074,7 @@ UnitTests/MulDiv.i: UnitTests/MulDiv.cpp.i
 
 # target to preprocess a source file
 UnitTests/MulDiv.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/MulDiv.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/MulDiv.cpp.i
 .PHONY : UnitTests/MulDiv.cpp.i
 
 UnitTests/MulDiv.s: UnitTests/MulDiv.cpp.s
@@ -2083,7 +2083,7 @@ UnitTests/MulDiv.s: UnitTests/MulDiv.cpp.s
 
 # target to generate assembly for a file
 UnitTests/MulDiv.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/MulDiv.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/MulDiv.cpp.s
 .PHONY : UnitTests/MulDiv.cpp.s
 
 UnitTests/ParseAmount.o: UnitTests/ParseAmount.cpp.o
@@ -2092,7 +2092,7 @@ UnitTests/ParseAmount.o: UnitTests/ParseAmount.cpp.o
 
 # target to build an object file
 UnitTests/ParseAmount.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ParseAmount.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ParseAmount.cpp.o
 .PHONY : UnitTests/ParseAmount.cpp.o
 
 UnitTests/ParseAmount.i: UnitTests/ParseAmount.cpp.i
@@ -2101,7 +2101,7 @@ UnitTests/ParseAmount.i: UnitTests/ParseAmount.cpp.i
 
 # target to preprocess a source file
 UnitTests/ParseAmount.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ParseAmount.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ParseAmount.cpp.i
 .PHONY : UnitTests/ParseAmount.cpp.i
 
 UnitTests/ParseAmount.s: UnitTests/ParseAmount.cpp.s
@@ -2110,7 +2110,7 @@ UnitTests/ParseAmount.s: UnitTests/ParseAmount.cpp.s
 
 # target to generate assembly for a file
 UnitTests/ParseAmount.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ParseAmount.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/ParseAmount.cpp.s
 .PHONY : UnitTests/ParseAmount.cpp.s
 
 UnitTests/PaymentGateTests.o: UnitTests/PaymentGateTests.cpp.o
@@ -2119,7 +2119,7 @@ UnitTests/PaymentGateTests.o: UnitTests/PaymentGateTests.cpp.o
 
 # target to build an object file
 UnitTests/PaymentGateTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/PaymentGateTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/PaymentGateTests.cpp.o
 .PHONY : UnitTests/PaymentGateTests.cpp.o
 
 UnitTests/PaymentGateTests.i: UnitTests/PaymentGateTests.cpp.i
@@ -2128,7 +2128,7 @@ UnitTests/PaymentGateTests.i: UnitTests/PaymentGateTests.cpp.i
 
 # target to preprocess a source file
 UnitTests/PaymentGateTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/PaymentGateTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/PaymentGateTests.cpp.i
 .PHONY : UnitTests/PaymentGateTests.cpp.i
 
 UnitTests/PaymentGateTests.s: UnitTests/PaymentGateTests.cpp.s
@@ -2137,7 +2137,7 @@ UnitTests/PaymentGateTests.s: UnitTests/PaymentGateTests.cpp.s
 
 # target to generate assembly for a file
 UnitTests/PaymentGateTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/PaymentGateTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/PaymentGateTests.cpp.s
 .PHONY : UnitTests/PaymentGateTests.cpp.s
 
 UnitTests/Serialization.o: UnitTests/Serialization.cpp.o
@@ -2146,7 +2146,7 @@ UnitTests/Serialization.o: UnitTests/Serialization.cpp.o
 
 # target to build an object file
 UnitTests/Serialization.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Serialization.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Serialization.cpp.o
 .PHONY : UnitTests/Serialization.cpp.o
 
 UnitTests/Serialization.i: UnitTests/Serialization.cpp.i
@@ -2155,7 +2155,7 @@ UnitTests/Serialization.i: UnitTests/Serialization.cpp.i
 
 # target to preprocess a source file
 UnitTests/Serialization.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Serialization.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Serialization.cpp.i
 .PHONY : UnitTests/Serialization.cpp.i
 
 UnitTests/Serialization.s: UnitTests/Serialization.cpp.s
@@ -2164,7 +2164,7 @@ UnitTests/Serialization.s: UnitTests/Serialization.cpp.s
 
 # target to generate assembly for a file
 UnitTests/Serialization.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Serialization.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Serialization.cpp.s
 .PHONY : UnitTests/Serialization.cpp.s
 
 UnitTests/SerializationKV.o: UnitTests/SerializationKV.cpp.o
@@ -2173,7 +2173,7 @@ UnitTests/SerializationKV.o: UnitTests/SerializationKV.cpp.o
 
 # target to build an object file
 UnitTests/SerializationKV.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/SerializationKV.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/SerializationKV.cpp.o
 .PHONY : UnitTests/SerializationKV.cpp.o
 
 UnitTests/SerializationKV.i: UnitTests/SerializationKV.cpp.i
@@ -2182,7 +2182,7 @@ UnitTests/SerializationKV.i: UnitTests/SerializationKV.cpp.i
 
 # target to preprocess a source file
 UnitTests/SerializationKV.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/SerializationKV.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/SerializationKV.cpp.i
 .PHONY : UnitTests/SerializationKV.cpp.i
 
 UnitTests/SerializationKV.s: UnitTests/SerializationKV.cpp.s
@@ -2191,7 +2191,7 @@ UnitTests/SerializationKV.s: UnitTests/SerializationKV.cpp.s
 
 # target to generate assembly for a file
 UnitTests/SerializationKV.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/SerializationKV.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/SerializationKV.cpp.s
 .PHONY : UnitTests/SerializationKV.cpp.s
 
 UnitTests/Shuffle.o: UnitTests/Shuffle.cpp.o
@@ -2200,7 +2200,7 @@ UnitTests/Shuffle.o: UnitTests/Shuffle.cpp.o
 
 # target to build an object file
 UnitTests/Shuffle.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Shuffle.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Shuffle.cpp.o
 .PHONY : UnitTests/Shuffle.cpp.o
 
 UnitTests/Shuffle.i: UnitTests/Shuffle.cpp.i
@@ -2209,7 +2209,7 @@ UnitTests/Shuffle.i: UnitTests/Shuffle.cpp.i
 
 # target to preprocess a source file
 UnitTests/Shuffle.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Shuffle.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Shuffle.cpp.i
 .PHONY : UnitTests/Shuffle.cpp.i
 
 UnitTests/Shuffle.s: UnitTests/Shuffle.cpp.s
@@ -2218,7 +2218,7 @@ UnitTests/Shuffle.s: UnitTests/Shuffle.cpp.s
 
 # target to generate assembly for a file
 UnitTests/Shuffle.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Shuffle.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/Shuffle.cpp.s
 .PHONY : UnitTests/Shuffle.cpp.s
 
 UnitTests/StringBufferTests.o: UnitTests/StringBufferTests.cpp.o
@@ -2227,7 +2227,7 @@ UnitTests/StringBufferTests.o: UnitTests/StringBufferTests.cpp.o
 
 # target to build an object file
 UnitTests/StringBufferTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringBufferTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringBufferTests.cpp.o
 .PHONY : UnitTests/StringBufferTests.cpp.o
 
 UnitTests/StringBufferTests.i: UnitTests/StringBufferTests.cpp.i
@@ -2236,7 +2236,7 @@ UnitTests/StringBufferTests.i: UnitTests/StringBufferTests.cpp.i
 
 # target to preprocess a source file
 UnitTests/StringBufferTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringBufferTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringBufferTests.cpp.i
 .PHONY : UnitTests/StringBufferTests.cpp.i
 
 UnitTests/StringBufferTests.s: UnitTests/StringBufferTests.cpp.s
@@ -2245,7 +2245,7 @@ UnitTests/StringBufferTests.s: UnitTests/StringBufferTests.cpp.s
 
 # target to generate assembly for a file
 UnitTests/StringBufferTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringBufferTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringBufferTests.cpp.s
 .PHONY : UnitTests/StringBufferTests.cpp.s
 
 UnitTests/StringViewTests.o: UnitTests/StringViewTests.cpp.o
@@ -2254,7 +2254,7 @@ UnitTests/StringViewTests.o: UnitTests/StringViewTests.cpp.o
 
 # target to build an object file
 UnitTests/StringViewTests.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringViewTests.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringViewTests.cpp.o
 .PHONY : UnitTests/StringViewTests.cpp.o
 
 UnitTests/StringViewTests.i: UnitTests/StringViewTests.cpp.i
@@ -2263,7 +2263,7 @@ UnitTests/StringViewTests.i: UnitTests/StringViewTests.cpp.i
 
 # target to preprocess a source file
 UnitTests/StringViewTests.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringViewTests.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringViewTests.cpp.i
 .PHONY : UnitTests/StringViewTests.cpp.i
 
 UnitTests/StringViewTests.s: UnitTests/StringViewTests.cpp.s
@@ -2272,7 +2272,7 @@ UnitTests/StringViewTests.s: UnitTests/StringViewTests.cpp.s
 
 # target to generate assembly for a file
 UnitTests/StringViewTests.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringViewTests.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/StringViewTests.cpp.s
 .PHONY : UnitTests/StringViewTests.cpp.s
 
 UnitTests/TestBcS.o: UnitTests/TestBcS.cpp.o
@@ -2281,7 +2281,7 @@ UnitTests/TestBcS.o: UnitTests/TestBcS.cpp.o
 
 # target to build an object file
 UnitTests/TestBcS.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBcS.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBcS.cpp.o
 .PHONY : UnitTests/TestBcS.cpp.o
 
 UnitTests/TestBcS.i: UnitTests/TestBcS.cpp.i
@@ -2290,7 +2290,7 @@ UnitTests/TestBcS.i: UnitTests/TestBcS.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestBcS.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBcS.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBcS.cpp.i
 .PHONY : UnitTests/TestBcS.cpp.i
 
 UnitTests/TestBcS.s: UnitTests/TestBcS.cpp.s
@@ -2299,7 +2299,7 @@ UnitTests/TestBcS.s: UnitTests/TestBcS.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestBcS.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBcS.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBcS.cpp.s
 .PHONY : UnitTests/TestBcS.cpp.s
 
 UnitTests/TestBlockchainExplorer.o: UnitTests/TestBlockchainExplorer.cpp.o
@@ -2308,7 +2308,7 @@ UnitTests/TestBlockchainExplorer.o: UnitTests/TestBlockchainExplorer.cpp.o
 
 # target to build an object file
 UnitTests/TestBlockchainExplorer.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainExplorer.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainExplorer.cpp.o
 .PHONY : UnitTests/TestBlockchainExplorer.cpp.o
 
 UnitTests/TestBlockchainExplorer.i: UnitTests/TestBlockchainExplorer.cpp.i
@@ -2317,7 +2317,7 @@ UnitTests/TestBlockchainExplorer.i: UnitTests/TestBlockchainExplorer.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestBlockchainExplorer.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainExplorer.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainExplorer.cpp.i
 .PHONY : UnitTests/TestBlockchainExplorer.cpp.i
 
 UnitTests/TestBlockchainExplorer.s: UnitTests/TestBlockchainExplorer.cpp.s
@@ -2326,7 +2326,7 @@ UnitTests/TestBlockchainExplorer.s: UnitTests/TestBlockchainExplorer.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestBlockchainExplorer.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainExplorer.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainExplorer.cpp.s
 .PHONY : UnitTests/TestBlockchainExplorer.cpp.s
 
 UnitTests/TestBlockchainGenerator.o: UnitTests/TestBlockchainGenerator.cpp.o
@@ -2335,7 +2335,7 @@ UnitTests/TestBlockchainGenerator.o: UnitTests/TestBlockchainGenerator.cpp.o
 
 # target to build an object file
 UnitTests/TestBlockchainGenerator.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainGenerator.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainGenerator.cpp.o
 .PHONY : UnitTests/TestBlockchainGenerator.cpp.o
 
 UnitTests/TestBlockchainGenerator.i: UnitTests/TestBlockchainGenerator.cpp.i
@@ -2344,7 +2344,7 @@ UnitTests/TestBlockchainGenerator.i: UnitTests/TestBlockchainGenerator.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestBlockchainGenerator.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainGenerator.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainGenerator.cpp.i
 .PHONY : UnitTests/TestBlockchainGenerator.cpp.i
 
 UnitTests/TestBlockchainGenerator.s: UnitTests/TestBlockchainGenerator.cpp.s
@@ -2353,7 +2353,7 @@ UnitTests/TestBlockchainGenerator.s: UnitTests/TestBlockchainGenerator.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestBlockchainGenerator.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainGenerator.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestBlockchainGenerator.cpp.s
 .PHONY : UnitTests/TestBlockchainGenerator.cpp.s
 
 UnitTests/TestCurrency.o: UnitTests/TestCurrency.cpp.o
@@ -2362,7 +2362,7 @@ UnitTests/TestCurrency.o: UnitTests/TestCurrency.cpp.o
 
 # target to build an object file
 UnitTests/TestCurrency.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestCurrency.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestCurrency.cpp.o
 .PHONY : UnitTests/TestCurrency.cpp.o
 
 UnitTests/TestCurrency.i: UnitTests/TestCurrency.cpp.i
@@ -2371,7 +2371,7 @@ UnitTests/TestCurrency.i: UnitTests/TestCurrency.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestCurrency.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestCurrency.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestCurrency.cpp.i
 .PHONY : UnitTests/TestCurrency.cpp.i
 
 UnitTests/TestCurrency.s: UnitTests/TestCurrency.cpp.s
@@ -2380,7 +2380,7 @@ UnitTests/TestCurrency.s: UnitTests/TestCurrency.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestCurrency.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestCurrency.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestCurrency.cpp.s
 .PHONY : UnitTests/TestCurrency.cpp.s
 
 UnitTests/TestFormatUtils.o: UnitTests/TestFormatUtils.cpp.o
@@ -2389,7 +2389,7 @@ UnitTests/TestFormatUtils.o: UnitTests/TestFormatUtils.cpp.o
 
 # target to build an object file
 UnitTests/TestFormatUtils.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestFormatUtils.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestFormatUtils.cpp.o
 .PHONY : UnitTests/TestFormatUtils.cpp.o
 
 UnitTests/TestFormatUtils.i: UnitTests/TestFormatUtils.cpp.i
@@ -2398,7 +2398,7 @@ UnitTests/TestFormatUtils.i: UnitTests/TestFormatUtils.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestFormatUtils.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestFormatUtils.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestFormatUtils.cpp.i
 .PHONY : UnitTests/TestFormatUtils.cpp.i
 
 UnitTests/TestFormatUtils.s: UnitTests/TestFormatUtils.cpp.s
@@ -2407,7 +2407,7 @@ UnitTests/TestFormatUtils.s: UnitTests/TestFormatUtils.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestFormatUtils.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestFormatUtils.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestFormatUtils.cpp.s
 .PHONY : UnitTests/TestFormatUtils.cpp.s
 
 UnitTests/TestInprocessNode.o: UnitTests/TestInprocessNode.cpp.o
@@ -2416,7 +2416,7 @@ UnitTests/TestInprocessNode.o: UnitTests/TestInprocessNode.cpp.o
 
 # target to build an object file
 UnitTests/TestInprocessNode.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestInprocessNode.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestInprocessNode.cpp.o
 .PHONY : UnitTests/TestInprocessNode.cpp.o
 
 UnitTests/TestInprocessNode.i: UnitTests/TestInprocessNode.cpp.i
@@ -2425,7 +2425,7 @@ UnitTests/TestInprocessNode.i: UnitTests/TestInprocessNode.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestInprocessNode.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestInprocessNode.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestInprocessNode.cpp.i
 .PHONY : UnitTests/TestInprocessNode.cpp.i
 
 UnitTests/TestInprocessNode.s: UnitTests/TestInprocessNode.cpp.s
@@ -2434,7 +2434,7 @@ UnitTests/TestInprocessNode.s: UnitTests/TestInprocessNode.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestInprocessNode.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestInprocessNode.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestInprocessNode.cpp.s
 .PHONY : UnitTests/TestInprocessNode.cpp.s
 
 UnitTests/TestJsonValue.o: UnitTests/TestJsonValue.cpp.o
@@ -2443,7 +2443,7 @@ UnitTests/TestJsonValue.o: UnitTests/TestJsonValue.cpp.o
 
 # target to build an object file
 UnitTests/TestJsonValue.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestJsonValue.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestJsonValue.cpp.o
 .PHONY : UnitTests/TestJsonValue.cpp.o
 
 UnitTests/TestJsonValue.i: UnitTests/TestJsonValue.cpp.i
@@ -2452,7 +2452,7 @@ UnitTests/TestJsonValue.i: UnitTests/TestJsonValue.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestJsonValue.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestJsonValue.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestJsonValue.cpp.i
 .PHONY : UnitTests/TestJsonValue.cpp.i
 
 UnitTests/TestJsonValue.s: UnitTests/TestJsonValue.cpp.s
@@ -2461,7 +2461,7 @@ UnitTests/TestJsonValue.s: UnitTests/TestJsonValue.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestJsonValue.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestJsonValue.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestJsonValue.cpp.s
 .PHONY : UnitTests/TestJsonValue.cpp.s
 
 UnitTests/TestMessageQueue.o: UnitTests/TestMessageQueue.cpp.o
@@ -2470,7 +2470,7 @@ UnitTests/TestMessageQueue.o: UnitTests/TestMessageQueue.cpp.o
 
 # target to build an object file
 UnitTests/TestMessageQueue.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestMessageQueue.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestMessageQueue.cpp.o
 .PHONY : UnitTests/TestMessageQueue.cpp.o
 
 UnitTests/TestMessageQueue.i: UnitTests/TestMessageQueue.cpp.i
@@ -2479,7 +2479,7 @@ UnitTests/TestMessageQueue.i: UnitTests/TestMessageQueue.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestMessageQueue.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestMessageQueue.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestMessageQueue.cpp.i
 .PHONY : UnitTests/TestMessageQueue.cpp.i
 
 UnitTests/TestMessageQueue.s: UnitTests/TestMessageQueue.cpp.s
@@ -2488,7 +2488,7 @@ UnitTests/TestMessageQueue.s: UnitTests/TestMessageQueue.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestMessageQueue.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestMessageQueue.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestMessageQueue.cpp.s
 .PHONY : UnitTests/TestMessageQueue.cpp.s
 
 UnitTests/TestPath.o: UnitTests/TestPath.cpp.o
@@ -2497,7 +2497,7 @@ UnitTests/TestPath.o: UnitTests/TestPath.cpp.o
 
 # target to build an object file
 UnitTests/TestPath.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPath.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPath.cpp.o
 .PHONY : UnitTests/TestPath.cpp.o
 
 UnitTests/TestPath.i: UnitTests/TestPath.cpp.i
@@ -2506,7 +2506,7 @@ UnitTests/TestPath.i: UnitTests/TestPath.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestPath.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPath.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPath.cpp.i
 .PHONY : UnitTests/TestPath.cpp.i
 
 UnitTests/TestPath.s: UnitTests/TestPath.cpp.s
@@ -2515,7 +2515,7 @@ UnitTests/TestPath.s: UnitTests/TestPath.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestPath.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPath.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPath.cpp.s
 .PHONY : UnitTests/TestPath.cpp.s
 
 UnitTests/TestPeerlist.o: UnitTests/TestPeerlist.cpp.o
@@ -2524,7 +2524,7 @@ UnitTests/TestPeerlist.o: UnitTests/TestPeerlist.cpp.o
 
 # target to build an object file
 UnitTests/TestPeerlist.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPeerlist.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPeerlist.cpp.o
 .PHONY : UnitTests/TestPeerlist.cpp.o
 
 UnitTests/TestPeerlist.i: UnitTests/TestPeerlist.cpp.i
@@ -2533,7 +2533,7 @@ UnitTests/TestPeerlist.i: UnitTests/TestPeerlist.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestPeerlist.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPeerlist.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPeerlist.cpp.i
 .PHONY : UnitTests/TestPeerlist.cpp.i
 
 UnitTests/TestPeerlist.s: UnitTests/TestPeerlist.cpp.s
@@ -2542,7 +2542,7 @@ UnitTests/TestPeerlist.s: UnitTests/TestPeerlist.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestPeerlist.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPeerlist.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestPeerlist.cpp.s
 .PHONY : UnitTests/TestPeerlist.cpp.s
 
 UnitTests/TestProtocolPack.o: UnitTests/TestProtocolPack.cpp.o
@@ -2551,7 +2551,7 @@ UnitTests/TestProtocolPack.o: UnitTests/TestProtocolPack.cpp.o
 
 # target to build an object file
 UnitTests/TestProtocolPack.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestProtocolPack.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestProtocolPack.cpp.o
 .PHONY : UnitTests/TestProtocolPack.cpp.o
 
 UnitTests/TestProtocolPack.i: UnitTests/TestProtocolPack.cpp.i
@@ -2560,7 +2560,7 @@ UnitTests/TestProtocolPack.i: UnitTests/TestProtocolPack.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestProtocolPack.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestProtocolPack.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestProtocolPack.cpp.i
 .PHONY : UnitTests/TestProtocolPack.cpp.i
 
 UnitTests/TestProtocolPack.s: UnitTests/TestProtocolPack.cpp.s
@@ -2569,7 +2569,7 @@ UnitTests/TestProtocolPack.s: UnitTests/TestProtocolPack.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestProtocolPack.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestProtocolPack.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestProtocolPack.cpp.s
 .PHONY : UnitTests/TestProtocolPack.cpp.s
 
 UnitTests/TestTransactionPoolDetach.o: UnitTests/TestTransactionPoolDetach.cpp.o
@@ -2578,7 +2578,7 @@ UnitTests/TestTransactionPoolDetach.o: UnitTests/TestTransactionPoolDetach.cpp.o
 
 # target to build an object file
 UnitTests/TestTransactionPoolDetach.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransactionPoolDetach.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransactionPoolDetach.cpp.o
 .PHONY : UnitTests/TestTransactionPoolDetach.cpp.o
 
 UnitTests/TestTransactionPoolDetach.i: UnitTests/TestTransactionPoolDetach.cpp.i
@@ -2587,7 +2587,7 @@ UnitTests/TestTransactionPoolDetach.i: UnitTests/TestTransactionPoolDetach.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestTransactionPoolDetach.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransactionPoolDetach.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransactionPoolDetach.cpp.i
 .PHONY : UnitTests/TestTransactionPoolDetach.cpp.i
 
 UnitTests/TestTransactionPoolDetach.s: UnitTests/TestTransactionPoolDetach.cpp.s
@@ -2596,7 +2596,7 @@ UnitTests/TestTransactionPoolDetach.s: UnitTests/TestTransactionPoolDetach.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestTransactionPoolDetach.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransactionPoolDetach.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransactionPoolDetach.cpp.s
 .PHONY : UnitTests/TestTransactionPoolDetach.cpp.s
 
 UnitTests/TestTransfers.o: UnitTests/TestTransfers.cpp.o
@@ -2605,7 +2605,7 @@ UnitTests/TestTransfers.o: UnitTests/TestTransfers.cpp.o
 
 # target to build an object file
 UnitTests/TestTransfers.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfers.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfers.cpp.o
 .PHONY : UnitTests/TestTransfers.cpp.o
 
 UnitTests/TestTransfers.i: UnitTests/TestTransfers.cpp.i
@@ -2614,7 +2614,7 @@ UnitTests/TestTransfers.i: UnitTests/TestTransfers.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestTransfers.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfers.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfers.cpp.i
 .PHONY : UnitTests/TestTransfers.cpp.i
 
 UnitTests/TestTransfers.s: UnitTests/TestTransfers.cpp.s
@@ -2623,7 +2623,7 @@ UnitTests/TestTransfers.s: UnitTests/TestTransfers.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestTransfers.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfers.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfers.cpp.s
 .PHONY : UnitTests/TestTransfers.cpp.s
 
 UnitTests/TestTransfersConsumer.o: UnitTests/TestTransfersConsumer.cpp.o
@@ -2632,7 +2632,7 @@ UnitTests/TestTransfersConsumer.o: UnitTests/TestTransfersConsumer.cpp.o
 
 # target to build an object file
 UnitTests/TestTransfersConsumer.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersConsumer.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersConsumer.cpp.o
 .PHONY : UnitTests/TestTransfersConsumer.cpp.o
 
 UnitTests/TestTransfersConsumer.i: UnitTests/TestTransfersConsumer.cpp.i
@@ -2641,7 +2641,7 @@ UnitTests/TestTransfersConsumer.i: UnitTests/TestTransfersConsumer.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestTransfersConsumer.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersConsumer.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersConsumer.cpp.i
 .PHONY : UnitTests/TestTransfersConsumer.cpp.i
 
 UnitTests/TestTransfersConsumer.s: UnitTests/TestTransfersConsumer.cpp.s
@@ -2650,7 +2650,7 @@ UnitTests/TestTransfersConsumer.s: UnitTests/TestTransfersConsumer.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestTransfersConsumer.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersConsumer.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersConsumer.cpp.s
 .PHONY : UnitTests/TestTransfersConsumer.cpp.s
 
 UnitTests/TestTransfersContainer.o: UnitTests/TestTransfersContainer.cpp.o
@@ -2659,7 +2659,7 @@ UnitTests/TestTransfersContainer.o: UnitTests/TestTransfersContainer.cpp.o
 
 # target to build an object file
 UnitTests/TestTransfersContainer.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainer.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainer.cpp.o
 .PHONY : UnitTests/TestTransfersContainer.cpp.o
 
 UnitTests/TestTransfersContainer.i: UnitTests/TestTransfersContainer.cpp.i
@@ -2668,7 +2668,7 @@ UnitTests/TestTransfersContainer.i: UnitTests/TestTransfersContainer.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestTransfersContainer.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainer.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainer.cpp.i
 .PHONY : UnitTests/TestTransfersContainer.cpp.i
 
 UnitTests/TestTransfersContainer.s: UnitTests/TestTransfersContainer.cpp.s
@@ -2677,7 +2677,7 @@ UnitTests/TestTransfersContainer.s: UnitTests/TestTransfersContainer.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestTransfersContainer.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainer.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainer.cpp.s
 .PHONY : UnitTests/TestTransfersContainer.cpp.s
 
 UnitTests/TestTransfersContainerKeyImage.o: UnitTests/TestTransfersContainerKeyImage.cpp.o
@@ -2686,7 +2686,7 @@ UnitTests/TestTransfersContainerKeyImage.o: UnitTests/TestTransfersContainerKeyI
 
 # target to build an object file
 UnitTests/TestTransfersContainerKeyImage.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainerKeyImage.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainerKeyImage.cpp.o
 .PHONY : UnitTests/TestTransfersContainerKeyImage.cpp.o
 
 UnitTests/TestTransfersContainerKeyImage.i: UnitTests/TestTransfersContainerKeyImage.cpp.i
@@ -2695,7 +2695,7 @@ UnitTests/TestTransfersContainerKeyImage.i: UnitTests/TestTransfersContainerKeyI
 
 # target to preprocess a source file
 UnitTests/TestTransfersContainerKeyImage.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainerKeyImage.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainerKeyImage.cpp.i
 .PHONY : UnitTests/TestTransfersContainerKeyImage.cpp.i
 
 UnitTests/TestTransfersContainerKeyImage.s: UnitTests/TestTransfersContainerKeyImage.cpp.s
@@ -2704,7 +2704,7 @@ UnitTests/TestTransfersContainerKeyImage.s: UnitTests/TestTransfersContainerKeyI
 
 # target to generate assembly for a file
 UnitTests/TestTransfersContainerKeyImage.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainerKeyImage.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersContainerKeyImage.cpp.s
 .PHONY : UnitTests/TestTransfersContainerKeyImage.cpp.s
 
 UnitTests/TestTransfersSubscription.o: UnitTests/TestTransfersSubscription.cpp.o
@@ -2713,7 +2713,7 @@ UnitTests/TestTransfersSubscription.o: UnitTests/TestTransfersSubscription.cpp.o
 
 # target to build an object file
 UnitTests/TestTransfersSubscription.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersSubscription.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersSubscription.cpp.o
 .PHONY : UnitTests/TestTransfersSubscription.cpp.o
 
 UnitTests/TestTransfersSubscription.i: UnitTests/TestTransfersSubscription.cpp.i
@@ -2722,7 +2722,7 @@ UnitTests/TestTransfersSubscription.i: UnitTests/TestTransfersSubscription.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestTransfersSubscription.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersSubscription.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersSubscription.cpp.i
 .PHONY : UnitTests/TestTransfersSubscription.cpp.i
 
 UnitTests/TestTransfersSubscription.s: UnitTests/TestTransfersSubscription.cpp.s
@@ -2731,7 +2731,7 @@ UnitTests/TestTransfersSubscription.s: UnitTests/TestTransfersSubscription.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestTransfersSubscription.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersSubscription.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestTransfersSubscription.cpp.s
 .PHONY : UnitTests/TestTransfersSubscription.cpp.s
 
 UnitTests/TestWallet.o: UnitTests/TestWallet.cpp.o
@@ -2740,7 +2740,7 @@ UnitTests/TestWallet.o: UnitTests/TestWallet.cpp.o
 
 # target to build an object file
 UnitTests/TestWallet.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWallet.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWallet.cpp.o
 .PHONY : UnitTests/TestWallet.cpp.o
 
 UnitTests/TestWallet.i: UnitTests/TestWallet.cpp.i
@@ -2749,7 +2749,7 @@ UnitTests/TestWallet.i: UnitTests/TestWallet.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestWallet.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWallet.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWallet.cpp.i
 .PHONY : UnitTests/TestWallet.cpp.i
 
 UnitTests/TestWallet.s: UnitTests/TestWallet.cpp.s
@@ -2758,7 +2758,7 @@ UnitTests/TestWallet.s: UnitTests/TestWallet.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestWallet.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWallet.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWallet.cpp.s
 .PHONY : UnitTests/TestWallet.cpp.s
 
 UnitTests/TestWalletLegacy.o: UnitTests/TestWalletLegacy.cpp.o
@@ -2767,7 +2767,7 @@ UnitTests/TestWalletLegacy.o: UnitTests/TestWalletLegacy.cpp.o
 
 # target to build an object file
 UnitTests/TestWalletLegacy.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletLegacy.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletLegacy.cpp.o
 .PHONY : UnitTests/TestWalletLegacy.cpp.o
 
 UnitTests/TestWalletLegacy.i: UnitTests/TestWalletLegacy.cpp.i
@@ -2776,7 +2776,7 @@ UnitTests/TestWalletLegacy.i: UnitTests/TestWalletLegacy.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestWalletLegacy.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletLegacy.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletLegacy.cpp.i
 .PHONY : UnitTests/TestWalletLegacy.cpp.i
 
 UnitTests/TestWalletLegacy.s: UnitTests/TestWalletLegacy.cpp.s
@@ -2785,7 +2785,7 @@ UnitTests/TestWalletLegacy.s: UnitTests/TestWalletLegacy.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestWalletLegacy.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletLegacy.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletLegacy.cpp.s
 .PHONY : UnitTests/TestWalletLegacy.cpp.s
 
 UnitTests/TestWalletService.o: UnitTests/TestWalletService.cpp.o
@@ -2794,7 +2794,7 @@ UnitTests/TestWalletService.o: UnitTests/TestWalletService.cpp.o
 
 # target to build an object file
 UnitTests/TestWalletService.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletService.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletService.cpp.o
 .PHONY : UnitTests/TestWalletService.cpp.o
 
 UnitTests/TestWalletService.i: UnitTests/TestWalletService.cpp.i
@@ -2803,7 +2803,7 @@ UnitTests/TestWalletService.i: UnitTests/TestWalletService.cpp.i
 
 # target to preprocess a source file
 UnitTests/TestWalletService.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletService.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletService.cpp.i
 .PHONY : UnitTests/TestWalletService.cpp.i
 
 UnitTests/TestWalletService.s: UnitTests/TestWalletService.cpp.s
@@ -2812,7 +2812,7 @@ UnitTests/TestWalletService.s: UnitTests/TestWalletService.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TestWalletService.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletService.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TestWalletService.cpp.s
 .PHONY : UnitTests/TestWalletService.cpp.s
 
 UnitTests/TransactionApi.o: UnitTests/TransactionApi.cpp.o
@@ -2821,7 +2821,7 @@ UnitTests/TransactionApi.o: UnitTests/TransactionApi.cpp.o
 
 # target to build an object file
 UnitTests/TransactionApi.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApi.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApi.cpp.o
 .PHONY : UnitTests/TransactionApi.cpp.o
 
 UnitTests/TransactionApi.i: UnitTests/TransactionApi.cpp.i
@@ -2830,7 +2830,7 @@ UnitTests/TransactionApi.i: UnitTests/TransactionApi.cpp.i
 
 # target to preprocess a source file
 UnitTests/TransactionApi.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApi.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApi.cpp.i
 .PHONY : UnitTests/TransactionApi.cpp.i
 
 UnitTests/TransactionApi.s: UnitTests/TransactionApi.cpp.s
@@ -2839,7 +2839,7 @@ UnitTests/TransactionApi.s: UnitTests/TransactionApi.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TransactionApi.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApi.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApi.cpp.s
 .PHONY : UnitTests/TransactionApi.cpp.s
 
 UnitTests/TransactionApiHelpers.o: UnitTests/TransactionApiHelpers.cpp.o
@@ -2848,7 +2848,7 @@ UnitTests/TransactionApiHelpers.o: UnitTests/TransactionApiHelpers.cpp.o
 
 # target to build an object file
 UnitTests/TransactionApiHelpers.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApiHelpers.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApiHelpers.cpp.o
 .PHONY : UnitTests/TransactionApiHelpers.cpp.o
 
 UnitTests/TransactionApiHelpers.i: UnitTests/TransactionApiHelpers.cpp.i
@@ -2857,7 +2857,7 @@ UnitTests/TransactionApiHelpers.i: UnitTests/TransactionApiHelpers.cpp.i
 
 # target to preprocess a source file
 UnitTests/TransactionApiHelpers.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApiHelpers.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApiHelpers.cpp.i
 .PHONY : UnitTests/TransactionApiHelpers.cpp.i
 
 UnitTests/TransactionApiHelpers.s: UnitTests/TransactionApiHelpers.cpp.s
@@ -2866,7 +2866,7 @@ UnitTests/TransactionApiHelpers.s: UnitTests/TransactionApiHelpers.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TransactionApiHelpers.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApiHelpers.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionApiHelpers.cpp.s
 .PHONY : UnitTests/TransactionApiHelpers.cpp.s
 
 UnitTests/TransactionPool.o: UnitTests/TransactionPool.cpp.o
@@ -2875,7 +2875,7 @@ UnitTests/TransactionPool.o: UnitTests/TransactionPool.cpp.o
 
 # target to build an object file
 UnitTests/TransactionPool.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionPool.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionPool.cpp.o
 .PHONY : UnitTests/TransactionPool.cpp.o
 
 UnitTests/TransactionPool.i: UnitTests/TransactionPool.cpp.i
@@ -2884,7 +2884,7 @@ UnitTests/TransactionPool.i: UnitTests/TransactionPool.cpp.i
 
 # target to preprocess a source file
 UnitTests/TransactionPool.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionPool.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionPool.cpp.i
 .PHONY : UnitTests/TransactionPool.cpp.i
 
 UnitTests/TransactionPool.s: UnitTests/TransactionPool.cpp.s
@@ -2893,7 +2893,7 @@ UnitTests/TransactionPool.s: UnitTests/TransactionPool.cpp.s
 
 # target to generate assembly for a file
 UnitTests/TransactionPool.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionPool.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/TransactionPool.cpp.s
 .PHONY : UnitTests/TransactionPool.cpp.s
 
 UnitTests/main.o: UnitTests/main.cpp.o
@@ -2902,7 +2902,7 @@ UnitTests/main.o: UnitTests/main.cpp.o
 
 # target to build an object file
 UnitTests/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/main.cpp.o
 .PHONY : UnitTests/main.cpp.o
 
 UnitTests/main.i: UnitTests/main.cpp.i
@@ -2911,7 +2911,7 @@ UnitTests/main.i: UnitTests/main.cpp.i
 
 # target to preprocess a source file
 UnitTests/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/main.cpp.i
 .PHONY : UnitTests/main.cpp.i
 
 UnitTests/main.s: UnitTests/main.cpp.s
@@ -2920,7 +2920,7 @@ UnitTests/main.s: UnitTests/main.cpp.s
 
 # target to generate assembly for a file
 UnitTests/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/UnitTests.dir/build.make tests/CMakeFiles/UnitTests.dir/UnitTests/main.cpp.s
 .PHONY : UnitTests/main.cpp.s
 
 crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
@@ -2929,7 +2929,7 @@ crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
 
 # target to build an object file
 crypto/crypto-ops-data.c.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.o
 .PHONY : crypto/crypto-ops-data.c.o
 
 crypto/crypto-ops-data.i: crypto/crypto-ops-data.c.i
@@ -2938,7 +2938,7 @@ crypto/crypto-ops-data.i: crypto/crypto-ops-data.c.i
 
 # target to preprocess a source file
 crypto/crypto-ops-data.c.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.i
 .PHONY : crypto/crypto-ops-data.c.i
 
 crypto/crypto-ops-data.s: crypto/crypto-ops-data.c.s
@@ -2947,7 +2947,7 @@ crypto/crypto-ops-data.s: crypto/crypto-ops-data.c.s
 
 # target to generate assembly for a file
 crypto/crypto-ops-data.c.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.s
 .PHONY : crypto/crypto-ops-data.c.s
 
 crypto/crypto-ops.o: crypto/crypto-ops.c.o
@@ -2956,7 +2956,7 @@ crypto/crypto-ops.o: crypto/crypto-ops.c.o
 
 # target to build an object file
 crypto/crypto-ops.c.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.o
 .PHONY : crypto/crypto-ops.c.o
 
 crypto/crypto-ops.i: crypto/crypto-ops.c.i
@@ -2965,7 +2965,7 @@ crypto/crypto-ops.i: crypto/crypto-ops.c.i
 
 # target to preprocess a source file
 crypto/crypto-ops.c.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.i
 .PHONY : crypto/crypto-ops.c.i
 
 crypto/crypto-ops.s: crypto/crypto-ops.c.s
@@ -2974,7 +2974,7 @@ crypto/crypto-ops.s: crypto/crypto-ops.c.s
 
 # target to generate assembly for a file
 crypto/crypto-ops.c.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.s
 .PHONY : crypto/crypto-ops.c.s
 
 crypto/crypto.o: crypto/crypto.cpp.o
@@ -2983,7 +2983,7 @@ crypto/crypto.o: crypto/crypto.cpp.o
 
 # target to build an object file
 crypto/crypto.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o
 .PHONY : crypto/crypto.cpp.o
 
 crypto/crypto.i: crypto/crypto.cpp.i
@@ -2992,7 +2992,7 @@ crypto/crypto.i: crypto/crypto.cpp.i
 
 # target to preprocess a source file
 crypto/crypto.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.i
 .PHONY : crypto/crypto.cpp.i
 
 crypto/crypto.s: crypto/crypto.cpp.s
@@ -3001,7 +3001,7 @@ crypto/crypto.s: crypto/crypto.cpp.s
 
 # target to generate assembly for a file
 crypto/crypto.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.s
 .PHONY : crypto/crypto.cpp.s
 
 crypto/hash.o: crypto/hash.c.o
@@ -3010,7 +3010,7 @@ crypto/hash.o: crypto/hash.c.o
 
 # target to build an object file
 crypto/hash.c.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o
 .PHONY : crypto/hash.c.o
 
 crypto/hash.i: crypto/hash.c.i
@@ -3019,7 +3019,7 @@ crypto/hash.i: crypto/hash.c.i
 
 # target to preprocess a source file
 crypto/hash.c.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.i
 .PHONY : crypto/hash.c.i
 
 crypto/hash.s: crypto/hash.c.s
@@ -3028,7 +3028,7 @@ crypto/hash.s: crypto/hash.c.s
 
 # target to generate assembly for a file
 crypto/hash.c.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.s
 .PHONY : crypto/hash.c.s
 
 crypto/main.o: crypto/main.cpp.o
@@ -3037,7 +3037,7 @@ crypto/main.o: crypto/main.cpp.o
 
 # target to build an object file
 crypto/main.cpp.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o
 .PHONY : crypto/main.cpp.o
 
 crypto/main.i: crypto/main.cpp.i
@@ -3046,7 +3046,7 @@ crypto/main.i: crypto/main.cpp.i
 
 # target to preprocess a source file
 crypto/main.cpp.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.i
 .PHONY : crypto/main.cpp.i
 
 crypto/main.s: crypto/main.cpp.s
@@ -3055,7 +3055,7 @@ crypto/main.s: crypto/main.cpp.s
 
 # target to generate assembly for a file
 crypto/main.cpp.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.s
 .PHONY : crypto/main.cpp.s
 
 crypto/random.o: crypto/random.c.o
@@ -3064,7 +3064,7 @@ crypto/random.o: crypto/random.c.o
 
 # target to build an object file
 crypto/random.c.o:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o
 .PHONY : crypto/random.c.o
 
 crypto/random.i: crypto/random.c.i
@@ -3073,7 +3073,7 @@ crypto/random.i: crypto/random.c.i
 
 # target to preprocess a source file
 crypto/random.c.i:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/random.c.i
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/random.c.i
 .PHONY : crypto/random.c.i
 
 crypto/random.s: crypto/random.c.s
@@ -3082,7 +3082,7 @@ crypto/random.s: crypto/random.c.s
 
 # target to generate assembly for a file
 crypto/random.c.s:
-	cd /coin/eletacoin/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/random.c.s
+	cd /coin/eleta/build/release && $(MAKE) -f tests/CMakeFiles/CryptoTests.dir/build.make tests/CMakeFiles/CryptoTests.dir/crypto/random.c.s
 .PHONY : crypto/random.c.s
 
 # Help Target
@@ -3425,6 +3425,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

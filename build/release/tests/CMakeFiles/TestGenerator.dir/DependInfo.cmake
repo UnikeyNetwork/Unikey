@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/tests/TestGenerator/TestGenerator.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o"
+  "/coin/eleta/tests/TestGenerator/TestGenerator.cpp" "/coin/eleta/build/release/tests/CMakeFiles/TestGenerator.dir/TestGenerator/TestGenerator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -35,9 +35,9 @@ src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorer.cpp
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorer.h
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerErrors.h
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorer.cpp
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorer.h
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorerErrors.h
 src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -74,8 +74,8 @@ src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataB
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorerDataBuilder.h
 src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerErrors.cpp
- /coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerErrors.h
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorerErrors.cpp
+ /coin/eleta/src/BlockchainExplorer/BlockchainExplorerErrors.h

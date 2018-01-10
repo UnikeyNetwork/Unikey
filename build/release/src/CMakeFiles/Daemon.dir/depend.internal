@@ -111,8 +111,8 @@ src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Daemon/Daemon.cpp
- /coin/eletacoin/src/Daemon/DaemonCommandsHandler.h
+ /coin/eleta/src/Daemon/Daemon.cpp
+ /coin/eleta/src/Daemon/DaemonCommandsHandler.h
  version/version.h
 src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
  ../../external/google/sparse_hash_map
@@ -218,6 +218,6 @@ src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Daemon/DaemonCommandsHandler.cpp
- /coin/eletacoin/src/Daemon/DaemonCommandsHandler.h
+ /coin/eleta/src/Daemon/DaemonCommandsHandler.cpp
+ /coin/eleta/src/Daemon/DaemonCommandsHandler.h
  version/version.h

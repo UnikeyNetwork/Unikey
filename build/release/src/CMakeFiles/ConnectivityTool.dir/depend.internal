@@ -54,5 +54,5 @@ src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/ConnectivityTool/ConnectivityTool.cpp
+ /coin/eleta/src/ConnectivityTool/ConnectivityTool.cpp
  version/version.h

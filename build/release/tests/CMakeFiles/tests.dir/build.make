@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 # Utility rule file for tests.
 
@@ -75,10 +75,10 @@ tests/CMakeFiles/tests.dir/build: tests
 .PHONY : tests/CMakeFiles/tests.dir/build
 
 tests/CMakeFiles/tests.dir/clean:
-	cd /coin/eletacoin/build/release/tests && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
+	cd /coin/eleta/build/release/tests && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/tests.dir/clean
 
 tests/CMakeFiles/tests.dir/depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eletacoin /coin/eletacoin/tests /coin/eletacoin/build/release /coin/eletacoin/build/release/tests /coin/eletacoin/build/release/tests/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /coin/eleta /coin/eleta/tests /coin/eleta/build/release /coin/eleta/build/release/tests /coin/eleta/build/release/tests/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/tests.dir/depend
 

@@ -18,4 +18,4 @@ tests/CMakeFiles/DifficultyTests.dir/Difficulty/Difficulty.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /coin/eletacoin/tests/Difficulty/Difficulty.cpp
+ /coin/eleta/tests/Difficulty/Difficulty.cpp

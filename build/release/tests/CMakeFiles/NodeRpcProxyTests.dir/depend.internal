@@ -30,4 +30,4 @@ tests/CMakeFiles/NodeRpcProxyTests.dir/NodeRpcProxyTests/NodeRpcProxyTests.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/NodeRpcProxyTests/NodeRpcProxyTests.cpp
+ /coin/eleta/tests/NodeRpcProxyTests/NodeRpcProxyTests.cpp

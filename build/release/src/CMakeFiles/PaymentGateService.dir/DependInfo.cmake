@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/PaymentGateService/ConfigurationManager.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.o"
-  "/coin/eletacoin/src/PaymentGateService/PaymentGateService.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o"
-  "/coin/eletacoin/src/PaymentGateService/PaymentServiceConfiguration.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o"
-  "/coin/eletacoin/src/PaymentGateService/RpcNodeConfiguration.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o"
-  "/coin/eletacoin/src/PaymentGateService/main.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o"
+  "/coin/eleta/src/PaymentGateService/ConfigurationManager.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.o"
+  "/coin/eleta/src/PaymentGateService/PaymentGateService.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o"
+  "/coin/eleta/src/PaymentGateService/PaymentServiceConfiguration.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o"
+  "/coin/eleta/src/PaymentGateService/RpcNodeConfiguration.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o"
+  "/coin/eleta/src/PaymentGateService/main.cpp" "/coin/eleta/build/release/src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -28,23 +28,23 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/coin/eletacoin/build/release/src/CMakeFiles/PaymentGate.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/JsonRpcServer.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/InProcessNode.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/PaymentGate.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/JsonRpcServer.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Http.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/InProcessNode.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

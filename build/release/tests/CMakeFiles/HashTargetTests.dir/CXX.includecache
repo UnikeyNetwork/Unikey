@@ -66,7 +66,7 @@ generic-ops.h
 hash-ops.h
 ../../src/crypto/hash-ops.h
 
-/coin/eletacoin/tests/HashTarget.cpp
+/coin/eleta/tests/HashTarget.cpp
 cstdint
 -
 cstdlib
@@ -76,7 +76,7 @@ cstring
 limits
 -
 crypto/hash.h
-/coin/eletacoin/tests/crypto/hash.h
+/coin/eleta/tests/crypto/hash.h
 CryptoNoteCore/Difficulty.h
-/coin/eletacoin/tests/CryptoNoteCore/Difficulty.h
+/coin/eleta/tests/CryptoNoteCore/Difficulty.h
 

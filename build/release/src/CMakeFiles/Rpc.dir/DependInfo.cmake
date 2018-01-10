@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/Rpc/HttpClient.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o"
-  "/coin/eletacoin/src/Rpc/HttpServer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o"
-  "/coin/eletacoin/src/Rpc/JsonRpc.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o"
-  "/coin/eletacoin/src/Rpc/RpcServer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o"
-  "/coin/eletacoin/src/Rpc/RpcServerConfig.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o"
+  "/coin/eleta/src/Rpc/HttpClient.cpp" "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o"
+  "/coin/eleta/src/Rpc/HttpServer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o"
+  "/coin/eleta/src/Rpc/JsonRpc.cpp" "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o"
+  "/coin/eleta/src/Rpc/RpcServer.cpp" "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o"
+  "/coin/eleta/src/Rpc/RpcServerConfig.cpp" "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

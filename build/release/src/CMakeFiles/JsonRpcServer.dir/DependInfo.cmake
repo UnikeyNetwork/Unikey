@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/JsonRpcServer/JsonRpcServer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o"
+  "/coin/eleta/src/JsonRpcServer/JsonRpcServer.cpp" "/coin/eleta/build/release/src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

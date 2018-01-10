@@ -15,10 +15,10 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/Account.cpp
- /coin/eletacoin/src/CryptoNoteCore/Account.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/Account.cpp
+ /coin/eleta/src/CryptoNoteCore/Account.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -33,10 +33,10 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/BlockIndex.cpp
- /coin/eletacoin/src/CryptoNoteCore/BlockIndex.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/BlockIndex.cpp
+ /coin/eleta/src/CryptoNoteCore/BlockIndex.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -101,10 +101,10 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/Blockchain.cpp
- /coin/eletacoin/src/CryptoNoteCore/Blockchain.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/Blockchain.cpp
+ /coin/eleta/src/CryptoNoteCore/Blockchain.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -140,15 +140,15 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/BlockchainIndices.cpp
- /coin/eletacoin/src/CryptoNoteCore/BlockchainIndices.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /coin/eleta/src/CryptoNoteCore/BlockchainIndices.cpp
+ /coin/eleta/src/CryptoNoteCore/BlockchainIndices.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasicImpl.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
  ../../src/CryptoNoteCore/BlockchainMessages.h
- /coin/eletacoin/src/CryptoNoteCore/BlockchainMessages.cpp
+ /coin/eleta/src/CryptoNoteCore/BlockchainMessages.cpp
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -164,9 +164,9 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/Checkpoints.cpp
- /coin/eletacoin/src/CryptoNoteCore/Checkpoints.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /coin/eleta/src/CryptoNoteCore/Checkpoints.cpp
+ /coin/eleta/src/CryptoNoteCore/Checkpoints.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasicImpl.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -229,42 +229,42 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
  ../../src/crypto/chacha8.h
  ../../src/crypto/crypto.h
  ../../src/crypto/hash.h
- /coin/eletacoin/src/Common/CommandLine.h
- /coin/eletacoin/src/Common/StringTools.h
- /coin/eletacoin/src/Common/Util.h
- /coin/eletacoin/src/Common/static_assert.h
- /coin/eletacoin/src/CryptoNoteConfig.h
- /coin/eletacoin/src/CryptoNoteCore/Blockchain.h
- /coin/eletacoin/src/CryptoNoteCore/Core.cpp
- /coin/eletacoin/src/CryptoNoteCore/Core.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteStatInfo.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
- /coin/eletacoin/src/CryptoNoteCore/Currency.h
- /coin/eletacoin/src/CryptoNoteCore/Difficulty.h
- /coin/eletacoin/src/CryptoNoteCore/IBlock.h
- /coin/eletacoin/src/CryptoNoteCore/ICore.h
- /coin/eletacoin/src/CryptoNoteCore/ICoreObserver.h
- /coin/eletacoin/src/CryptoNoteCore/Miner.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionPool.h
- /coin/eletacoin/src/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
- /coin/eletacoin/src/Logging/ILogger.h
- /coin/eletacoin/src/Logging/LoggerMessage.h
- /coin/eletacoin/src/Logging/LoggerRef.h
- /coin/eletacoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
- /coin/eletacoin/src/crypto/crypto.h
- /coin/eletacoin/src/crypto/generic-ops.h
- /coin/eletacoin/src/crypto/hash-ops.h
- /coin/eletacoin/src/crypto/hash.h
- /coin/eletacoin/src/crypto/random.h
+ /coin/eleta/src/Common/CommandLine.h
+ /coin/eleta/src/Common/StringTools.h
+ /coin/eleta/src/Common/Util.h
+ /coin/eleta/src/Common/static_assert.h
+ /coin/eleta/src/CryptoNoteConfig.h
+ /coin/eleta/src/CryptoNoteCore/Blockchain.h
+ /coin/eleta/src/CryptoNoteCore/Core.cpp
+ /coin/eleta/src/CryptoNoteCore/Core.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteStatInfo.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/Currency.h
+ /coin/eleta/src/CryptoNoteCore/Difficulty.h
+ /coin/eleta/src/CryptoNoteCore/IBlock.h
+ /coin/eleta/src/CryptoNoteCore/ICore.h
+ /coin/eleta/src/CryptoNoteCore/ICoreObserver.h
+ /coin/eleta/src/CryptoNoteCore/Miner.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/TransactionPool.h
+ /coin/eleta/src/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+ /coin/eleta/src/Logging/ILogger.h
+ /coin/eleta/src/Logging/LoggerMessage.h
+ /coin/eleta/src/Logging/LoggerRef.h
+ /coin/eleta/src/Rpc/CoreRpcServerCommandsDefinitions.h
+ /coin/eleta/src/crypto/crypto.h
+ /coin/eleta/src/crypto/generic-ops.h
+ /coin/eleta/src/crypto/hash-ops.h
+ /coin/eleta/src/crypto/hash.h
+ /coin/eleta/src/crypto/random.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.o
  ../../src/Common/CommandLine.h
  ../../src/Common/Util.h
- /coin/eletacoin/src/CryptoNoteCore/CoreConfig.cpp
- /coin/eletacoin/src/CryptoNoteCore/CoreConfig.h
+ /coin/eleta/src/CryptoNoteCore/CoreConfig.cpp
+ /coin/eleta/src/CryptoNoteCore/CoreConfig.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -275,8 +275,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.cpp
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.cpp
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -300,12 +300,12 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasicImpl.cpp
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasicImpl.cpp
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -333,14 +333,14 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/Account.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.cpp
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/Account.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.cpp
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -365,13 +365,13 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/Account.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.cpp
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/Account.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.cpp
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -393,11 +393,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.cpp
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.cpp
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -417,27 +417,27 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
  ../../src/crypto/crypto.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Common/Base58.h
- /coin/eletacoin/src/Common/StringTools.h
- /coin/eletacoin/src/Common/int-util.h
- /coin/eletacoin/src/Common/static_assert.h
- /coin/eletacoin/src/CryptoNoteConfig.h
- /coin/eletacoin/src/CryptoNoteCore/Account.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasicImpl.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
- /coin/eletacoin/src/CryptoNoteCore/Currency.cpp
- /coin/eletacoin/src/CryptoNoteCore/Currency.h
- /coin/eletacoin/src/CryptoNoteCore/Difficulty.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
- /coin/eletacoin/src/Logging/ILogger.h
- /coin/eletacoin/src/Logging/LoggerMessage.h
- /coin/eletacoin/src/Logging/LoggerRef.h
- /coin/eletacoin/src/crypto/generic-ops.h
- /coin/eletacoin/src/crypto/hash-ops.h
- /coin/eletacoin/src/crypto/hash.h
+ /coin/eleta/src/Common/Base58.h
+ /coin/eleta/src/Common/StringTools.h
+ /coin/eleta/src/Common/int-util.h
+ /coin/eleta/src/Common/static_assert.h
+ /coin/eleta/src/CryptoNoteConfig.h
+ /coin/eleta/src/CryptoNoteCore/Account.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasicImpl.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/Currency.cpp
+ /coin/eleta/src/CryptoNoteCore/Currency.h
+ /coin/eleta/src/CryptoNoteCore/Difficulty.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/Logging/ILogger.h
+ /coin/eleta/src/Logging/LoggerMessage.h
+ /coin/eleta/src/Logging/LoggerRef.h
+ /coin/eleta/src/crypto/generic-ops.h
+ /coin/eleta/src/crypto/hash-ops.h
+ /coin/eleta/src/crypto/hash.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
  ../../include/CryptoTypes.h
  ../../src/Common/int-util.h
@@ -446,16 +446,16 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /coin/eletacoin/src/CryptoNoteCore/Difficulty.cpp
- /coin/eletacoin/src/CryptoNoteCore/Difficulty.h
+ /coin/eleta/src/CryptoNoteCore/Difficulty.cpp
+ /coin/eleta/src/CryptoNoteCore/Difficulty.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
- /coin/eletacoin/src/CryptoNoteCore/IBlock.cpp
- /coin/eletacoin/src/CryptoNoteCore/IBlock.h
+ /coin/eleta/src/CryptoNoteCore/IBlock.cpp
+ /coin/eleta/src/CryptoNoteCore/IBlock.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.o
- /coin/eletacoin/src/CryptoNoteCore/ITimeProvider.cpp
- /coin/eletacoin/src/CryptoNoteCore/ITimeProvider.h
+ /coin/eleta/src/CryptoNoteCore/ITimeProvider.cpp
+ /coin/eleta/src/CryptoNoteCore/ITimeProvider.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -496,19 +496,19 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/Miner.cpp
- /coin/eletacoin/src/CryptoNoteCore/Miner.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/Miner.cpp
+ /coin/eleta/src/CryptoNoteCore/Miner.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.o
  ../../src/Common/CommandLine.h
- /coin/eletacoin/src/CryptoNoteCore/MinerConfig.cpp
- /coin/eletacoin/src/CryptoNoteCore/MinerConfig.h
+ /coin/eleta/src/CryptoNoteCore/MinerConfig.cpp
+ /coin/eleta/src/CryptoNoteCore/MinerConfig.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.o
- /coin/eletacoin/src/CryptoNoteCore/SwappedMap.cpp
- /coin/eletacoin/src/CryptoNoteCore/SwappedMap.h
+ /coin/eleta/src/CryptoNoteCore/SwappedMap.cpp
+ /coin/eleta/src/CryptoNoteCore/SwappedMap.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
  ../../src/Common/IInputStream.h
  ../../src/Common/IOutputStream.h
@@ -519,8 +519,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
  ../../src/Serialization/BinaryOutputStreamSerializer.h
  ../../src/Serialization/ISerializer.h
  ../../src/Serialization/SerializationOverloads.h
- /coin/eletacoin/src/CryptoNoteCore/SwappedVector.cpp
- /coin/eletacoin/src/CryptoNoteCore/SwappedVector.h
+ /coin/eleta/src/CryptoNoteCore/SwappedVector.cpp
+ /coin/eleta/src/CryptoNoteCore/SwappedVector.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -547,13 +547,13 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/Account.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/Transaction.cpp
- /coin/eletacoin/src/CryptoNoteCore/TransactionApiExtra.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionUtils.h
+ /coin/eleta/src/CryptoNoteCore/Account.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/Transaction.cpp
+ /coin/eleta/src/CryptoNoteCore/TransactionApiExtra.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/TransactionUtils.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -576,11 +576,11 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.cpp
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.cpp
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -629,12 +629,12 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteTools.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionPool.cpp
- /coin/eletacoin/src/CryptoNoteCore/TransactionPool.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteTools.h
+ /coin/eleta/src/CryptoNoteCore/TransactionPool.cpp
+ /coin/eleta/src/CryptoNoteCore/TransactionPool.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -663,8 +663,8 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionPrefixImpl.cpp
- /coin/eletacoin/src/CryptoNoteCore/TransactionUtils.h
+ /coin/eleta/src/CryptoNoteCore/TransactionPrefixImpl.cpp
+ /coin/eleta/src/CryptoNoteCore/TransactionUtils.h
 src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -686,9 +686,9 @@ src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteBasic.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteFormatUtils.h
- /coin/eletacoin/src/CryptoNoteCore/CryptoNoteSerialization.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionExtra.h
- /coin/eletacoin/src/CryptoNoteCore/TransactionUtils.cpp
- /coin/eletacoin/src/CryptoNoteCore/TransactionUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteBasic.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteFormatUtils.h
+ /coin/eleta/src/CryptoNoteCore/CryptoNoteSerialization.h
+ /coin/eleta/src/CryptoNoteCore/TransactionExtra.h
+ /coin/eleta/src/CryptoNoteCore/TransactionUtils.cpp
+ /coin/eleta/src/CryptoNoteCore/TransactionUtils.h

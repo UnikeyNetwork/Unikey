@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o"
-  "/coin/eletacoin/src/P2p/IP2pNodeInternal.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o"
-  "/coin/eletacoin/src/P2p/LevinProtocol.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o"
-  "/coin/eletacoin/src/P2p/NetNode.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o"
-  "/coin/eletacoin/src/P2p/NetNodeConfig.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o"
-  "/coin/eletacoin/src/P2p/P2pConnectionProxy.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o"
-  "/coin/eletacoin/src/P2p/P2pContext.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o"
-  "/coin/eletacoin/src/P2p/P2pContextOwner.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o"
-  "/coin/eletacoin/src/P2p/P2pInterfaces.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o"
-  "/coin/eletacoin/src/P2p/P2pNode.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o"
-  "/coin/eletacoin/src/P2p/P2pNodeConfig.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o"
-  "/coin/eletacoin/src/P2p/PeerListManager.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o"
+  "/coin/eleta/src/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o"
+  "/coin/eleta/src/P2p/IP2pNodeInternal.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o"
+  "/coin/eleta/src/P2p/LevinProtocol.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o"
+  "/coin/eleta/src/P2p/NetNode.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o"
+  "/coin/eleta/src/P2p/NetNodeConfig.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o"
+  "/coin/eleta/src/P2p/P2pConnectionProxy.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o"
+  "/coin/eleta/src/P2p/P2pContext.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o"
+  "/coin/eleta/src/P2p/P2pContextOwner.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o"
+  "/coin/eleta/src/P2p/P2pInterfaces.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o"
+  "/coin/eleta/src/P2p/P2pNode.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o"
+  "/coin/eleta/src/P2p/P2pNodeConfig.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o"
+  "/coin/eleta/src/P2p/PeerListManager.cpp" "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

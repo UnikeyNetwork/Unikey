@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/HTTP/HttpParser.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o"
-  "/coin/eletacoin/src/HTTP/HttpParserErrorCodes.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o"
-  "/coin/eletacoin/src/HTTP/HttpRequest.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o"
-  "/coin/eletacoin/src/HTTP/HttpResponse.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o"
+  "/coin/eleta/src/HTTP/HttpParser.cpp" "/coin/eleta/build/release/src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o"
+  "/coin/eleta/src/HTTP/HttpParserErrorCodes.cpp" "/coin/eleta/build/release/src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o"
+  "/coin/eleta/src/HTTP/HttpRequest.cpp" "/coin/eleta/build/release/src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o"
+  "/coin/eleta/src/HTTP/HttpResponse.cpp" "/coin/eleta/build/release/src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

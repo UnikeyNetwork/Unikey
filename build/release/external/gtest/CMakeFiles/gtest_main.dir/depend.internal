@@ -21,4 +21,4 @@ external/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
  ../../external/gtest/include/gtest/internal/gtest-string.h
  ../../external/gtest/include/gtest/internal/gtest-tuple.h
  ../../external/gtest/include/gtest/internal/gtest-type-util.h
- /coin/eletacoin/external/gtest/src/gtest_main.cc
+ /coin/eleta/external/gtest/src/gtest_main.cc

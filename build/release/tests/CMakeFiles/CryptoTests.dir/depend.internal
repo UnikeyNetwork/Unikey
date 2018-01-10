@@ -4,11 +4,11 @@
 tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.o
  ../../src/crypto/crypto-ops-data.c
  ../../src/crypto/crypto-ops.h
- /coin/eletacoin/tests/crypto/crypto-ops-data.c
+ /coin/eleta/tests/crypto/crypto-ops-data.c
 tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.o
  ../../src/crypto/crypto-ops.c
  ../../src/crypto/crypto-ops.h
- /coin/eletacoin/tests/crypto/crypto-ops.c
+ /coin/eleta/tests/crypto/crypto-ops.c
 tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o
  ../../src/Common/int-util.h
  ../../src/Common/static_assert.h
@@ -16,7 +16,7 @@ tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o
  ../../src/crypto/hash.c
  ../../src/crypto/keccak.c
  ../../src/crypto/keccak.h
- /coin/eletacoin/tests/crypto/hash.c
+ /coin/eleta/tests/crypto/hash.c
 tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o
  ../../include/CryptoTypes.h
  ../../src/Common/int-util.h
@@ -28,8 +28,8 @@ tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o
  ../../src/crypto/initializer.h
  ../../src/crypto/random.c
  ../../src/crypto/random.h
- /coin/eletacoin/tests/crypto/crypto-tests.h
- /coin/eletacoin/tests/crypto/random.c
+ /coin/eleta/tests/crypto/crypto-tests.h
+ /coin/eleta/tests/crypto/random.c
 tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o
  ../../include/CryptoTypes.h
  ../../src/Common/Varint.h
@@ -42,8 +42,8 @@ tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/crypto/crypto-tests.h
- /coin/eletacoin/tests/crypto/crypto.cpp
+ /coin/eleta/tests/crypto/crypto-tests.h
+ /coin/eleta/tests/crypto/crypto.cpp
 tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o
  ../../include/CryptoTypes.h
  ../../src/Common/int-util.h
@@ -53,6 +53,6 @@ tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/Io.h
- /coin/eletacoin/tests/crypto/crypto-tests.h
- /coin/eletacoin/tests/crypto/main.cpp
+ /coin/eleta/tests/Io.h
+ /coin/eleta/tests/crypto/crypto-tests.h
+ /coin/eleta/tests/crypto/main.cpp

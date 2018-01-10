@@ -5,10 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/coin/eletacoin/tests/crypto/crypto-ops-data.c" "/coin/eletacoin/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.o"
-  "/coin/eletacoin/tests/crypto/crypto-ops.c" "/coin/eletacoin/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.o"
-  "/coin/eletacoin/tests/crypto/hash.c" "/coin/eletacoin/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o"
-  "/coin/eletacoin/tests/crypto/random.c" "/coin/eletacoin/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o"
+  "/coin/eleta/tests/crypto/crypto-ops-data.c" "/coin/eleta/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops-data.c.o"
+  "/coin/eleta/tests/crypto/crypto-ops.c" "/coin/eleta/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/crypto-ops.c.o"
+  "/coin/eleta/tests/crypto/hash.c" "/coin/eleta/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/hash.c.o"
+  "/coin/eleta/tests/crypto/random.c" "/coin/eleta/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/random.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -29,8 +29,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../tests/../version"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/tests/crypto/crypto.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o"
-  "/coin/eletacoin/tests/crypto/main.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o"
+  "/coin/eleta/tests/crypto/crypto.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/crypto.cpp.o"
+  "/coin/eleta/tests/crypto/main.cpp" "/coin/eleta/build/release/tests/CMakeFiles/CryptoTests.dir/crypto/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

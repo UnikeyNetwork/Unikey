@@ -25,8 +25,8 @@ src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o
  ../../src/Serialization/SerializationTools.h
  ../../src/System/Ipv4Address.h
  ../../src/System/TcpStream.h
- /coin/eletacoin/src/Rpc/HttpClient.cpp
- /coin/eletacoin/src/Rpc/HttpClient.h
+ /coin/eleta/src/Rpc/HttpClient.cpp
+ /coin/eleta/src/Rpc/HttpClient.h
 src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o
  ../../src/HTTP/HttpParser.h
  ../../src/HTTP/HttpRequest.h
@@ -42,8 +42,8 @@ src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o
  ../../src/System/InterruptedException.h
  ../../src/System/Ipv4Address.h
  ../../src/System/TcpStream.h
- /coin/eletacoin/src/Rpc/HttpServer.cpp
- /coin/eletacoin/src/Rpc/HttpServer.h
+ /coin/eleta/src/Rpc/HttpServer.cpp
+ /coin/eleta/src/Rpc/HttpServer.h
 src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o
  ../../include/CryptoNote.h
  ../../include/CryptoTypes.h
@@ -80,9 +80,9 @@ src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
- /coin/eletacoin/src/Rpc/JsonRpc.cpp
- /coin/eletacoin/src/Rpc/JsonRpc.h
+ /coin/eleta/src/Rpc/CoreRpcServerCommandsDefinitions.h
+ /coin/eleta/src/Rpc/JsonRpc.cpp
+ /coin/eleta/src/Rpc/JsonRpc.h
 src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -186,14 +186,14 @@ src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
- /coin/eletacoin/src/Rpc/CoreRpcServerErrorCodes.h
- /coin/eletacoin/src/Rpc/HttpServer.h
- /coin/eletacoin/src/Rpc/JsonRpc.h
- /coin/eletacoin/src/Rpc/RpcServer.cpp
- /coin/eletacoin/src/Rpc/RpcServer.h
+ /coin/eleta/src/Rpc/CoreRpcServerCommandsDefinitions.h
+ /coin/eleta/src/Rpc/CoreRpcServerErrorCodes.h
+ /coin/eleta/src/Rpc/HttpServer.h
+ /coin/eleta/src/Rpc/JsonRpc.h
+ /coin/eleta/src/Rpc/RpcServer.cpp
+ /coin/eleta/src/Rpc/RpcServer.h
 src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o
  ../../src/Common/CommandLine.h
  ../../src/CryptoNoteConfig.h
- /coin/eletacoin/src/Rpc/RpcServerConfig.cpp
- /coin/eletacoin/src/Rpc/RpcServerConfig.h
+ /coin/eleta/src/Rpc/RpcServerConfig.cpp
+ /coin/eleta/src/Rpc/RpcServerConfig.h

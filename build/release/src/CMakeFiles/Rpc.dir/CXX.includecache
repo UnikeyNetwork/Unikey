@@ -1124,23 +1124,23 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/Rpc/CoreRpcServerCommandsDefinitions.h
 CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
-/coin/eletacoin/src/Rpc/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
+/coin/eleta/src/Rpc/CryptoNoteProtocol/CryptoNoteProtocolDefinitions.h
 CryptoNoteCore/CryptoNoteBasic.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/CryptoNoteBasic.h
+/coin/eleta/src/Rpc/CryptoNoteCore/CryptoNoteBasic.h
 CryptoNoteCore/Difficulty.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/Difficulty.h
+/coin/eleta/src/Rpc/CryptoNoteCore/Difficulty.h
 crypto/hash.h
-/coin/eletacoin/src/Rpc/crypto/hash.h
+/coin/eleta/src/Rpc/crypto/hash.h
 Serialization/SerializationOverloads.h
-/coin/eletacoin/src/Rpc/Serialization/SerializationOverloads.h
+/coin/eleta/src/Rpc/Serialization/SerializationOverloads.h
 
-/coin/eletacoin/src/Rpc/CoreRpcServerErrorCodes.h
+/coin/eleta/src/Rpc/CoreRpcServerErrorCodes.h
 
-/coin/eletacoin/src/Rpc/HttpClient.cpp
+/coin/eleta/src/Rpc/HttpClient.cpp
 HttpClient.h
-/coin/eletacoin/src/Rpc/HttpClient.h
+/coin/eleta/src/Rpc/HttpClient.h
 HTTP/HttpParser.h
 -
 System/Ipv4Resolver.h
@@ -1150,7 +1150,7 @@ System/Ipv4Address.h
 System/TcpConnector.h
 -
 
-/coin/eletacoin/src/Rpc/HttpClient.h
+/coin/eleta/src/Rpc/HttpClient.h
 memory
 -
 HTTP/HttpRequest.h
@@ -1162,11 +1162,11 @@ System/TcpConnection.h
 System/TcpStream.h
 -
 Serialization/SerializationTools.h
-/coin/eletacoin/src/Rpc/Serialization/SerializationTools.h
+/coin/eleta/src/Rpc/Serialization/SerializationTools.h
 
-/coin/eletacoin/src/Rpc/HttpServer.cpp
+/coin/eleta/src/Rpc/HttpServer.cpp
 HttpServer.h
-/coin/eletacoin/src/Rpc/HttpServer.h
+/coin/eleta/src/Rpc/HttpServer.h
 boost/scope_exit.hpp
 -
 HTTP/HttpParser.h
@@ -1178,7 +1178,7 @@ System/TcpStream.h
 System/Ipv4Address.h
 -
 
-/coin/eletacoin/src/Rpc/HttpServer.h
+/coin/eleta/src/Rpc/HttpServer.h
 unordered_set
 -
 HTTP/HttpRequest.h
@@ -1198,13 +1198,13 @@ System/Event.h
 Logging/LoggerRef.h
 -
 
-/coin/eletacoin/src/Rpc/JsonRpc.cpp
+/coin/eleta/src/Rpc/JsonRpc.cpp
 JsonRpc.h
-/coin/eletacoin/src/Rpc/JsonRpc.h
+/coin/eleta/src/Rpc/JsonRpc.h
 Rpc/HttpClient.h
-/coin/eletacoin/src/Rpc/Rpc/HttpClient.h
+/coin/eleta/src/Rpc/Rpc/HttpClient.h
 
-/coin/eletacoin/src/Rpc/JsonRpc.h
+/coin/eleta/src/Rpc/JsonRpc.h
 boost/optional.hpp
 -
 boost/foreach.hpp
@@ -1212,45 +1212,45 @@ boost/foreach.hpp
 functional
 -
 CoreRpcServerCommandsDefinitions.h
-/coin/eletacoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/Rpc/CoreRpcServerCommandsDefinitions.h
 Common/JsonValue.h
 -
 Serialization/ISerializer.h
-/coin/eletacoin/src/Rpc/Serialization/ISerializer.h
+/coin/eleta/src/Rpc/Serialization/ISerializer.h
 Serialization/SerializationTools.h
-/coin/eletacoin/src/Rpc/Serialization/SerializationTools.h
+/coin/eleta/src/Rpc/Serialization/SerializationTools.h
 
-/coin/eletacoin/src/Rpc/RpcServer.cpp
+/coin/eleta/src/Rpc/RpcServer.cpp
 RpcServer.h
-/coin/eletacoin/src/Rpc/RpcServer.h
+/coin/eleta/src/Rpc/RpcServer.h
 future
 -
 unordered_map
 -
 Common/StringTools.h
-/coin/eletacoin/src/Rpc/Common/StringTools.h
+/coin/eleta/src/Rpc/Common/StringTools.h
 CryptoNoteCore/CryptoNoteTools.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/CryptoNoteTools.h
+/coin/eleta/src/Rpc/CryptoNoteCore/CryptoNoteTools.h
 CryptoNoteCore/Core.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/Core.h
+/coin/eleta/src/Rpc/CryptoNoteCore/Core.h
 CryptoNoteCore/IBlock.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/IBlock.h
+/coin/eleta/src/Rpc/CryptoNoteCore/IBlock.h
 CryptoNoteCore/Miner.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/Miner.h
+/coin/eleta/src/Rpc/CryptoNoteCore/Miner.h
 CryptoNoteCore/TransactionExtra.h
-/coin/eletacoin/src/Rpc/CryptoNoteCore/TransactionExtra.h
+/coin/eleta/src/Rpc/CryptoNoteCore/TransactionExtra.h
 CryptoNoteProtocol/ICryptoNoteProtocolQuery.h
-/coin/eletacoin/src/Rpc/CryptoNoteProtocol/ICryptoNoteProtocolQuery.h
+/coin/eleta/src/Rpc/CryptoNoteProtocol/ICryptoNoteProtocolQuery.h
 P2p/NetNode.h
-/coin/eletacoin/src/Rpc/P2p/NetNode.h
+/coin/eleta/src/Rpc/P2p/NetNode.h
 CoreRpcServerErrorCodes.h
-/coin/eletacoin/src/Rpc/CoreRpcServerErrorCodes.h
+/coin/eleta/src/Rpc/CoreRpcServerErrorCodes.h
 JsonRpc.h
-/coin/eletacoin/src/Rpc/JsonRpc.h
+/coin/eleta/src/Rpc/JsonRpc.h
 
-/coin/eletacoin/src/Rpc/RpcServer.h
+/coin/eleta/src/Rpc/RpcServer.h
 HttpServer.h
-/coin/eletacoin/src/Rpc/HttpServer.h
+/coin/eleta/src/Rpc/HttpServer.h
 functional
 -
 unordered_map
@@ -1258,17 +1258,17 @@ unordered_map
 Logging/LoggerRef.h
 -
 CoreRpcServerCommandsDefinitions.h
-/coin/eletacoin/src/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/Rpc/CoreRpcServerCommandsDefinitions.h
 
-/coin/eletacoin/src/Rpc/RpcServerConfig.cpp
+/coin/eleta/src/Rpc/RpcServerConfig.cpp
 RpcServerConfig.h
-/coin/eletacoin/src/Rpc/RpcServerConfig.h
+/coin/eleta/src/Rpc/RpcServerConfig.h
 Common/CommandLine.h
-/coin/eletacoin/src/Rpc/Common/CommandLine.h
+/coin/eleta/src/Rpc/Common/CommandLine.h
 CryptoNoteConfig.h
-/coin/eletacoin/src/Rpc/CryptoNoteConfig.h
+/coin/eleta/src/Rpc/CryptoNoteConfig.h
 
-/coin/eletacoin/src/Rpc/RpcServerConfig.h
+/coin/eleta/src/Rpc/RpcServerConfig.h
 boost/program_options.hpp
 -
 

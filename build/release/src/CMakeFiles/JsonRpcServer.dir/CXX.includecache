@@ -166,9 +166,9 @@ cstdint
 streambuf
 -
 
-/coin/eletacoin/src/JsonRpcServer/JsonRpcServer.cpp
+/coin/eleta/src/JsonRpcServer/JsonRpcServer.cpp
 JsonRpcServer.h
-/coin/eletacoin/src/JsonRpcServer/JsonRpcServer.h
+/coin/eleta/src/JsonRpcServer/JsonRpcServer.h
 fstream
 -
 future
@@ -180,7 +180,7 @@ memory
 sstream
 -
 HTTP/HttpParserErrorCodes.h
-/coin/eletacoin/src/JsonRpcServer/HTTP/HttpParserErrorCodes.h
+/coin/eleta/src/JsonRpcServer/HTTP/HttpParserErrorCodes.h
 System/TcpConnection.h
 -
 System/TcpListener.h
@@ -190,17 +190,17 @@ System/TcpStream.h
 System/Ipv4Address.h
 -
 HTTP/HttpParser.h
-/coin/eletacoin/src/JsonRpcServer/HTTP/HttpParser.h
+/coin/eleta/src/JsonRpcServer/HTTP/HttpParser.h
 HTTP/HttpResponse.h
-/coin/eletacoin/src/JsonRpcServer/HTTP/HttpResponse.h
+/coin/eleta/src/JsonRpcServer/HTTP/HttpResponse.h
 Common/JsonValue.h
-/coin/eletacoin/src/JsonRpcServer/Common/JsonValue.h
+/coin/eleta/src/JsonRpcServer/Common/JsonValue.h
 Serialization/JsonInputValueSerializer.h
-/coin/eletacoin/src/JsonRpcServer/Serialization/JsonInputValueSerializer.h
+/coin/eleta/src/JsonRpcServer/Serialization/JsonInputValueSerializer.h
 Serialization/JsonOutputStreamSerializer.h
-/coin/eletacoin/src/JsonRpcServer/Serialization/JsonOutputStreamSerializer.h
+/coin/eleta/src/JsonRpcServer/Serialization/JsonOutputStreamSerializer.h
 
-/coin/eletacoin/src/JsonRpcServer/JsonRpcServer.h
+/coin/eleta/src/JsonRpcServer/JsonRpcServer.h
 system_error
 -
 System/Dispatcher.h
@@ -208,9 +208,9 @@ System/Dispatcher.h
 System/Event.h
 -
 Logging/ILogger.h
-/coin/eletacoin/src/JsonRpcServer/Logging/ILogger.h
+/coin/eleta/src/JsonRpcServer/Logging/ILogger.h
 Logging/LoggerRef.h
-/coin/eletacoin/src/JsonRpcServer/Logging/LoggerRef.h
+/coin/eleta/src/JsonRpcServer/Logging/LoggerRef.h
 Rpc/HttpServer.h
-/coin/eletacoin/src/JsonRpcServer/Rpc/HttpServer.h
+/coin/eleta/src/JsonRpcServer/Rpc/HttpServer.h
 

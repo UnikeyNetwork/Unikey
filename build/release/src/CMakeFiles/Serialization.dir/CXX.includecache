@@ -102,7 +102,7 @@ unordered_map
 unordered_set
 -
 
-/coin/eletacoin/src/Common/JsonValue.h
+/coin/eleta/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -114,9 +114,9 @@ string
 vector
 -
 
-/coin/eletacoin/src/Serialization/BinaryInputStreamSerializer.cpp
+/coin/eleta/src/Serialization/BinaryInputStreamSerializer.cpp
 BinaryInputStreamSerializer.h
-/coin/eletacoin/src/Serialization/BinaryInputStreamSerializer.h
+/coin/eleta/src/Serialization/BinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -126,35 +126,35 @@ stdexcept
 Common/StreamTools.h
 -
 SerializationOverloads.h
-/coin/eletacoin/src/Serialization/SerializationOverloads.h
+/coin/eleta/src/Serialization/SerializationOverloads.h
 
-/coin/eletacoin/src/Serialization/BinaryInputStreamSerializer.h
+/coin/eleta/src/Serialization/BinaryInputStreamSerializer.h
 Common/IInputStream.h
 -
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 SerializationOverloads.h
-/coin/eletacoin/src/Serialization/SerializationOverloads.h
+/coin/eleta/src/Serialization/SerializationOverloads.h
 
-/coin/eletacoin/src/Serialization/BinaryOutputStreamSerializer.cpp
+/coin/eleta/src/Serialization/BinaryOutputStreamSerializer.cpp
 BinaryOutputStreamSerializer.h
-/coin/eletacoin/src/Serialization/BinaryOutputStreamSerializer.h
+/coin/eleta/src/Serialization/BinaryOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StreamTools.h
-/coin/eletacoin/src/Serialization/Common/StreamTools.h
+/coin/eleta/src/Serialization/Common/StreamTools.h
 
-/coin/eletacoin/src/Serialization/BinaryOutputStreamSerializer.h
+/coin/eleta/src/Serialization/BinaryOutputStreamSerializer.h
 Common/IOutputStream.h
-/coin/eletacoin/src/Serialization/Common/IOutputStream.h
+/coin/eleta/src/Serialization/Common/IOutputStream.h
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 SerializationOverloads.h
-/coin/eletacoin/src/Serialization/SerializationOverloads.h
+/coin/eleta/src/Serialization/SerializationOverloads.h
 
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 string
 -
 cstdint
@@ -162,55 +162,55 @@ cstdint
 Common/StringView.h
 -
 
-/coin/eletacoin/src/Serialization/JsonInputStreamSerializer.cpp
+/coin/eleta/src/Serialization/JsonInputStreamSerializer.cpp
 Serialization/JsonInputStreamSerializer.h
-/coin/eletacoin/src/Serialization/Serialization/JsonInputStreamSerializer.h
+/coin/eleta/src/Serialization/Serialization/JsonInputStreamSerializer.h
 ctype.h
 -
 exception
 -
 
-/coin/eletacoin/src/Serialization/JsonInputValueSerializer.cpp
+/coin/eleta/src/Serialization/JsonInputValueSerializer.cpp
 JsonInputValueSerializer.h
-/coin/eletacoin/src/Serialization/JsonInputValueSerializer.h
+/coin/eleta/src/Serialization/JsonInputValueSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StringTools.h
-/coin/eletacoin/src/Serialization/Common/StringTools.h
+/coin/eleta/src/Serialization/Common/StringTools.h
 
-/coin/eletacoin/src/Serialization/JsonInputValueSerializer.h
+/coin/eleta/src/Serialization/JsonInputValueSerializer.h
 Common/JsonValue.h
-/coin/eletacoin/src/Serialization/Common/JsonValue.h
+/coin/eleta/src/Serialization/Common/JsonValue.h
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 
-/coin/eletacoin/src/Serialization/JsonOutputStreamSerializer.cpp
+/coin/eleta/src/Serialization/JsonOutputStreamSerializer.cpp
 JsonOutputStreamSerializer.h
-/coin/eletacoin/src/Serialization/JsonOutputStreamSerializer.h
+/coin/eleta/src/Serialization/JsonOutputStreamSerializer.h
 cassert
 -
 stdexcept
 -
 Common/StringTools.h
-/coin/eletacoin/src/Serialization/Common/StringTools.h
+/coin/eleta/src/Serialization/Common/StringTools.h
 
-/coin/eletacoin/src/Serialization/JsonOutputStreamSerializer.h
+/coin/eleta/src/Serialization/JsonOutputStreamSerializer.h
 iostream
 -
 ../Common/JsonValue.h
-/coin/eletacoin/src/Common/JsonValue.h
+/coin/eleta/src/Common/JsonValue.h
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 
-/coin/eletacoin/src/Serialization/KVBinaryCommon.h
+/coin/eleta/src/Serialization/KVBinaryCommon.h
 cstdint
 -
 
-/coin/eletacoin/src/Serialization/KVBinaryInputStreamSerializer.cpp
+/coin/eleta/src/Serialization/KVBinaryInputStreamSerializer.cpp
 KVBinaryInputStreamSerializer.h
-/coin/eletacoin/src/Serialization/KVBinaryInputStreamSerializer.h
+/coin/eleta/src/Serialization/KVBinaryInputStreamSerializer.h
 algorithm
 -
 cassert
@@ -222,21 +222,21 @@ stdexcept
 Common/StreamTools.h
 -
 KVBinaryCommon.h
-/coin/eletacoin/src/Serialization/KVBinaryCommon.h
+/coin/eleta/src/Serialization/KVBinaryCommon.h
 
-/coin/eletacoin/src/Serialization/KVBinaryInputStreamSerializer.h
+/coin/eleta/src/Serialization/KVBinaryInputStreamSerializer.h
 Common/IInputStream.h
 -
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 JsonInputValueSerializer.h
-/coin/eletacoin/src/Serialization/JsonInputValueSerializer.h
+/coin/eleta/src/Serialization/JsonInputValueSerializer.h
 
-/coin/eletacoin/src/Serialization/KVBinaryOutputStreamSerializer.cpp
+/coin/eleta/src/Serialization/KVBinaryOutputStreamSerializer.cpp
 KVBinaryOutputStreamSerializer.h
-/coin/eletacoin/src/Serialization/KVBinaryOutputStreamSerializer.h
+/coin/eleta/src/Serialization/KVBinaryOutputStreamSerializer.h
 KVBinaryCommon.h
-/coin/eletacoin/src/Serialization/KVBinaryCommon.h
+/coin/eleta/src/Serialization/KVBinaryCommon.h
 cassert
 -
 stdexcept
@@ -244,21 +244,21 @@ stdexcept
 Common/StreamTools.h
 -
 
-/coin/eletacoin/src/Serialization/KVBinaryOutputStreamSerializer.h
+/coin/eleta/src/Serialization/KVBinaryOutputStreamSerializer.h
 vector
 -
 Common/IOutputStream.h
 -
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 MemoryStream.h
-/coin/eletacoin/src/Serialization/MemoryStream.h
+/coin/eleta/src/Serialization/MemoryStream.h
 
-/coin/eletacoin/src/Serialization/MemoryStream.cpp
+/coin/eleta/src/Serialization/MemoryStream.cpp
 MemoryStream.h
-/coin/eletacoin/src/Serialization/MemoryStream.h
+/coin/eleta/src/Serialization/MemoryStream.h
 
-/coin/eletacoin/src/Serialization/MemoryStream.h
+/coin/eleta/src/Serialization/MemoryStream.h
 algorithm
 -
 cstdint
@@ -270,15 +270,15 @@ vector
 Common/IOutputStream.h
 -
 
-/coin/eletacoin/src/Serialization/SerializationOverloads.cpp
+/coin/eleta/src/Serialization/SerializationOverloads.cpp
 Serialization/SerializationOverloads.h
-/coin/eletacoin/src/Serialization/Serialization/SerializationOverloads.h
+/coin/eleta/src/Serialization/Serialization/SerializationOverloads.h
 limits
 -
 
-/coin/eletacoin/src/Serialization/SerializationOverloads.h
+/coin/eleta/src/Serialization/SerializationOverloads.h
 ISerializer.h
-/coin/eletacoin/src/Serialization/ISerializer.h
+/coin/eleta/src/Serialization/ISerializer.h
 array
 -
 cstring

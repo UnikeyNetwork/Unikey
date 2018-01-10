@@ -85,13 +85,13 @@ tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTes
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.cpp
- /coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.h
- /coin/eletacoin/tests/IntegrationTestLib/InProcTestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/Logger.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/RPCTestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.cpp
+ /coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.h
+ /coin/eleta/tests/IntegrationTestLib/InProcTestNode.h
+ /coin/eleta/tests/IntegrationTestLib/Logger.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/RPCTestNode.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
 tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o
  ../../external/google/sparse_hash_map
  ../../external/google/sparse_hash_set
@@ -195,16 +195,16 @@ tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cp
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/InProcTestNode.cpp
- /coin/eletacoin/tests/IntegrationTestLib/InProcTestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/InProcTestNode.cpp
+ /coin/eleta/tests/IntegrationTestLib/InProcTestNode.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
 tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o
- /coin/eletacoin/tests/IntegrationTestLib/Logger.cpp
- /coin/eletacoin/tests/IntegrationTestLib/Logger.h
+ /coin/eleta/tests/IntegrationTestLib/Logger.cpp
+ /coin/eleta/tests/IntegrationTestLib/Logger.h
 tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o
- /coin/eletacoin/tests/IntegrationTestLib/Process.cpp
- /coin/eletacoin/tests/IntegrationTestLib/Process.h
+ /coin/eleta/tests/IntegrationTestLib/Process.cpp
+ /coin/eleta/tests/IntegrationTestLib/Process.h
 tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -253,11 +253,11 @@ tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/Logger.h
- /coin/eletacoin/tests/IntegrationTestLib/NodeCallback.h
- /coin/eletacoin/tests/IntegrationTestLib/RPCTestNode.cpp
- /coin/eletacoin/tests/IntegrationTestLib/RPCTestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/Logger.h
+ /coin/eleta/tests/IntegrationTestLib/NodeCallback.h
+ /coin/eleta/tests/IntegrationTestLib/RPCTestNode.cpp
+ /coin/eleta/tests/IntegrationTestLib/RPCTestNode.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
 tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -299,13 +299,13 @@ tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/InProcTestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/NetworkConfiguration.h
- /coin/eletacoin/tests/IntegrationTestLib/Process.h
- /coin/eletacoin/tests/IntegrationTestLib/RPCTestNode.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNetwork.cpp
- /coin/eletacoin/tests/IntegrationTestLib/TestNetwork.h
- /coin/eletacoin/tests/IntegrationTestLib/TestNode.h
+ /coin/eleta/tests/IntegrationTestLib/InProcTestNode.h
+ /coin/eleta/tests/IntegrationTestLib/NetworkConfiguration.h
+ /coin/eleta/tests/IntegrationTestLib/Process.h
+ /coin/eleta/tests/IntegrationTestLib/RPCTestNode.h
+ /coin/eleta/tests/IntegrationTestLib/TestNetwork.cpp
+ /coin/eleta/tests/IntegrationTestLib/TestNetwork.h
+ /coin/eleta/tests/IntegrationTestLib/TestNode.h
 tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o
  ../../include/BlockchainExplorerData.h
  ../../include/CryptoNote.h
@@ -364,5 +364,5 @@ tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/tests/IntegrationTestLib/TestWalletLegacy.cpp
- /coin/eletacoin/tests/IntegrationTestLib/TestWalletLegacy.h
+ /coin/eleta/tests/IntegrationTestLib/TestWalletLegacy.cpp
+ /coin/eleta/tests/IntegrationTestLib/TestWalletLegacy.h

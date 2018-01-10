@@ -47,9 +47,9 @@ src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
  ../../src/crypto/random.h
- /coin/eletacoin/src/InProcessNode/InProcessNode.cpp
- /coin/eletacoin/src/InProcessNode/InProcessNode.h
- /coin/eletacoin/src/InProcessNode/InProcessNodeErrors.h
+ /coin/eleta/src/InProcessNode/InProcessNode.cpp
+ /coin/eleta/src/InProcessNode/InProcessNode.h
+ /coin/eleta/src/InProcessNode/InProcessNodeErrors.h
 src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o
- /coin/eletacoin/src/InProcessNode/InProcessNodeErrors.cpp
- /coin/eletacoin/src/InProcessNode/InProcessNodeErrors.h
+ /coin/eleta/src/InProcessNode/InProcessNodeErrors.cpp
+ /coin/eleta/src/InProcessNode/InProcessNodeErrors.h

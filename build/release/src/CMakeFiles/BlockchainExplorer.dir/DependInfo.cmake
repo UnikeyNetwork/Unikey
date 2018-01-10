@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/src/BlockchainExplorer/BlockchainExplorer.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.o"
-  "/coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o"
-  "/coin/eletacoin/src/BlockchainExplorer/BlockchainExplorerErrors.cpp" "/coin/eletacoin/build/release/src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o"
+  "/coin/eleta/src/BlockchainExplorer/BlockchainExplorer.cpp" "/coin/eleta/build/release/src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.o"
+  "/coin/eleta/src/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp" "/coin/eleta/build/release/src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o"
+  "/coin/eleta/src/BlockchainExplorer/BlockchainExplorerErrors.cpp" "/coin/eleta/build/release/src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

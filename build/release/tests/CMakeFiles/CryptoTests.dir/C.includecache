@@ -160,27 +160,27 @@ unistd.h
 stddef.h
 -
 
-/coin/eletacoin/tests/crypto/crypto-ops-data.c
+/coin/eleta/tests/crypto/crypto-ops-data.c
 crypto/crypto-ops-data.c
-/coin/eletacoin/tests/crypto/crypto/crypto-ops-data.c
+/coin/eleta/tests/crypto/crypto/crypto-ops-data.c
 
-/coin/eletacoin/tests/crypto/crypto-ops.c
+/coin/eleta/tests/crypto/crypto-ops.c
 crypto/crypto-ops.c
-/coin/eletacoin/tests/crypto/crypto/crypto-ops.c
+/coin/eleta/tests/crypto/crypto/crypto-ops.c
 
-/coin/eletacoin/tests/crypto/crypto-tests.h
+/coin/eleta/tests/crypto/crypto-tests.h
 crypto/crypto.h
-/coin/eletacoin/tests/crypto/crypto/crypto.h
+/coin/eleta/tests/crypto/crypto/crypto.h
 
-/coin/eletacoin/tests/crypto/hash.c
+/coin/eleta/tests/crypto/hash.c
 crypto/hash.c
-/coin/eletacoin/tests/crypto/crypto/hash.c
+/coin/eleta/tests/crypto/crypto/hash.c
 crypto/keccak.c
-/coin/eletacoin/tests/crypto/crypto/keccak.c
+/coin/eleta/tests/crypto/crypto/keccak.c
 
-/coin/eletacoin/tests/crypto/random.c
+/coin/eleta/tests/crypto/random.c
 crypto/random.c
-/coin/eletacoin/tests/crypto/crypto/random.c
+/coin/eleta/tests/crypto/crypto/random.c
 crypto-tests.h
-/coin/eletacoin/tests/crypto/crypto-tests.h
+/coin/eleta/tests/crypto/crypto-tests.h
 

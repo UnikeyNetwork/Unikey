@@ -36,11 +36,11 @@ sys/param.h
 stdlib.h
 -
 
-/coin/eletacoin/src/Common/static_assert.h
+/coin/eleta/src/Common/static_assert.h
 
-/coin/eletacoin/src/crypto/crypto-ops.h
+/coin/eleta/src/crypto/crypto-ops.h
 
-/coin/eletacoin/src/crypto/crypto.cpp
+/coin/eleta/src/crypto/crypto.cpp
 alloca.h
 -
 cassert
@@ -58,17 +58,17 @@ memory
 mutex
 -
 Common/Varint.h
-/coin/eletacoin/src/crypto/Common/Varint.h
+/coin/eleta/src/crypto/Common/Varint.h
 crypto.h
-/coin/eletacoin/src/crypto/crypto.h
+/coin/eleta/src/crypto/crypto.h
 hash.h
-/coin/eletacoin/src/crypto/hash.h
+/coin/eleta/src/crypto/hash.h
 crypto-ops.h
-/coin/eletacoin/src/crypto/crypto-ops.h
+/coin/eleta/src/crypto/crypto-ops.h
 random.h
-/coin/eletacoin/src/crypto/random.h
+/coin/eleta/src/crypto/random.h
 
-/coin/eletacoin/src/crypto/crypto.h
+/coin/eleta/src/crypto/crypto.h
 cstddef
 -
 limits
@@ -82,13 +82,13 @@ vector
 CryptoTypes.h
 -
 generic-ops.h
-/coin/eletacoin/src/crypto/generic-ops.h
+/coin/eleta/src/crypto/generic-ops.h
 hash.h
-/coin/eletacoin/src/crypto/hash.h
+/coin/eleta/src/crypto/hash.h
 random.h
-/coin/eletacoin/src/crypto/random.h
+/coin/eleta/src/crypto/random.h
 
-/coin/eletacoin/src/crypto/generic-ops.h
+/coin/eleta/src/crypto/generic-ops.h
 cstddef
 -
 cstring
@@ -96,7 +96,7 @@ cstring
 functional
 -
 
-/coin/eletacoin/src/crypto/hash-ops.h
+/coin/eleta/src/crypto/hash-ops.h
 assert.h
 -
 stdbool.h
@@ -106,29 +106,29 @@ stddef.h
 stdint.h
 -
 ../Common/static_assert.h
-/coin/eletacoin/src/Common/static_assert.h
+/coin/eleta/src/Common/static_assert.h
 Common/int-util.h
-/coin/eletacoin/src/crypto/Common/int-util.h
+/coin/eleta/src/crypto/Common/int-util.h
 
-/coin/eletacoin/src/crypto/hash.h
+/coin/eleta/src/crypto/hash.h
 stddef.h
 -
 CryptoTypes.h
 -
 generic-ops.h
-/coin/eletacoin/src/crypto/generic-ops.h
+/coin/eleta/src/crypto/generic-ops.h
 hash-ops.h
-/coin/eletacoin/src/crypto/hash-ops.h
+/coin/eleta/src/crypto/hash-ops.h
 
-/coin/eletacoin/src/crypto/random.h
+/coin/eleta/src/crypto/random.h
 stddef.h
 -
 
-/coin/eletacoin/src/crypto/slow-hash.cpp
+/coin/eleta/src/crypto/slow-hash.cpp
 new
 -
 hash.h
-/coin/eletacoin/src/crypto/hash.h
+/coin/eleta/src/crypto/hash.h
 Windows.h
 -
 sys/mman.h

@@ -8,5 +8,5 @@ tests/CMakeFiles/HashTests.dir/Hash/main.cpp.o
  ../../src/crypto/generic-ops.h
  ../../src/crypto/hash-ops.h
  ../../src/crypto/hash.h
- /coin/eletacoin/tests/Hash/main.cpp
- /coin/eletacoin/tests/Io.h
+ /coin/eleta/tests/Hash/main.cpp
+ /coin/eleta/tests/Io.h

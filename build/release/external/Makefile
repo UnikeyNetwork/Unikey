@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /coin/eletacoin
+CMAKE_SOURCE_DIR = /coin/eleta
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /coin/eletacoin/build/release
+CMAKE_BINARY_DIR = /coin/eleta/build/release
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,14 +91,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -E cmake_progress_start /coin/eletacoin/build/release/CMakeFiles /coin/eletacoin/build/release/external/CMakeFiles/progress.marks
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /coin/eletacoin/build/release/CMakeFiles 0
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -E cmake_progress_start /coin/eleta/build/release/CMakeFiles /coin/eleta/build/release/external/CMakeFiles/progress.marks
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /coin/eleta/build/release/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/clean
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/clean
 .PHONY : clean
 
 # The main clean target
@@ -108,17 +108,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /coin/eletacoin/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
+	cd /coin/eleta/build/release && $(MAKE) -f CMakeFiles/Makefile2 external/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -141,6 +141,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /coin/eletacoin/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /coin/eleta/build/release && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

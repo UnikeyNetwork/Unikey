@@ -500,21 +500,21 @@ hash-ops.h
 stddef.h
 -
 
-/coin/eletacoin/src/NodeRpcProxy/NodeErrors.cpp
+/coin/eleta/src/NodeRpcProxy/NodeErrors.cpp
 NodeErrors.h
-/coin/eletacoin/src/NodeRpcProxy/NodeErrors.h
+/coin/eleta/src/NodeRpcProxy/NodeErrors.h
 
-/coin/eletacoin/src/NodeRpcProxy/NodeErrors.h
+/coin/eleta/src/NodeRpcProxy/NodeErrors.h
 string
 -
 system_error
 -
 
-/coin/eletacoin/src/NodeRpcProxy/NodeRpcProxy.cpp
+/coin/eleta/src/NodeRpcProxy/NodeRpcProxy.cpp
 NodeRpcProxy.h
-/coin/eletacoin/src/NodeRpcProxy/NodeRpcProxy.h
+/coin/eleta/src/NodeRpcProxy/NodeRpcProxy.h
 NodeErrors.h
-/coin/eletacoin/src/NodeRpcProxy/NodeErrors.h
+/coin/eleta/src/NodeRpcProxy/NodeErrors.h
 atomic
 -
 system_error
@@ -538,19 +538,19 @@ System/Timer.h
 CryptoNoteCore/TransactionApi.h
 -
 Common/StringTools.h
-/coin/eletacoin/src/NodeRpcProxy/Common/StringTools.h
+/coin/eleta/src/NodeRpcProxy/Common/StringTools.h
 CryptoNoteCore/CryptoNoteBasicImpl.h
-/coin/eletacoin/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteBasicImpl.h
+/coin/eleta/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteBasicImpl.h
 CryptoNoteCore/CryptoNoteTools.h
-/coin/eletacoin/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteTools.h
+/coin/eleta/src/NodeRpcProxy/CryptoNoteCore/CryptoNoteTools.h
 Rpc/CoreRpcServerCommandsDefinitions.h
-/coin/eletacoin/src/NodeRpcProxy/Rpc/CoreRpcServerCommandsDefinitions.h
+/coin/eleta/src/NodeRpcProxy/Rpc/CoreRpcServerCommandsDefinitions.h
 Rpc/HttpClient.h
-/coin/eletacoin/src/NodeRpcProxy/Rpc/HttpClient.h
+/coin/eleta/src/NodeRpcProxy/Rpc/HttpClient.h
 Rpc/JsonRpc.h
-/coin/eletacoin/src/NodeRpcProxy/Rpc/JsonRpc.h
+/coin/eleta/src/NodeRpcProxy/Rpc/JsonRpc.h
 
-/coin/eletacoin/src/NodeRpcProxy/NodeRpcProxy.h
+/coin/eleta/src/NodeRpcProxy/NodeRpcProxy.h
 atomic
 -
 condition_variable
@@ -564,7 +564,7 @@ thread
 unordered_set
 -
 Common/ObserverManager.h
-/coin/eletacoin/src/NodeRpcProxy/Common/ObserverManager.h
+/coin/eleta/src/NodeRpcProxy/Common/ObserverManager.h
 INode.h
-/coin/eletacoin/src/NodeRpcProxy/INode.h
+/coin/eleta/src/NodeRpcProxy/INode.h
 

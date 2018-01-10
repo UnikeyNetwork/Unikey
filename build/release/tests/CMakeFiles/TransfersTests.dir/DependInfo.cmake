@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/tests/TransfersTests/TestNodeRpcProxy.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
-  "/coin/eletacoin/tests/TransfersTests/TestTxPoolSync.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o"
-  "/coin/eletacoin/tests/TransfersTests/Tests.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
-  "/coin/eletacoin/tests/TransfersTests/main.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
+  "/coin/eleta/tests/TransfersTests/TestNodeRpcProxy.cpp" "/coin/eleta/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestNodeRpcProxy.cpp.o"
+  "/coin/eleta/tests/TransfersTests/TestTxPoolSync.cpp" "/coin/eleta/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/TestTxPoolSync.cpp.o"
+  "/coin/eleta/tests/TransfersTests/Tests.cpp" "/coin/eleta/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/Tests.cpp.o"
+  "/coin/eleta/tests/TransfersTests/main.cpp" "/coin/eleta/build/release/tests/CMakeFiles/TransfersTests.dir/TransfersTests/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,24 +30,24 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Wallet.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/external/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/InProcessNode.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/P2P.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Rpc.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Http.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Transfers.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
-  "/coin/eletacoin/build/release/external/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Wallet.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/external/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/InProcessNode.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/NodeRpcProxy.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/P2P.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Rpc.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Http.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/BlockchainExplorer.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/CryptoNoteCore.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Serialization.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/System.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Logging.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Transfers.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Common.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/src/CMakeFiles/Crypto.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/external/miniupnpc/CMakeFiles/upnpc-static.dir/DependInfo.cmake"
+  "/coin/eleta/build/release/external/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

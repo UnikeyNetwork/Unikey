@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o"
   "CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o"
+  "CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o"
   "libInProcessNode.pdb"
   "libInProcessNode.a"
 )

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/coin/eletacoin/tests/IntegrationTestLib/BaseFunctionalTests.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.o"
-  "/coin/eletacoin/tests/IntegrationTestLib/InProcTestNode.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o"
-  "/coin/eletacoin/tests/IntegrationTestLib/Logger.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o"
-  "/coin/eletacoin/tests/IntegrationTestLib/Process.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o"
-  "/coin/eletacoin/tests/IntegrationTestLib/RPCTestNode.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o"
-  "/coin/eletacoin/tests/IntegrationTestLib/TestNetwork.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o"
-  "/coin/eletacoin/tests/IntegrationTestLib/TestWalletLegacy.cpp" "/coin/eletacoin/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/BaseFunctionalTests.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/BaseFunctionalTests.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/InProcTestNode.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/InProcTestNode.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/Logger.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Logger.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/Process.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/Process.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/RPCTestNode.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/RPCTestNode.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/TestNetwork.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestNetwork.cpp.o"
+  "/coin/eleta/tests/IntegrationTestLib/TestWalletLegacy.cpp" "/coin/eleta/build/release/tests/CMakeFiles/IntegrationTestLibrary.dir/IntegrationTestLib/TestWalletLegacy.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

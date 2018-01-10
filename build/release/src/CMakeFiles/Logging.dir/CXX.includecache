@@ -10,7 +10,7 @@
 cstdint
 -
 
-/coin/eletacoin/src/Common/JsonValue.h
+/coin/eleta/src/Common/JsonValue.h
 cstddef
 -
 cstdint
@@ -22,19 +22,19 @@ string
 vector
 -
 
-/coin/eletacoin/src/Logging/CommonLogger.cpp
+/coin/eleta/src/Logging/CommonLogger.cpp
 CommonLogger.h
-/coin/eletacoin/src/Logging/CommonLogger.h
+/coin/eleta/src/Logging/CommonLogger.h
 
-/coin/eletacoin/src/Logging/CommonLogger.h
+/coin/eleta/src/Logging/CommonLogger.h
 set
 -
 ILogger.h
-/coin/eletacoin/src/Logging/ILogger.h
+/coin/eleta/src/Logging/ILogger.h
 
-/coin/eletacoin/src/Logging/ConsoleLogger.cpp
+/coin/eleta/src/Logging/ConsoleLogger.cpp
 ConsoleLogger.h
-/coin/eletacoin/src/Logging/ConsoleLogger.h
+/coin/eleta/src/Logging/ConsoleLogger.h
 iostream
 -
 unordered_map
@@ -42,27 +42,27 @@ unordered_map
 Common/ConsoleTools.h
 -
 
-/coin/eletacoin/src/Logging/ConsoleLogger.h
+/coin/eleta/src/Logging/ConsoleLogger.h
 mutex
 -
 CommonLogger.h
-/coin/eletacoin/src/Logging/CommonLogger.h
+/coin/eleta/src/Logging/CommonLogger.h
 
-/coin/eletacoin/src/Logging/FileLogger.cpp
+/coin/eleta/src/Logging/FileLogger.cpp
 FileLogger.h
-/coin/eletacoin/src/Logging/FileLogger.h
+/coin/eleta/src/Logging/FileLogger.h
 
-/coin/eletacoin/src/Logging/FileLogger.h
+/coin/eleta/src/Logging/FileLogger.h
 fstream
 -
 StreamLogger.h
-/coin/eletacoin/src/Logging/StreamLogger.h
+/coin/eleta/src/Logging/StreamLogger.h
 
-/coin/eletacoin/src/Logging/ILogger.cpp
+/coin/eleta/src/Logging/ILogger.cpp
 ILogger.h
-/coin/eletacoin/src/Logging/ILogger.h
+/coin/eleta/src/Logging/ILogger.h
 
-/coin/eletacoin/src/Logging/ILogger.h
+/coin/eleta/src/Logging/ILogger.h
 string
 -
 array
@@ -70,29 +70,29 @@ array
 boost/date_time/posix_time/posix_time.hpp
 -
 
-/coin/eletacoin/src/Logging/LoggerGroup.cpp
+/coin/eleta/src/Logging/LoggerGroup.cpp
 LoggerGroup.h
-/coin/eletacoin/src/Logging/LoggerGroup.h
+/coin/eleta/src/Logging/LoggerGroup.h
 algorithm
 -
 
-/coin/eletacoin/src/Logging/LoggerGroup.h
+/coin/eleta/src/Logging/LoggerGroup.h
 vector
 -
 CommonLogger.h
-/coin/eletacoin/src/Logging/CommonLogger.h
+/coin/eleta/src/Logging/CommonLogger.h
 
-/coin/eletacoin/src/Logging/LoggerManager.cpp
+/coin/eleta/src/Logging/LoggerManager.cpp
 LoggerManager.h
-/coin/eletacoin/src/Logging/LoggerManager.h
+/coin/eleta/src/Logging/LoggerManager.h
 thread
 -
 ConsoleLogger.h
-/coin/eletacoin/src/Logging/ConsoleLogger.h
+/coin/eleta/src/Logging/ConsoleLogger.h
 FileLogger.h
-/coin/eletacoin/src/Logging/FileLogger.h
+/coin/eleta/src/Logging/FileLogger.h
 
-/coin/eletacoin/src/Logging/LoggerManager.h
+/coin/eleta/src/Logging/LoggerManager.h
 list
 -
 memory
@@ -100,41 +100,41 @@ memory
 mutex
 -
 ../Common/JsonValue.h
-/coin/eletacoin/src/Common/JsonValue.h
+/coin/eleta/src/Common/JsonValue.h
 LoggerGroup.h
-/coin/eletacoin/src/Logging/LoggerGroup.h
+/coin/eleta/src/Logging/LoggerGroup.h
 
-/coin/eletacoin/src/Logging/LoggerMessage.cpp
+/coin/eleta/src/Logging/LoggerMessage.cpp
 LoggerMessage.h
-/coin/eletacoin/src/Logging/LoggerMessage.h
+/coin/eleta/src/Logging/LoggerMessage.h
 
-/coin/eletacoin/src/Logging/LoggerMessage.h
+/coin/eleta/src/Logging/LoggerMessage.h
 iostream
 -
 ILogger.h
-/coin/eletacoin/src/Logging/ILogger.h
+/coin/eleta/src/Logging/ILogger.h
 
-/coin/eletacoin/src/Logging/LoggerRef.cpp
+/coin/eleta/src/Logging/LoggerRef.cpp
 LoggerRef.h
-/coin/eletacoin/src/Logging/LoggerRef.h
+/coin/eleta/src/Logging/LoggerRef.h
 
-/coin/eletacoin/src/Logging/LoggerRef.h
+/coin/eleta/src/Logging/LoggerRef.h
 ILogger.h
-/coin/eletacoin/src/Logging/ILogger.h
+/coin/eleta/src/Logging/ILogger.h
 LoggerMessage.h
-/coin/eletacoin/src/Logging/LoggerMessage.h
+/coin/eleta/src/Logging/LoggerMessage.h
 
-/coin/eletacoin/src/Logging/StreamLogger.cpp
+/coin/eleta/src/Logging/StreamLogger.cpp
 StreamLogger.h
-/coin/eletacoin/src/Logging/StreamLogger.h
+/coin/eleta/src/Logging/StreamLogger.h
 iostream
 -
 sstream
 -
 
-/coin/eletacoin/src/Logging/StreamLogger.h
+/coin/eleta/src/Logging/StreamLogger.h
 mutex
 -
 CommonLogger.h
-/coin/eletacoin/src/Logging/CommonLogger.h
+/coin/eleta/src/Logging/CommonLogger.h
 
